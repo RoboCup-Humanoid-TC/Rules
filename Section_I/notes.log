@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.27)  12 SEP 2016 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.12)  22 DEC 2016 11:49
 entering extended mode
 **./notes.tex
 (notes.tex
-LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ! Undefined control sequence.
 l.3 {\bfseries\color
                     [rgb]{0.4,0.4,0.4}
@@ -619,7 +619,7 @@ or  <return>  to continue without it.
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/Maike/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \hbox (34.72229pt too wide) in paragraph at lines 18--19
 \OT1/cmss/m/n/10 duration
  []
@@ -665,19 +665,13 @@ Overfull \hbox (52.7778pt too wide) in paragraph at lines 19--20
  []
 
 ! Undefined control sequence.
-l.24 \color
-           [rgb]{0.4,0.4,0.4}{Male and Female} }
+l.24 {\color
+            [rgb]{0.4,0.4,0.4}{Male and Female}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-! Too many }'s.
-l.24 \color[rgb]{0.4,0.4,0.4}{Male and Female} }
-                                                
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
 
 
 Overfull \hbox (103.63911pt too wide) in paragraph at lines 24--25
@@ -696,67 +690,12 @@ Overfull \hbox (13.19446pt too wide) in paragraph at lines 24--25
 
 
 Overfull \hbox (19.58336pt too wide) in paragraph at lines 24--25
-\OT1/cmss/m/n/10 male
+\OT1/cmss/m/n/10 male 
  []
 
 
 Overfull \hbox (64.15283pt too wide) in paragraph at lines 26--27
 []\OT1/cmss/m/n/10 References
- []
-
-
-Overfull \hbox (8.61113pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 to
- []
-
-
-Overfull \hbox (13.22223pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 the
- []
-
-
-Overfull \hbox (19.58336pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 male
- []
-
-
-Overfull \hbox (17.94446pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 gen-
- []
-
-
-Overfull \hbox (13.0278pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 der
- []
-
-
-Overfull \hbox (7.55556pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 in
- []
-
-
-Overfull \hbox (13.22223pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 the
- []
-
-
-Overfull \hbox (20.61116pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 Laws
- []
-
-
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 of
- []
-
-
-Overfull \hbox (13.22223pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 the
- []
-
-
-Overfull \hbox (23.86116pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 Game
  []
 
 
@@ -820,18 +759,8 @@ Overfull \hbox (11.19446pt too wide) in paragraph at lines 26--27
  []
 
 
-Overfull \hbox (15.5pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 ees,
- []
-
-
-Overfull \hbox (20.0278pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 play-
- []
-
-
-Overfull \hbox (11.69446pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 ers
+Overfull \hbox (12.72221pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 ees
  []
 
 
@@ -855,53 +784,63 @@ Overfull \hbox (17.86111pt too wide) in paragraph at lines 26--27
  []
 
 
-Overfull \hbox (12.38892pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 are
+Overfull \hbox (19.02782pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 have
  []
 
 
-Overfull \hbox (11.19449pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 for
+Overfull \hbox (19.50002pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 been
  []
 
 
-Overfull \hbox (17.5pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 sim-
+Overfull \hbox (34.19449pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 changed
  []
 
 
-Overfull \hbox (13.27777pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 pli-
+Overfull \hbox (19.41673pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 from
  []
 
 
-Overfull \hbox (8.69444pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 fi-
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 the
  []
 
 
-Overfull \hbox (12.58334pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 ca-
+Overfull \hbox (18.86115pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 orig-
  []
 
 
-Overfull \hbox (16.16669pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 tion
+Overfull \hbox (5.72221pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 i-
  []
 
 
-Overfull \hbox (15.13892pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 and
+Overfull \hbox (12.36113pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 nal
  []
 
 
-Overfull \hbox (13.30557pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 ap-
+Overfull \hbox (20.00009pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 FIFA
  []
 
 
-Overfull \hbox (12.16669pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 ply
+Overfull \hbox (18.22224pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 doc-
+ []
+
+
+Overfull \hbox (8.5pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 u-
+ []
+
+
+Overfull \hbox (21.16669pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 ment
  []
 
 
@@ -910,28 +849,383 @@ Overfull \hbox (8.61113pt too wide) in paragraph at lines 26--27
  []
 
 
-Overfull \hbox (19.22226pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 both
+Overfull \hbox (4.80557pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 a
  []
 
 
-Overfull \hbox (17.55557pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 men
+Overfull \hbox (17.94446pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 gen-
  []
 
 
-Overfull \hbox (15.13892pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 and
+Overfull \hbox (13.0278pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 der
  []
 
 
-Overfull \hbox (31.88895pt too wide) in paragraph at lines 26--27
-\OT1/cmss/m/n/10 women. 
+Overfull \hbox (18.11111pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 neu-
+ []
+
+
+Overfull \hbox (14.22226pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 tral
+ []
+
+
+Overfull \hbox (15.69446pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 lan-
+ []
+
+
+Overfull \hbox (27.1945pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 guage.
+ []
+
+
+Overfull \hbox (16.41669pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 The
+ []
+
+
+Overfull \hbox (14.25003pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 ref-
+ []
+
+
+Overfull \hbox (11.19446pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 er-
+ []
+
+
+Overfull \hbox (18.5pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 ence
+ []
+
+
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 to
+ []
+
+
+Overfull \hbox (20.0278pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 play-
+ []
+
+
+Overfull \hbox (14.47224pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 ers,
+ []
+
+
+Overfull \hbox (20.27777pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 since
+ []
+
+
+Overfull \hbox (17.83336pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 they
+ []
+
+
+Overfull \hbox (11.19446pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 re-
+ []
+
+
+Overfull \hbox (10.9167pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 fer
+ []
+
+
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 to
+ []
+
+
+Overfull \hbox (26.30562pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 robots
+ []
+
+
+Overfull \hbox (7.55556pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 in
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 this
+ []
+
+
+Overfull \hbox (17.94446pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 con-
+ []
+
+
+Overfull \hbox (19.05559pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 text,
+ []
+
+
+Overfull \hbox (19.02782pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 have
+ []
+
+
+Overfull \hbox (19.50002pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 been
+ []
+
+
+Overfull \hbox (17.83336pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 kept
+ []
+
+
+Overfull \hbox (7.55556pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 in
+ []
+
+
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 the
+ []
+
+
+Overfull \hbox (19.58336pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 male
+ []
+
+
+Overfull \hbox (17.94446pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 gen-
+ []
+
+
+Overfull \hbox (15.80559pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 der.
+ []
+
+
+Overfull \hbox (21.97229pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 How-
+ []
+
+
+Overfull \hbox (19.69449pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 ever,
+ []
+
+
+Overfull \hbox (11.00002pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 we
+ []
+
+
+Overfull \hbox (33.02785pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 strongly
+ []
+
+
+Overfull \hbox (12.94444pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 en-
+ []
+
+
+Overfull \hbox (21.36115pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 cour-
+ []
+
+
+Overfull \hbox (14.25003pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 age
+ []
+
+
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 the
+ []
+
+
+Overfull \hbox (20.00009pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 FIFA
+ []
+
+
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 to
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 of-
+ []
+
+
+Overfull \hbox (8.69444pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 fi-
+ []
+
+
+Overfull \hbox (21.0278pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 cially
+ []
+
+
+Overfull \hbox (29.02782pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 change
+ []
+
+
+Overfull \hbox (19.0278pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 their
+ []
+
+
+Overfull \hbox (17.58336pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 laws
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 of
+ []
+
+
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 the
+ []
+
+
+Overfull \hbox (22.19449pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 game
+ []
+
+
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 to
+ []
+
+
+Overfull \hbox (17.61115pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 fully
+ []
+
+
+Overfull \hbox (17.94446pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 gen-
+ []
+
+
+Overfull \hbox (13.0278pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 der
+ []
+
+
+Overfull \hbox (18.11111pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 neu-
+ []
+
+
+Overfull \hbox (14.22226pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 tral
+ []
+
+
+Overfull \hbox (15.69446pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 lan-
+ []
+
+
+Overfull \hbox (24.41672pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 guage
+ []
+
+
+Overfull \hbox (7.55556pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 in
+ []
+
+
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 the
+ []
+
+
+Overfull \hbox (11.55557pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 fu-
+ []
+
+
+Overfull \hbox (16.63892pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 ture
+ []
+
+
+Overfull \hbox (7.55556pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 in
+ []
+
+
+Overfull \hbox (11.19446pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 re-
+ []
+
+
+Overfull \hbox (21.77779pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 spect
+ []
+
+
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 to
+ []
+
+
+Overfull \hbox (9.58334pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 all
+ []
+
+
+Overfull \hbox (16.44447pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 par-
+ []
+
+
+Overfull \hbox (13.77777pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 tic-
+ []
+
+
+Overfull \hbox (5.72221pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (22.58336pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 pants
+ []
+
+
+Overfull \hbox (7.55556pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 in
+ []
+
+
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 the
+ []
+
+
+Overfull \hbox (24.97227pt too wide) in paragraph at lines 26--27
+\OT1/cmss/m/n/10 game. 
  []
 
 ! Undefined control sequence.
-l.30 {\color
-            [rgb]{0.4,0.4,0.4}{Official languages} }
+l.28 {\color
+            [rgb]{0.4,0.4,0.4}{(replaces: References to the male gender in t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -939,122 +1233,390 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (112.77797pt too wide) in paragraph at lines 30--31
-[]\OT1/cmss/m/n/10 [rgb]0.4,0.4,0.4Official
+Overfull \hbox (122.86133pt too wide) in paragraph at lines 28--29
+[]\OT1/cmss/m/n/10 [rgb]0.4,0.4,0.4(replaces:
  []
 
 
-Overfull \hbox (15.69446pt too wide) in paragraph at lines 30--31
-\OT1/cmss/m/n/10 lan-
+Overfull \hbox (17.2917pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 Ref-
  []
 
 
-Overfull \hbox (28.25005pt too wide) in paragraph at lines 30--31
-\OT1/cmss/m/n/10 guages
+Overfull \hbox (11.19446pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 er-
  []
 
 
-Overfull \hbox (58.62509pt too wide) in paragraph at lines 32--33
-[]\OT1/cmss/m/n/10 RoboCup
+Overfull \hbox (22.33333pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 ences
  []
 
 
-Overfull \hbox (15.58337pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 Hu-
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 to
  []
 
 
-Overfull \hbox (30.47227pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 manoid
- []
-
-
-Overfull \hbox (29.27783pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 League
- []
-
-
-Overfull \hbox (23.36111pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 Tech-
- []
-
-
-Overfull \hbox (10.88889pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 ni-
- []
-
-
-Overfull \hbox (11.6389pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 cal
- []
-
-
-Overfull \hbox (22.6667pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 Com-
- []
-
-
-Overfull \hbox (17.27779pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 mit-
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 tee
- []
-
-
-Overfull \hbox (18.83334pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 pub-
- []
-
-
-Overfull \hbox (22.05554pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 lishes
- []
-
-
-Overfull \hbox (13.22223pt too wide) in paragraph at lines 32--33
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 28--29
 \OT1/cmss/m/n/10 the
  []
 
 
-Overfull \hbox (20.61116pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 Laws
+Overfull \hbox (19.58336pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 male
  []
 
 
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 of
+Overfull \hbox (17.94446pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 gen-
  []
 
 
-Overfull \hbox (13.22223pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 the
+Overfull \hbox (13.0278pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 der
  []
 
 
-Overfull \hbox (23.86116pt too wide) in paragraph at lines 32--33
-\OT1/cmss/m/n/10 Game
- []
-
-
-Overfull \hbox (7.55556pt too wide) in paragraph at lines 32--33
+Overfull \hbox (7.55556pt too wide) in paragraph at lines 28--29
 \OT1/cmss/m/n/10 in
  []
 
 
-Overfull \hbox (14.47223pt too wide) in paragraph at lines 32--33
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 the
+ []
+
+
+Overfull \hbox (20.61116pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 Laws
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 of
+ []
+
+
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 the
+ []
+
+
+Overfull \hbox (23.86116pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 Game
+ []
+
+
+Overfull \hbox (7.55556pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 in
+ []
+
+
+Overfull \hbox (11.19446pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 re-
+ []
+
+
+Overfull \hbox (21.77779pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 spect
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 of
+ []
+
+
+Overfull \hbox (14.25003pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 ref-
+ []
+
+
+Overfull \hbox (11.19446pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 er-
+ []
+
+
+Overfull \hbox (15.5pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 ees,
+ []
+
+
+Overfull \hbox (11.97223pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 as-
+ []
+
+
+Overfull \hbox (13.38887pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 sis-
+ []
+
+
+Overfull \hbox (17.19447pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 tant
+ []
+
+
+Overfull \hbox (14.25003pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 ref-
+ []
+
+
+Overfull \hbox (11.19446pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 er-
+ []
+
+
+Overfull \hbox (15.5pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 ees,
+ []
+
+
+Overfull \hbox (20.0278pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 play-
+ []
+
+
+Overfull \hbox (11.69446pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 ers
+ []
+
+
+Overfull \hbox (15.13892pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 and
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 of-
+ []
+
+
+Overfull \hbox (8.69444pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 fi-
+ []
+
+
+Overfull \hbox (17.86111pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 cials
+ []
+
+
+Overfull \hbox (12.38892pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 are
+ []
+
+
+Overfull \hbox (11.19449pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 for
+ []
+
+
+Overfull \hbox (17.5pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 sim-
+ []
+
+
+Overfull \hbox (13.27777pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 pli-
+ []
+
+
+Overfull \hbox (8.69444pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 fi-
+ []
+
+
+Overfull \hbox (12.58334pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 ca-
+ []
+
+
+Overfull \hbox (16.16669pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 tion
+ []
+
+
+Overfull \hbox (15.13892pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 and
+ []
+
+
+Overfull \hbox (13.30557pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 ap-
+ []
+
+
+Overfull \hbox (12.16669pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 ply
+ []
+
+
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 to
+ []
+
+
+Overfull \hbox (19.22226pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 both
+ []
+
+
+Overfull \hbox (17.55557pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 men
+ []
+
+
+Overfull \hbox (15.13892pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 and
+ []
+
+
+Overfull \hbox (35.77785pt too wide) in paragraph at lines 28--29
+\OT1/cmss/m/n/10 women.) 
+ []
+
+! Undefined control sequence.
+l.30 \color
+           {black}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (41.69449pt too wide) in paragraph at lines 30--31
+[]\OT1/cmss/m/n/10 black 
+ []
+
+! Undefined control sequence.
+l.34 {\color
+            [rgb]{0.4,0.4,0.4}{Official languages}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (112.77797pt too wide) in paragraph at lines 34--35
+[]\OT1/cmss/m/n/10 [rgb]0.4,0.4,0.4Official
+ []
+
+
+Overfull \hbox (15.69446pt too wide) in paragraph at lines 34--35
+\OT1/cmss/m/n/10 lan-
+ []
+
+
+Overfull \hbox (28.25005pt too wide) in paragraph at lines 34--35
+\OT1/cmss/m/n/10 guages 
+ []
+
+
+Overfull \hbox (58.62509pt too wide) in paragraph at lines 36--37
+[]\OT1/cmss/m/n/10 RoboCup
+ []
+
+
+Overfull \hbox (15.58337pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 Hu-
+ []
+
+
+Overfull \hbox (30.47227pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 manoid
+ []
+
+
+Overfull \hbox (29.27783pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 League
+ []
+
+
+Overfull \hbox (23.36111pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 Tech-
+ []
+
+
+Overfull \hbox (10.88889pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 ni-
+ []
+
+
+Overfull \hbox (11.6389pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 cal
+ []
+
+
+Overfull \hbox (22.6667pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 Com-
+ []
+
+
+Overfull \hbox (17.27779pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 mit-
+ []
+
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 tee
+ []
+
+
+Overfull \hbox (18.83334pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 pub-
+ []
+
+
+Overfull \hbox (22.05554pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 lishes
+ []
+
+
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 the
+ []
+
+
+Overfull \hbox (20.61116pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 Laws
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 of
+ []
+
+
+Overfull \hbox (13.22223pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 the
+ []
+
+
+Overfull \hbox (23.86116pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 Game
+ []
+
+
+Overfull \hbox (7.55556pt too wide) in paragraph at lines 36--37
+\OT1/cmss/m/n/10 in
+ []
+
+
+Overfull \hbox (14.47223pt too wide) in paragraph at lines 36--37
 \OT1/cmss/m/n/10 En-
  []
 
 
-Overfull \hbox (21.55557pt too wide) in paragraph at lines 32--33
+Overfull \hbox (21.55557pt too wide) in paragraph at lines 36--37
 \OT1/cmss/m/n/10 glish. 
  []
 
 ! Undefined control sequence.
-l.36 {\color
+l.40 {\color
             [rgb]{0.4,0.4,0.4}{Key} }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1063,7 +1625,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (99.25021pt too wide) in paragraph at lines 36--37
+Overfull \hbox (99.25021pt too wide) in paragraph at lines 40--41
 []\OT1/cmss/m/n/10 [rgb]0.4,0.4,0.4Key
  []
 
@@ -1075,11 +1637,11 @@ Overfull \hbox (99.25021pt too wide) in paragraph at lines 36--37
 
  
 Here is how much of TeX's memory you used:
- 15 strings out of 493334
- 161 string characters out of 3136672
- 56242 words of memory out of 3000000
- 3641 multiletter control sequences out of 15000+200000
+ 15 strings out of 493634
+ 161 string characters out of 3135239
+ 57604 words of memory out of 3000000
+ 3496 multiletter control sequences out of 15000+200000
  4239 words of font info for 16 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 21i,4n,15p,201b,131s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 1025 hyphenation exceptions out of 8191
+ 21i,4n,15p,442b,131s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

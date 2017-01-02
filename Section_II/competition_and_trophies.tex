@@ -8,8 +8,7 @@
 
 \headlinebox
 
-The competitions in the Humanoid League are preceded by a setup and inspection period of at least 24 h. During this time, every robot will be inspected by the league organizing committee for compliance with the design rules detailed in law 4. All robots will be photographed during
-the inspection. A reinspection becomes necessary after any change that could affect the compliance to the design rules. A reinspection might be requested by any team leader up to 1 hour prior to a game.
+The competitions in the Humanoid League are preceded by a setup and inspection period of at least 24 h. During this time, every robot will be inspected by the league organizing committee for compliance with the design rules detailed in law 4. \textcolor{magenta}{Robots need to demonstrate the ability to walk (all sub-leagues) and stand up from front and back (kid and teen size). The teams must be able to demonstrate at least one successful stand-up action from each side during the robot inspection.} All robots will be photographed during the inspection. A re-inspection becomes necessary after any change that could affect the compliance to the design rules. A re-inspection might be requested by any team leader up to 1 hour prior to a game.
 
 \bigskip
 
@@ -30,28 +29,31 @@ The competitions consist of:
 \begin{enumerate}
 \item Soccer games for KidSize (4 vs. 4),
 \item Soccer games for TeenSize (3 vs. 3),
-\item Dribble and Kick for AdultSize,
+\item \textcolor{magenta}{Soccer games for AdultSize (1 vs. 1)},
+\item \textcolor{magenta}{Drop-In games for Kid and TeenSize}
 \item Technical challenges.
 \end{enumerate}
 
 \bigskip
 
-In the event of less than 3 teams participating in TeenSize the TeenSize teams will join the AdultSize for a joint Dribble and Kick competition.
+In the event of less than 3 teams participating in TeenSize the TeenSize teams will join the AdultSize  \textcolor{blue}{\sout{for a joint Dribble and Kick}} competition.
 
 \bigskip
 
-The technical challenges consist of:
-
-\begin{enumerate}
-\item Push Recovery (KidSize, TeenSize and AdultSize)
-\item Goal Kick from Moving Ball (KidSize, TeenSize and AdultSize)
-\item High Jump (KidSize and TeenSize and AdultSize)
-\item High-Kick (KidSize, TeenSize and AdultSize)
-\end{enumerate}
+Soccer Games are organized in one or more round robins and playoffs. For the first round robin, the teams are assigned to groups at random. All teams of a group play once against each other. The round robin games may end in a draw. In this case, both teams receive one point. Otherwise, the winning team receives three points and the not winning team receives zero points.
 
 \bigskip
 
-Both, Soccer Games (KidSize and TeenSize) and Dribble and Kick (AdultSize) are organized in one or more round robins and playoffs. For the first round robin, the teams are assigned to groups at random. All teams of a group play once against each other. The round robin games may end in a draw. In this case, both teams receive one point. Otherwise, the winning team receives three points and the not winning team receives zero points.
+\color{magenta}{
+For the AdultSize soccer games a specific rule for robot handler will apply. For every robot a game handlers are allowed to stay near the robot such that the game handler does not interfere with the game. Specifically, the robot handler:
+\begin{itemize}
+\item should position himself behind the robot or at a distance that allows the robot to operate freely.
+\item must not block the vision of any the robots on ball or goals.
+\item must not block the path of any robot.
+\item must not touch any robot. Touching a robot is considered as an offense that is penalised by free kick or penalty kick according to the laws of the game.
+\item has to be dressed in black clothes.
+\end{itemize}}
+\color{black}
 
 \bigskip
 
@@ -78,6 +80,11 @@ At least two teams of every group will enter the next round robin or the playoff
 
 The game plan needs to be announced prior to the random assignment of teams to groups.
 
+
+\bigskip
+
+\textcolor{magenta}{Participation in the drop-in challenge is mandatory to advance to the quarter final. If a team advances to the quarter final without participating in the drop-in challenge it is replaced by the team that would have had the next best prospects to reach the quarter finals in direct comparison.}
+
 \bigskip
 
 {\bfseries Gameplay}
@@ -87,17 +94,21 @@ The game plan needs to be announced prior to the random assignment of teams to g
 {\bfseries Kick-off procedure}
 
 \begin{itemize}
-\item The referee gives the signal ``READY'' that all robots have to reach their own half of the field. Robots not being able to position autonomously in their own half may be placed by their respective robot handler.
-\item The opponents of the team taking the kick-off are outside the center circle until the ball is in play.
-\item The referee gives the signal ``SET''. The referee calls robots illegally positioned to be set back manually
-by the respective robot handler to the outer line of their goal area. One field player of a manually or illegally positioned team suffers a removal penalty (cf. Section 12)
+\item The referee gives the signal ``READY'' that all robots have to reach their own half of the field. \textcolor{blue}{\sout{Robots not being able to position autonomously in their own half may be placed by their respective robot handler.}}
+\item \textcolor{magenta}{After a period between 15 and 30 seconds the referee gives the signal ``SET''. The referee calls robots illegally positioned to be removed with exception of the goal keeper and a striker for kick-off that may be placed manually by the respective robot handler. Removed players are placed on the touch line of the respective team's side, facing the opposite touch line, to enter the field from there upon the ``PLAY'' signal. } 
+\item  \textcolor{blue}{\sout{The opponents of the team taking the kick-off are outside the center circle until the ball is in play.}}
 \item The ball is stationary on the center mark. 
 \item The referee gives the signal ``PLAY'' or whistles.
 \item The ball is in play when it is touched or 10 seconds elapsed after the signal.
 \end{itemize}
 
-Robots being able to autonomously reposition themselves can take any position on the field that is consistent with above requirements. Robots not able to autonomously reposition themselves, e.g. robots being carried or joysticked around by human team members, have to start
-from a position not closer to the field halfway line than the outer line of the goal area. If all robots of the team executing the kick-off cannot autonomously reposition themselves, then one robot may be placed into the center circle.
+Robots being able to autonomously reposition themselves can take any position on the field that is consistent with above requirements. \textcolor{magenta}{It is not allowed to manually (re-)position an autonomously positioned robot that took a legal position, except for the goal keeper and the striker for kick-off or drop ball, if applicable.}
+ 
+\textcolor{magenta}{For initial kick-off (to initially start or restart after a half-time interval), robots can be placed anywhere on the touch lines or goal lines on the respective team's own side outside of the goal, facing the opposite touch line or goal line, to autonomously enter the field from there. For other kick-off situations robots need to position themselves from the the position they were when the game was stopped.}
+
+\textcolor{magenta}{Similar to a kick-off situations one striker robot for each team may be placed manually for a drop ball, if both teams can not position themselves automatically}.
+
+\bigskip
 
 If one or both of the teams in a match have permission to use a manual startup procedure, the referee gives the two signals ``SET'' and ``PLAY'' with an interval of exactly
 10 seconds. Robot players without remote start capability may be started on the field after the ``SET'' signal. They may not move before the ``PLAY'' signal was given
@@ -109,23 +120,24 @@ allowed to locomote. If such a team has kick-off then at the signal ``PLAY'' the
 the center line and outside of the center circle and the ball is in play. This rule does not apply if the referee box is out of commission.
 
 \bigskip
-
+\newpage
+\color{magenta}{
 {\bfseries Free-kick procedure}
 
 \begin{enumerate}
-\item Referee - blows whistle, announces call (e.g., illegal defense), maybe places the ball depending on the call, and then announces Free Kick Blue/Red.
-\item Game controller clicks on Free Kick Blue/Red Ready mode. Now opponent robots must move to a position at least 50cm away from the ball. They have a maximum of 15 secs. to do this or sooner if the referee thinks the kicking team is ready and all opponent robots are at least 50cm
-away.
-\item Any opponent robot still closer than 50cm must be considered as an incapable player.
-\item Referee blows whistle, then Game controller clicks on Free Kick Blue/Red mode. team can kick, and ball is in play after 10 secs.
-\end{enumerate}
+\item The referee blows the whistle, announces 'Free-Kick' cyan or Magenta (Blue or Red) and then  places the ball depending on the call.
+\item The assistant referee who operates the game controller clicks on Free Kick Cyan/Magenta Ready. Now opponent robots must move to a position at least 50cm away from the ball. They have a maximum of 15 secs. to do this.  During the 15 seconds, robots of the team that got awarded the free kick may re-position themselves as well.
+\item Any opponent robot still closer than 50cm is considered as an incapable player and must be removed from the field for 30 seconds removal penalty.
+\item After 15 seconds or sooner if the referee considers the kicking team to be ready and all opponent robots are at least 50cm away, the referee blows whistle. Then the assistant referee who operates the game controller clicks on Free Kick Cyan/Magenta Set/Play. The team that was awarded the free-kick can kick now.
+\item The ball is in play after it has been touched by a player or after 10 secs.
+\end{enumerate}}
+\color{black}
 
 \bigskip
 
 {\bfseries Incapable Players}
 
-Players not capable of play (e.g. players not able to walk on two legs, players not able to stand, or players with obvious malfunctions) are not permitted to participate in the game. They must be removed from the field. It is up to the referee to judge whether a player is capable of play. The referee may ask the team leader of a player suspected to be incapable of play to demonstrate playing ability at any time. A field player that is not able to get back into a stable standing or walking posture from a fall within 20 seconds will be removed from the field for 30 seconds removal penalty and has to reenter the field from the center of the touch line as indicated by the
-referee.
+Players not capable of play (e.g. players not able to walk on two legs, players not able to stand, or players with obvious malfunctions) are not permitted to participate in the game. They must be removed from the field. It is up to the referee to judge whether a player is capable of play. The referee may ask the team leader of a player suspected to be incapable of play to demonstrate playing ability at any time. A field player that is not able to get back into a stable standing or walking posture from a fall within 20 seconds will be removed from the field for 30 seconds removal penalty. \textcolor{magenta}{It has to enter the field from the team's own half of the field close to the penalty mark facing the opposite touch line, as indicated by the referee.}
 
 \bigskip
 
@@ -139,8 +151,112 @@ field player and a goalie does not count as substitution.
 
 {\bfseries Temporal Absence}
 
-Servicing robots on the playing field is not permitted. A robot may be taken out of the field for service, after receiving permission from the referee. Taking out a robot for service does not count as a substitution. A serviced robot may not come into play again before 30 s elapsed after it was taken out. It has to enter the field from the
-center point of the touch line as indicated by the referee.
+Servicing robots on the playing field is not permitted. A robot may be taken out of the field for service, after receiving permission from the referee. Taking out a robot for service does not count as a substitution. A serviced robot may not come into play again before 30 seconds elapsed after it was taken out. \textcolor{magenta}{It has to enter the field from the team's own half of the field close to the penalty mark facing the opposite touch line, as indicated by the referee.}
+
+\bigskip
+
+{\bfseries Manual Untangle of Robots}
+
+If entangled robots fail to untangle themselves, the referee might ask designated robot handlers of both teams to untangle the robots. Untangling must not make
+significant changes to robot positions or heading directions. Untangled robots must be laid on the ground not closer than 50cm to the ball and in a way not gaining an advantage.
+
+\bigskip
+
+{\bfseries Attack and Defense}
+
+Not more than one robot of each team is allowed to be in
+side the goal or the goal area at any time. If more than one robot of the defending team is inside its goal or goal area for more than 10 s, this will be considered illegal defense. If more than one robot of the attacking team is inside the opponent's goal or goal area for more than 10 s, this will be considered illegal attack. The referee may delay the call of illegal defense
+or illegal attack if the robots make serious attempts to leave the goal area or if they are hindered from leaving the goal area by robots of the opponent team. The referee allows play to continue when the team against
+which an illegal defense or illegal attack has been committed will benefit from such an advantage and penalizes the original offence if the anticipated advantages does not ensue at that time. The player committing an illegal defense or an illegal attack will be removed from the field for 30 seconds removal penalty.
+
+\bigskip
+\newpage
+{\bfseries Removal Penalty}
+
+\begin{itemize}
+\item Time penalties of 30 seconds for players are called by the referee. When a penalty is called, the designated robot handler has to remove the robot as soon as possible and by that interacting as little as possible with the game. 
+\item A robot suffering a penalty (except called for inactivity or service) may not be serviced. A robot suffering a penalty due to a foul or misconduct has to stay out of play for a minimum of 60 seconds if it is serviced during the penalty time.
+\item The referee and assistant referees are in charge of timing the penalties and notifying the teams to put back their robots to play.
+\item A field player or goal keeper suffering a time penalty will be removed from the field and is only allowed to re-enter the field from the team's own half of the field close to the penalty mark facing the opposite touch line, as indicated by the referee.
+\end{itemize}
+
+\bigskip
+
+
+\color{magenta}{
+{\bfseries Drop-In Games}
+
+\headlinebox
+
+{\bfseries Organisation}
+
+Each participating team will contribute one drop-in player. Each drop-in player will compete in games with many different teams composed of randomly chosen drop-in players. In each game, the opponent will  be a similarly composed team of randomly selected drop-in players. The exact number of games played by each drop-in player depends on the number of teams that participate in the competition. A minimum of 3 drop-in games will be played by every drop-in player.
+
+\bigskip
+
+The Drop-in players will be allocated to teams randomly at least 24 hours before the first game takes place. The allocation to teams for the individual games is randomly chosen and changes for every single game. Drop-in players that reached the minimum number of games will not be considered for drawing unless needed to fill up a team, to have games for remaining players with less than 3 games.
+
+If less than 6 KidSize or 4 TeenSize teams participate in the respective drop-in challenge, the challenges are merged, playing with the KidSize ball.
+
+\bigskip
+
+{\bfseries Rules}
+
+All normal game rules apply to this competition. The only exceptions are:
+\begin{enumerate}
+\item The games are played with 5 players in a KidSize team and 4 players in a TeenSize team. If there is an insufficient number of participants, games may be played 4 vs. 4 resp. 3 vs. 3 or 3 vs. 3 resp. 2 vs. 2 for KidSize resp. TeenSize.
+\item Drop-in games will each consist of one 10 minute half.
+\item Games may end in a draw.
+\item Each of the players has a jersey number from the set {1, 2, 3, 4, 5}, resp. {1, 2, 3, 4}.
+\item Drop-in teams will wear the cyan and magenta team colors.
+\end{enumerate}
+
+Removal of incapable players has to be enforced strictly.
+
+\bigskip
+ 
+{\bfseries Selection of the Referees}
+
+Referees will be drawn from the remaining participating teams, or if needed, due to a low number of teams, the TC and OC will provide referees.
+
+\bigskip
+ 
+{\bfseries Scoring}
+
+When a goal is scored, all players of the scoring team on the field receive 1 point and the player who scored the goal receives an additional 1 point. Incapable players, penalized players or players having been removed for any other reason, e.g. service will receive no point. When a goal is suffered, all players of the team suffering the goal receive -1 point, including incapable players, penalized players or players having been removed for any other reason, e.g. service will. Points from all games are summed up. Players with one more games than others only consider the points of those games with the higher scores.
+
+Drop-in players are initially ranked according to the accumulated points. If there are ties, the tied players are ranked according to the geometric average of their points. The three most highly ranked players of a sub-league receive a 'Best Player' certificate.
+
+If the three best drop-in players can not be identified with the scheme provided above, an additional game with players dawn group wise (from the groups of equally high ranked players) from the highest-ranked players is to be played.
+
+If there are still ties a penalty shot out among the equally high ranked drop-in players takes place
+
+\bigskip 
+ 
+{\bfseries Example}
+ 
+There are 20 participating players for 4 KidSize Drop-In teams (A, B, C, D). Games shall be A-B, A-C, A-D, B-C, B-D, C-D. For the first game (A-B), Player 1 is randomly drawn for Team B and plays the game with the other team members. For the second game (A-C), player 1 is not drawn. For the third game (A-D), player 1 is drawn for team A and plays the game. For the fourth game (B-C), player 1 is drawn to team C and plays the game. Now player 1 will be removed from the drawing, because the number of 3 games was reached. If there would be only 19 participants, player 1 may be drawn for the final game.
+
+Assuming teams with player 1 to score a single goal in every game (with player 1 on the field), then player 1 will have a score of 3 and a geometric average of 1. }
+
+\color{black}
+
+\bigskip
+
+{\bfseries Technical Challenges}
+
+\headlinebox
+
+The technical challenges consist of:
+
+\begin{enumerate}
+\item Push Recovery (KidSize, TeenSize and AdultSize)
+\item Goal Kick from Moving Ball (KidSize, TeenSize and AdultSize)
+\item High Jump (KidSize and TeenSize and AdultSize)
+\item High-Kick (KidSize, TeenSize and AdultSize)
+\end{enumerate}
+
+For details on the technical challenges, please refer to section III of this document.
 
 \bigskip
 
@@ -148,7 +264,7 @@ center point of the touch line as indicated by the referee.
 
 \headlinebox
  
-The teams of all three size classes are ranked in separate lists to determine the overall best humanoid.
+The teams of AdultSize class and \textcolor{magenta}{the teams of Kid and TeenSize size classes that have participated in the drop-in competition} are ranked in separate lists to determine the overall best humanoid.
 
 The ranking is based on the aggregated number of points earned in the individual competitions.
 
@@ -158,7 +274,7 @@ The points earned in the technical challenge are used directly.
 
 \bigskip
 
-For the Dribble and Kick competitions (AdultSize) and the Soccer Games (Kid- Size and TeenSize) the winner receives 60 points. The second best team receives 42 points. The third best team receives 30 points.
+For the soccer games the winner receives 60 points. The second best team receives 42 points. The third best team receives 30 points.
 
 \bigskip
 
@@ -183,16 +299,25 @@ for the robot that is the best humanoid.
 
 \headlinebox
 
-A trophy is awarded to the winner of each of the individual competitions and technical challenges. In case of less than 3 teams participating in a size class no trophies will be given in this class.
+A trophy is awarded to the winner of the \textcolor{magenta}{soccer tournament in each of the individual size classes} and technical challenges. In case of less than 3 teams participating in a size class no trophies will be given in this class.
 
 \bigskip
 
-A trophy is awarded to the teams second and third in the KidSize 3-3 soccer game, the TeenSize 2-2 soccer games and the AdultSize Dribble and Kick competition. In case of less than 5 teams participating in a size class the team ranked third will be awarded a certificate instead of a trophy. In case of less than 4 teams participating in a size class the team ranked second will also be awarded a certificate instead of a trophy. The final number of trophies awarded will be decided by the RoboCup Federation based on the number of actually participating teams.
+A trophy is awarded to the teams second and third in the KidSize 4-4 soccer game, the TeenSize 3-3 soccer games and the AdultSize 1-1 soccer game. In case of less than 5 teams participating in a size class the team ranked third will be awarded a certificate instead of a trophy. In case of less than 4 teams participating in a size class the team ranked second will also be awarded a certificate instead of a trophy. The final number of trophies awarded will be decided by the RoboCup Federation based on the number of actually participating teams.
 
 \bigskip
 
-Certificates are awarded to the teams second and third in the technical challenges and to the teams ranked second and third in the Best Humanoid list.
+Certificates are awarded to the teams second and third in the technical challenges, to the teams ranked second and third in the Best Humanoid list \textcolor{magenta}{and a 'Best Player' certificate to the three most highly ranked Drop-in players.}
 
 \bigskip
 
 The Louis Vuitton Humanoid Cup is awarded to the team ranked first in the Best Humanoid list.
+
+\bigskip
+
+\textcolor{magenta}{{\bfseries Conflict Resolution}}
+
+\headlinebox
+
+\textcolor{magenta}{
+Doubts concerning a serious violation of any rule during a specific game must be brought up to a member of the Technical Committee and investigated before signing the result sheet. By signing the result sheet, a team agrees that the result came off in a fair game. If a team brings up an official concern to the Technical Committee, a meeting of the Technical Committee must be called as soon as possible. If the team of a member of the Technical Committee is directly involved in the game in question, the respective member is excluded from the meeting. At least three members of the Technical Committee need to be part of the meeting and the decision process. If less than three members of the Technical Committee are available, members of the Organizing committee or, if necessary, Trustees or members of committees from other leagues have to be called into the meeting. Members of these meetings may request to inspect the hardware and software of any team involved in the issue. If serious violations of rules are detected, the committee may, among others, decide to invalidate the result of the game in question or take disciplinary actions against a team as defined in Law 5, depending on the severity of the rule violation. The decision of the committee meeting need to be announced to the whole league.}

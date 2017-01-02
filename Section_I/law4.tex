@@ -20,6 +20,10 @@ A player must not use equipment or wear anything that is dangerous to himself or
 
 Robots participating in the Humanoid League competitions must have a human-like body plan, as shown in Fig. \ref{fig:bodyplan}. They must consist of two legs, two arms, and one head, which are attached to a trunk.
 
+\bigskip
+
+\textcolor{magenta}{(new:) Robots in kid and teen size sub-leagues must be equipped with a handle, to be picked up safely and with no harm to the robot and the handler.}
+
 \begin{center}
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{img/bodyplan.png}
@@ -28,7 +32,7 @@ Robots participating in the Humanoid League competitions must have a human-like 
 \end{figure}
 \end{center}
 
-The robots must be able to stand upright on their feet and to walk on their legs. The only allowed modes of locomotion are bipedal walking and running.
+The robots must be able to stand upright on their feet and to walk on their legs. \textcolor{magenta}{KidSize and TeenSize robots need to be able to recover from a fall (get back to a standing position)}. The only allowed modes of locomotion are bipedal walking, running \textcolor{magenta}{and jumping}.
 
 \bigskip
 
@@ -66,6 +70,7 @@ All robots participating in the Humanoid League must comply with the following r
 \item The length of the legs $H_{leg}$, including the feet, satisfies 0.35{\textperiodcentered}$H_{top}$ ${\leq}$ $H_{leg}$ ${\leq}$ 0.7{\textperiodcentered}$H_{top}$ .
 \item The height of the head $H_{head}$, including the neck, satisfies $0.05 \cdot H_{top} \leq H_{head} \leq 0.25 \cdot H_{top}$. $H_{head}$ is defined as the vertical distance from the axis of the first arm joint at the shoulder to the top of the head.
 \item The leg length is measured while the robot is standing up straight. The length is measured from the first rotating joint where its axis lies in the plane parallel to the standing ground to the tip of the foot.
+\item \textcolor{magenta}{The minimum length of the arm, measured from the first joint, is $H_{top} - H_{leg} - H_{head}$.}
 \end{itemize}
 
 
@@ -76,16 +81,16 @@ All robots participating in the Humanoid League must comply with the following r
 Teams participating in the Humanoid League competitions are encouraged to equip their robots with sensors that have an equivalent in human senses. These sensors must be placed at a position roughly equivalent to the location of the human{\textquoteright}s biological sensors. In particular, 
 
 \begin{itemize}
-\item the only active external sensor allowed is sound
+\item The only active external sensor allowed is sound
 (``human-like'' with respect to volume and frequency) with one loudspeaker on the robot. The loudspeaker may be placed in the head, neck or trunk of the robot. Any
 other active sensor (emitting light, sound, or electromagnetic waves into the environment in order to measure reflections) is not allowed. 
-\item external sensors, such as cameras and up to two microphones, may not be placed in the legs or arms or the
+\item External sensors, such as cameras and up to two microphones, may not be placed in the legs or arms or the
 torso of the robots. They must be placed in the robot's
 head and above any neck joint. 
-\item The field of view of the robots is limited at any time to $180$ degrees. This means that the maximum angle between any two points in the overlap of the field of view of all cameras mounted on the robot must be less than $180$ degrees. Also the pan-tilt motion of the head and the cameras mounted on the robot's head is restricted to be more human like not only with respect to the field of view but also to the range of motion of the neck joints. Therefore, the mechanism to pan the camera is limited to $270$ degree pan, which means $\pm135$ degrees from the position looking straight ahead. The mechanism to tilt the camera is limited to $\pm90$ degrees (measured from the horizontal line). Furthermore, if positioned at the center mark the robot may not be able to see both goals in any tilt angle and in any standing or walking posture of the robot. 
 \item The number of cameras is limited to a stereo vision setup (i.e., max. 2 cameras with a large overlap) only. Monocular vision is also allowed.
+\item The field of view of the robots is limited at any time to $180$ degrees. This means that the maximum angle between any two points in the overlap of the field of view of all cameras mounted on the robot must be less than $180$ degrees. Also the pan-tilt motion of the head and the cameras mounted on the robot's head is restricted to be more human like not only with respect to the field of view but also to the range of motion of the neck joints. Therefore, the mechanism to pan the camera is limited to $270$ degree pan, which means $\pm135$ degrees from the position looking straight ahead. The mechanism to tilt the camera is limited to $\pm90$ degrees (measured from the horizontal line). Furthermore, if positioned at the center mark the robot may not be able to see both goals in any tilt angle and in any standing or walking posture of the robot. 
 \item Touch sensors, force sensors, and temperature sensors may be placed at any position on the robot.
-\item Sensors inside the robot may measure all quantities of interest, including (but not limited to) voltages, currents, forces, movements, accelerations, magnetic field and rotational speeds. They can be at any position inside the robot.
+\item Sensors inside the robot may measure all quantities \textcolor{magenta}{representing the local state of the system}, including (but not limited to) voltages, currents, forces, movements, accelerations, and rotational speeds. They can be at any position inside the robot. \textcolor{magenta}{Measurements from earth magnetic field sensors may not be used in the software and - in case of doubt - the code must be made available to members of the Technical Committee for inspection.}
 \end{itemize}
 
 {\bfseries Communication and Control (new)}
@@ -97,19 +102,28 @@ Robots participating in the Humanoid League competitions must act autonomously w
 \bigskip
 
 Robots may communicate only via the wireless network provided by the organizers, which must support the referee box. The total bandwidth of the robots belonging to one team may not exceed 1 Mbit/s. The robots must not rely on availability or quality of the wireless network. They
-must be able to play if the network is not available or of low quality. Only robots are allowed to communicate by WLAN. Any other computers of team members are only allowed to communicate by tethered LAN. No other wireless communication is allowed onsite. All other wireless hardware must be deactivated. A team may be disqualified if one of the team members violates this rule.
+must be able to play if the network is not available or of low quality. Only robots are allowed to communicate by WLAN.  \textcolor{blue}{\sout{Any other computers of team members are only allowed to communicate by tethered LAN.}} No other wireless communication is allowed onsite. All other wireless hardware must be deactivated. A team may be disqualified if one of the team members violates this rule.
 
 \bigskip
 
-Robots in play may communicate with each other at any time during a game. Any kind of transmission from an external computer or an out of play robot to the playing robots is prohibited. This implies that any monitoring is only done by receiving UDP communication from the robots using an external computer connected by tethered LAN to the official wireless router. Sending any transmission from an external computer to the robots has to take place during a timeout or using a direct cable between the computer and the robot during maintenance of the robot.
+Robots in play may communicate with each other at any time during a game. Any kind of transmission from an external computer or an out of play robot to the playing robots is prohibited. This implies that any monitoring is only done by receiving UDP communication from the robots using an external computer connected by tethered LAN to the official wireless router. \textcolor{blue}{\sout{Sending any transmission from an external computer to the robots has to take place during a timeout or using a direct cable between the computer and the robot during maintenance of the robot.}}
+
+\bigskip
+
+\textcolor{magenta}{Sending any direct or indirect transmission from an external computer to the robots has to take place during a timeout or service of the robot. Connecting a LAN cable to the robot is automatically considered service. Any other type of communication with the robot, excluding verbal communication of the robot handler, has to be announced to the referee so a service penalty can be given to the respective robot. If the team does not announce the communication before starting it, an additional 30 second penalty is given to the team. In case of repeated violation, may take disciplinary actions against the team as defined in Law 5.}
+\bigskip
+
+Teams may not use any type of communication with robots in play that contains information which reduces the need for autonomy in detecting the current game state of the robots, including the position of the ball, the location where the robot re-enters the field and the position of team members or opponents. In case of doubt that a team violates this rule, the code must be made available to members of the Technical Committee for inspection.
 
 \bigskip
 
 During the game an official game controller/referee box will be used. It uses UDP to broadcast information to the robots like elapsed time, current score, game state (ready, set, playing, finished) and the robot-specific penalized state. The source code is open. To encourage teams to use the referee box, 15 seconds advantage is given to teams using the referee box in any stoppage of the game.
 
+
+
 \bigskip
 
-No humans are allowed on the field while the ball is in play. Robot handlers must receive permission from the referee prior to entering the field. Each team may designate only one person as robot handler. The robot handler of a team may not touch a robot of another team in order to avoid any (unintentional or intentional) damage to that robot. 
+\textcolor{blue}{\sout{No humans are allowed on the field while the ball is in play.}} Robot handlers \textcolor{magenta}{stay in a designated area and} must receive permission from the referee prior to entering the field. Each team may designate only one person as robot handler. The robot handler of a team may not touch a robot of another team in order to avoid any (unintentional or intentional) damage to that robot. 
 
 \bigskip
 
@@ -180,8 +194,8 @@ In the event of any infringement of this Law:
 \item the player at fault is instructed by the referee to leave the field of play to correct his equipment
 \item the player leaves the field of play when the ball next ceases to be in play, unless he has already corrected his equipment
 \item any player required to leave the field of play to correct his equipment must not re-enter without the referee's permission
-\item the referee checks that the player{\textquoteright}s equipment is correct before allowing him to re-enter the field of play 
-\item the player is only allowed to re-enter the field of play when the ball is out of play
+\item the referee checks that the player's equipment is correct before allowing him to re-enter the field of play 
+\item the player is only allowed to re-enter the field of play before the respective penalty time is over {\color[rgb]{0.4,0.4,0.4} (replaces: when the ball is out of play)}
 \end{itemize}
 
 \bigskip
