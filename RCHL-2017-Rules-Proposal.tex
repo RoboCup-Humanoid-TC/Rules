@@ -14,7 +14,7 @@
 \usepackage{tocbibind}
 \usepackage{caption}
 \usepackage[normalem]{ulem}
-\hypersetup{pdftex, colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue, pdftitle=, pdfauthor=Reinhard Gerndt, pdfsubject=, pdfkeywords=}
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue, pdftitle=, pdfauthor=Reinhard Gerndt, pdfsubject=, pdfkeywords=}
 \usepackage[pdftex]{graphicx}
 \makeatletter
 \newcommand\arraybslash{\let\\\@arraycr}
@@ -29,6 +29,18 @@
 \fbox{\rule{6.6in}{0pt}\rule[-0.05ex]{0pt}{0.05ex}}
 \vspace{0.1cm}
 }
+
+% Uncomment for complete rule document:
+\newcommand{\greyed}[1]{{\color[rgb]{0.4,0.4,0.4}#1}}
+\newcommand{\simplify}[1]{#1}
+
+% Uncomment for simplified rule document:
+% \newcommand{\greyed}[1]{}
+% \newcommand{\simplify}[1]{}
+
+% Uncomment to see the differences in green:
+% \newcommand{\greyed}[1]{{\color[rgb]{0.0,1.0,0.0}#1}}
+% \newcommand{\simplify}[1]{{\color[rgb]{0.0,1.0,0.0}#1}}
 
 \setlength\voffset{-1in}
 \setlength\hoffset{-1in}
@@ -180,10 +192,10 @@ Contents}
 \input{Section_I/law8}
 \input{Section_I/law9}
 \input{Section_I/law10}
-\input{Section_I/law11}
+\simplify{\input{Section_I/law11}}
 \input{Section_I/law12}
 \input{Section_I/law13}
-\input{Section_I/law14}
+\simplify{\input{Section_I/law14}}
 \input{Section_I/law15}
 \input{Section_I/law16}
 \input{Section_I/law17}
