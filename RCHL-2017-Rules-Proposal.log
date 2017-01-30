@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.28)  28 JAN 2017 03:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.17)  30 JAN 2017 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -447,27 +447,27 @@ LaTeX Info: Redefining \\ on input line 3056.
 (./RCHL-2017-Rules-Proposal.aux)
 \openout1 = `RCHL-2017-Rules-Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 75.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -484,7 +484,7 @@ LaTeX Font Info:    ... okay on input line 74.
 \everyMPtoPDFconversion=\toks26
 )
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 74.
+Package hyperref Info: Link coloring ON on input line 75.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -493,9 +493,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (./RCHL-2017-Rules-Proposal.out) (./RCHL-2017-Rules-Proposal.out)
 \@outlinefile=\write3
@@ -519,481 +519,192 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 75.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<img/robocup_logo.png, id=74, 578.16pt x 340.27126pt>
+<img/robocup_logo.png, id=92, 578.16pt x 340.27126pt>
 File: img/robocup_logo.png Graphic file (type png)
 
 <use img/robocup_logo.png>
-Package pdftex.def Info: img/robocup_logo.png used on input line 78.
+Package pdftex.def Info: img/robocup_logo.png used on input line 79.
 (pdftex.def)             Requested size: 117.53549pt x 65.4414pt.
- <img/award.png, id=76, 697.10437pt x 676.77844pt>
+ <img/award.png, id=94, 697.10437pt x 676.77844pt>
 File: img/award.png Graphic file (type png)
 
 <use img/award.png>
-Package pdftex.def Info: img/award.png used on input line 97.
+Package pdftex.def Info: img/award.png used on input line 98.
 (pdftex.def)             Requested size: 328.76662pt x 288.68553pt.
-LaTeX Font Info:    Try loading font information for TS1+cmss on input line 116
+LaTeX Font Info:    Try loading font information for TS1+cmss on input line 117
 .
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 1
- []
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/robocup_logo.png> <.
-/img/award.png>]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 2
- []
-
-[2
+/img/award.png>] [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 167.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 168.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 167.
+LaTeX Font Info:    Try loading font information for U+msb on input line 168.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./Section_I/notes.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 3
- []
+(./Section_I/notes.tex [3
 
-[3
-
-])
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 4
- []
-
-[4
+]) [4
 
 ] (./RCHL-2017-Rules-Proposal.toc)
 \tf@toc=\write4
 \openout4 = `RCHL-2017-Rules-Proposal.toc'.
 
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 5
- []
-
-[5
-
-] (./Section_I/law1.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 6
- []
-
-[6
+ [5
 
 ]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 7
- []
+(./Section_I/law1.tex [6
 
-[7] <img/field.png, id=142, 560.0925pt x 391.4625pt>
+
+] [7] <img/field.png, id=159, 560.0925pt x 391.4625pt>
 File: img/field.png Graphic file (type png)
- <use img/field.png>
-Package pdftex.def Info: img/field.png used on input line 237.
+
+<use img/field.png>
+Package pdftex.def Info: img/field.png used on input line 239.
 (pdftex.def)             Requested size: 483.72467pt x 338.10268pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 8
- []
-
-[8 <./img/field.png>]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 9
- []
-
-[9]) (./Section_I/law2.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 10
- []
-
-[10
+ [8 <./img/field.png>] [9]) (./Section_I/law2.tex [10
 
 ]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 11
- []
-
 [11
 
-]) (./Section_I/law3.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 12
- []
+]) (./Section_I/law3.tex [12
 
-[12
+] [13
 
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 13
- []
-
-[13
-
-]) (./Section_I/law4.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 14
- []
-
-[14] <img/bodyplan.png, id=175, 384.43625pt x 219.31938pt>
+]) (./Section_I/law4.tex [14]
+<img/bodyplan.png, id=193, 384.43625pt x 219.31938pt>
 File: img/bodyplan.png Graphic file (type png)
-
-<use img/bodyplan.png>
-Package pdftex.def Info: img/bodyplan.png used on input line 29.
+ <use img/bodyplan.png>
+Package pdftex.def Info: img/bodyplan.png used on input line 30.
 (pdftex.def)             Requested size: 483.72467pt x 275.98244pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 15
- []
 
 [15
 
- <./img/bodyplan.png>]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 16
- []
-
-[16]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 17
- []
-
-[17]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 18
- []
-
-[18]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 19
- []
-
-[19]) (./Section_I/law5.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 20
- []
-
-[20
+ <./img/bodyplan.png>] [16] [17] [18] [19]) (./Section_I/law5.tex [20
 
 ]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 21
- []
-
 [21
 
-]) (./Section_I/law6.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 22
- []
+]) (./Section_I/law6.tex [22
 
-[22
-
-]) (./Section_I/law7.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 23
- []
-
-[23
-
-]) (./Section_I/law8.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 24
- []
-
-[24
-
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 25
- []
-
-[25
-
-]) (./Section_I/law9.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 26
- []
-
-[26]) (./Section_I/law10.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 27
- []
-
-[27
-
-]) (./Section_I/law11.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 28
- []
-
-[28
-
-]) (./Section_I/law12.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 29
- []
-
-[29
-
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 30
- []
-
-[30
-
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 31
- []
-
-[31]) (./Section_I/law13.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 32
- []
-
-[32]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 33
- []
-
-[33
-
-]) (./Section_I/law14.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 34
- []
-
-[34]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 35
- []
-
-[35
-
-]) (./Section_I/law15.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 36
- []
-
-[36]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 37
- []
-
-[37
-
-]) (./Section_I/law16.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 38
- []
-
-[38]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 39
- []
-
-[39
-
-]) (./Section_I/law17.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 40
- []
-
-[40]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 41
- []
-
-[41
-
-]) (./Section_I/procedure.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 42
- []
-
-[42]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 43
- []
-
-[43
-
-]) (./Section_I/technical_area.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 44
- []
-
-[44]) (./Section_I/fourth_official.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 45
- []
-
-[45
-
-]) (./Section_I/additional_assistant_referee.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 46
- []
-
-[46
+]) (./Section_I/law7.tex [23
 
 ])
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 47
- []
+(./Section_I/law8.tex [24
 
-[47
+] [25
+
+]) (./Section_I/law9.tex [26])
+(./Section_I/law10.tex [27
+
+]) (./Section_I/law11.tex [28
+
+])
+(./Section_I/law12.tex [29
+
+] [30
+
+] [31]) (./Section_I/law13.tex [32] [33
+
+])
+(./Section_I/law14.tex [34] [35
+
+]) (./Section_I/law15.tex [36] [37
+
+])
+(./Section_I/law16.tex [38] [39
+
+]) (./Section_I/law17.tex [40] [41
+
+])
+(./Section_I/procedure.tex [42] [43
+
+]) (./Section_I/technical_area.tex [44])
+(./Section_I/fourth_official.tex [45
+
+])
+(./Section_I/additional_assistant_referee.tex [46
+
+]) [47
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 223.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 227.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 48
- []
-
-[48
-
-] (./Section_II/competition_and_trophies.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 49
- []
-
-[49
+) [48
 
 ]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 50
- []
+(./Section_II/competition_and_trophies.tex [49
 
-[50
+] [50
+
+] [51] [52] [53] [54])
+(./Section_II/trend.tex [55]) [56
+
+] (./Section_III/general-rules.tex [57
+
+])
+(./Section_III/push-recovery.tex [58
 
 ]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 51
- []
-
-[51]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 52
- []
-
-[52]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 53
- []
-
-[53]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 54
- []
-
-[54]) (./Section_II/trend.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 55
- []
-
-[55])
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 56
- []
-
-[56
-
-] (./Section_III/general-rules.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 57
- []
-
-[57
-
-]) (./Section_III/push-recovery.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 58
- []
-
-[58
-
-] <img/push_recovery.png, id=409, 458.71375pt x 398.48875pt>
+<img/push_recovery.png, id=430, 458.71375pt x 398.48875pt>
 File: img/push_recovery.png Graphic file (type png)
 
 <use img/push_recovery.png>
 Package pdftex.def Info: img/push_recovery.png used on input line 16.
 (pdftex.def)             Requested size: 458.71263pt x 398.48778pt.
-) (./Section_III/moving-ball.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 59
- []
+) (./Section_III/moving-ball.tex [59
 
-[59
-
- <./img/push_recovery.png>]
-<img/moving-ball.png, id=416, 691.08188pt x 170.13562pt>
+ <./img/push_recovery.png>] <img/moving-ball.png, id=437, 691.08188pt x 170.135
+62pt>
 File: img/moving-ball.png Graphic file (type png)
 
 <use img/moving-ball.png>
 Package pdftex.def Info: img/moving-ball.png used on input line 14.
 (pdftex.def)             Requested size: 483.72467pt x 119.08891pt.
-) (./Section_III/high-jump.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 60
- []
+) (./Section_III/high-jump.tex [60
 
-[60
-
- <./img/moving-ball.png>]) (./Section_III/high-kick.tex
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 61
- []
-
-[61
+ <./img/moving-ball.png>]) (./Section_III/high-kick.tex [61
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/cmr/m/n/10 62
- []
-
-[62
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
+ [62
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
  (./RCHL-2017-Rules-Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
 Package rerunfilecheck Info: File `RCHL-2017-Rules-Proposal.out' has not change
 d.
-(rerunfilecheck)             Checksum: F69C8ABE2BDA1581B53BF6D8B20857E7;1581.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
+(rerunfilecheck)             Checksum: 846B33DF2E3E2A326E9FE45FB5CA7205;1511.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
  ) 
 Here is how much of TeX's memory you used:
- 8795 strings out of 493304
- 129780 string characters out of 6139871
- 221162 words of memory out of 5000000
- 11920 multiletter control sequences out of 15000+600000
+ 8834 strings out of 493304
+ 130235 string characters out of 6139870
+ 221175 words of memory out of 5000000
+ 11938 multiletter control sequences out of 15000+600000
  15322 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,8n,38p,1402b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,38p,1402b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -1009,10 +720,10 @@ ic/cm-super/sfss0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0700
 mf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.
 pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on RCHL-2017-Rules-Proposal.pdf (62 pages, 2244843 bytes).
+Output written on RCHL-2017-Rules-Proposal.pdf (62 pages, 2245574 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 418 compressed objects within 5 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 539 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
+ 128 named destinations out of 1000 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
