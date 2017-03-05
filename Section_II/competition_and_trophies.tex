@@ -50,8 +50,9 @@ For the AdultSize soccer games a specific rule for robot handler will apply. For
 \item should position himself behind the robot or at a distance that allows the robot to operate freely.
 \item must not block the vision of any the robots on ball or goals.
 \item must not block the path of any robot.
-\item must not touch any robot. Touching a robot is considered as an offense that is penalised by free kick or penalty kick according to the laws of the game.
+\item must not touch any robot. Touching a robot is considered as an offense that is penalised by a removal penalty according to the laws of the game.
 \item has to be dressed in black clothes.
+\item may not communicate with the robot in any way, including verbally, while the robot is in play.
 \end{itemize}}
 \color{black}
 
@@ -78,6 +79,11 @@ At least two teams of every group will enter the next round robin or the playoff
 
 \bigskip
 
+In the knock-out games of a tournament two further equal periods of 5 minutes each are played if the game is not decided after the regular playing time.  If during regular playing time none of the two teams in a knock-out match was able to kick the ball to reach their respective opponent's goal the extra time is skipped and the game immediately continues by the five alternating penalty kick trials. \textcolor{magenta}{If both teams agree, the regular penalty kick trials may be skipped and the extended penalty kick procedure applies instead.}
+
+\bigskip
+
+
 The game plan needs to be announced prior to the random assignment of teams to groups.
 
 
@@ -87,6 +93,20 @@ The game plan needs to be announced prior to the random assignment of teams to g
 
 \bigskip
 
+{\bfseries Forfeits}
+
+\headlinebox
+A team that forfeits is disqualified from the competition. Forfeiting is defined as refusing to make a good faith effort to participate in a scheduled game\footnote{If robots are broken, then they should be placed on the field anyway as an indication that the team is willing to participate.}.
+\begin{itemize}
+\item If a team chooses to forfeit a match in the round robin games the other team plays on an empty goal.
+\item If a team chooses to forfeit in a knock-out game before the quarter final, the other team continues in the competition.
+\item If a team chooses to forfeit in the quarter finals, it will be replaced by the runner up team in the round robin group that included the forfeiting team.
+\item If a team chooses to forfeit in the semi finals or the game for 3rd and 4th place, it will be replaced by the team that lost to the forfeiting team in the quarter finals.
+\item A team forfeiting the final match should announce its decision at least 30 minutes before the start of the 3rd vs 4th final.  The league organization committee may impose a one year disqualification of the team and its members in case of avoidable delayed announcements.
+\item If a team chooses to forfeit the final after the game for 3rd and 4th place began, it will be replaced by the 3rd place winner, and the 4th place winner will be 3rd place. No new 4th place will be selected.
+\item If a team chooses to forfeit the final before the game for 3rd and 4th place, it will be replaced by the team that lost to the forfeiting team in the previous semi-finals. The team that lost to the forfeiting team in the previous semi-finals (i.e. the one initially being qualified for the game for 3rd and 4th place) will be replaced for the game for 3rd and 4th place by the team that lost to it in the respective quarter final.
+\end{itemize}
+
 {\bfseries Gameplay}
 
 \headlinebox
@@ -95,18 +115,18 @@ The game plan needs to be announced prior to the random assignment of teams to g
 
 \begin{itemize}
 \item The referee gives the signal ``READY'' that all robots have to reach their own half of the field. \textcolor{blue}{\sout{Robots not being able to position autonomously in their own half may be placed by their respective robot handler.}}
-\item \textcolor{magenta}{After a period between 15 and 30 seconds the referee gives the signal ``SET''. The referee calls robots illegally positioned to be removed with exception of the goal keeper and a striker for kick-off that may be placed manually by the respective robot handler. Removed players are placed on the touch line of the respective team's side, facing the opposite touch line, to enter the field from there upon the ``PLAY'' signal. } 
-\item  \textcolor{blue}{\sout{The opponents of the team taking the kick-off are outside the center circle until the ball is in play.}}
+\item \textcolor{magenta}{After a period between 15 and 30 seconds the referee gives the signal ``SET''. The referee calls robots illegally positioned to be removed with exception of the goal keeper and a striker for the team having kick-off that may be placed manually by the respective robot handler. A manually placed goal keeper has to be within the team's own goal area touching the goal line. A manually positioned striker can take any legal position within the team's own half. Removed players are placed on the touch line of the respective team's side, facing the opposite touch line, to enter the field from there upon the ``PLAY'' signal. } 
+\item The opponents of the team taking the kick-off are outside the center circle until the ball is in play.
 \item The ball is stationary on the center mark. 
 \item The referee gives the signal ``PLAY'' or whistles.
 \item The ball is in play when it is touched or 10 seconds elapsed after the signal.
 \end{itemize}
 
-Robots being able to autonomously reposition themselves can take any position on the field that is consistent with above requirements. \textcolor{magenta}{It is not allowed to manually (re-)position an autonomously positioned robot that took a legal position, except for the goal keeper and the striker for kick-off or drop ball, if applicable.}
+Robots being able to autonomously reposition themselves can take any position on the field that is consistent with the above requirements. \textcolor{magenta}{It is not allowed to manually (re-)position an autonomously positioned robot that took a legal position, except for the goal keeper and the striker for kick-off or dropped ball, if applicable.}
  
 \textcolor{magenta}{For initial kick-off (to initially start or restart after a half-time interval), robots can be placed anywhere on the touch lines or goal lines on the respective team's own side outside of the goal, facing the opposite touch line or goal line, to autonomously enter the field from there. For other kick-off situations robots need to position themselves from the the position they were when the game was stopped.}
 
-\textcolor{magenta}{Similar to a kick-off situations one striker robot for each team may be placed manually for a drop ball, if both teams can not position themselves automatically}.
+\textcolor{magenta}{Similar to a kick-off situations one striker robot for each team may be placed manually for a dropped ball, if both teams can not position themselves automatically. The striker for dropped ball may be positioned at any legal position within the team's own half outside of the center circle.}
 
 \bigskip
 
@@ -120,7 +140,7 @@ allowed to locomote. If such a team has kick-off then at the signal ``PLAY'' the
 the center line and outside of the center circle and the ball is in play. This rule does not apply if the referee box is out of commission.
 
 \bigskip
-\newpage
+
 \color{magenta}{
 {\bfseries Free-kick procedure}
 
@@ -135,9 +155,16 @@ the center line and outside of the center circle and the ball is in play. This r
 
 \bigskip
 
+\color{magenta}{
+{\bfseries Request for Pick-up}
+
+A robot handler may request to pick-up a robot if and only if a robot is in a dangerous situation that is likely to lead to physical injuries. If a robot handler touches a robot without the allowance of the referee, the respective robot receives a yellow card and the robot handler an official warning. After two warnings for robot touching, the robot handler may not serve as a robot handler again for the rest of the game and needs to be replaced by a different person from the team immediately. In case of repeated violations throughout the tournament, the Technical Committee can decide to permanently disallow a certain person from serving as a robot handler for the rest of the tournament.}
+
+\bigskip
+
 {\bfseries Incapable Players}
 
-Players not capable of play (e.g. players not able to walk on two legs, players not able to stand, or players with obvious malfunctions) are not permitted to participate in the game. They must be removed from the field. It is up to the referee to judge whether a player is capable of play. The referee may ask the team leader of a player suspected to be incapable of play to demonstrate playing ability at any time. A field player that is not able to get back into a stable standing or walking posture from a fall within 20 seconds will be removed from the field for 30 seconds removal penalty. \textcolor{magenta}{It has to enter the field from the team's own half of the field close to the penalty mark facing the opposite touch line, as indicated by the referee.}
+Players not capable of play (e.g. players not able to walk on two legs, players not able to stand, or players with obvious malfunctions) are not permitted to participate in the game. They must be removed from the field. It is up to the referee to judge whether a player is capable of play. The referee may ask the team leader of a player suspected to be incapable of play to demonstrate playing ability at any time. A field player that is not able to get back into a stable standing or walking posture from a fall within 20 seconds will be removed from the field for 30 seconds removal penalty. \textcolor{magenta}{It has to enter the field from the team's own half of the field close to the penalty mark facing the opposite touch line, as indicated by the referee. If the ball is within a radius of 0.5 m around the goal keeper inside the goal area, the goal keeper has to show active attempts to move the ball out of this radius. If no attempt is shown for 20 seconds, the goal keeper is considered to be an inactive player and removed from the field.}
 
 \bigskip
 
@@ -170,7 +197,7 @@ or illegal attack if the robots make serious attempts to leave the goal area or 
 which an illegal defense or illegal attack has been committed will benefit from such an advantage and penalizes the original offence if the anticipated advantages does not ensue at that time. The player committing an illegal defense or an illegal attack will be removed from the field for 30 seconds removal penalty.
 
 \bigskip
-\newpage
+
 {\bfseries Removal Penalty}
 
 \begin{itemize}
@@ -182,6 +209,22 @@ which an illegal defense or illegal attack has been committed will benefit from 
 
 \bigskip
 
+{\bfseries Timeouts}
+A team may extend a stoppage of the game by taking a timeout. During a timeout
+robots may be serviced. Each team may take at most one timeout per period. If a team is not ready to resume the game when the referee wants to start the game, it has to take a timeout. If there is no timeout left, the referee will start
+the game anyway. A timeout ends automatically after 120 s. A timeout also ends when the team signals its end to the referee
+
+\bigskip
+
+\color{magenta}{
+{\bfseries Referee Timeouts}
+The head referee may call a timeout at any stoppage of play if they deems it necessary. A referee timeout should only be called in dire circumstances - one example might be when the power to the wireless router is down. However, when and whether to call a referee timeout is left up to the head referee.
+
+Referees may call multiple timeouts during a game if needed. Teams may do anything during these timeouts, but they must be ready to play 2 minutes after the referee begins a timeout. The referee should end the timeout once they believes the circumstance for which the timeout was called has been resolved. In cases where the circumstance for which the timeout was called is not resolved within 10 minutes, the Technical Committee should be consulted regarding when/if play should continue.
+
+The team who would have kicked off if the timeout had not been called shall kickoff when the game resumes.
+}
+\bigskip
 
 \color{magenta}{
 {\bfseries Drop-In Games}
@@ -209,6 +252,7 @@ All normal game rules apply to this competition. The only exceptions are:
 \item Games may end in a draw.
 \item Each of the players has a jersey number from the set {1, 2, 3, 4, 5}, resp. {1, 2, 3, 4}.
 \item Drop-in teams will wear the cyan and magenta team colors.
+\item One robot handler per competing robot is allowed.
 \end{enumerate}
 
 Removal of incapable players has to be enforced strictly.
@@ -225,9 +269,9 @@ Referees will be drawn from the remaining participating teams, or if needed, due
 
 When a goal is scored, all players of the scoring team on the field receive 1 point and the player who scored the goal receives an additional 1 point. Incapable players, penalized players or players having been removed for any other reason, e.g. service will receive no point. When a goal is suffered, all players of the team suffering the goal receive -1 point, including incapable players, penalized players or players having been removed for any other reason, e.g. service will. Points from all games are summed up. Players with one more games than others only consider the points of those games with the higher scores.
 
-Drop-in players are initially ranked according to the accumulated points. If there are ties, the tied players are ranked according to the geometric average of their points. The three most highly ranked players of a sub-league receive a 'Best Player' certificate.
+Drop-in players are initially ranked according to the accumulated points. If there are ties, the tied players are ranked according to the arithmetic mean, the number of games played, the maximum points awarded in a single game and the number of goals scored. The three most highly ranked players of a sub-league receive a 'Best Player' certificate.
 
-If the three best drop-in players can not be identified with the scheme provided above, an additional game with players dawn group wise (from the groups of equally high ranked players) from the highest-ranked players is to be played.
+If the three best drop-in players can not be identified with the scheme provided above, an additional game with players drawn group wise (from the groups of equally high ranked players) from the highest-ranked players is to be played.
 
 If there are still ties a penalty shot out among the equally high ranked drop-in players takes place
 
