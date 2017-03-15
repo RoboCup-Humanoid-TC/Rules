@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.27)  6 MAR 2017 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.27)  15 MAR 2017 14:15
 entering extended mode
 **./RCHL-2017-Rules-Proposal.tex
 (RCHL-2017-Rules-Proposal.tex
@@ -596,65 +596,65 @@ Package pdftex.def Info: img/bodyplan.png used on input line 30.
 
 [15
 
- <./img/bodyplan.png>] [16] [17] [18] [19]) (Section_I/law5.tex [20
+ <./img/bodyplan.png>] [16] [17] [18]) (Section_I/law5.tex [19
 
-]
-[21
+] [20
 
-]) (Section_I/law6.tex [22
+])
+(Section_I/law6.tex [21
 
-]) (Section_I/law7.tex [23
+]) (Section_I/law7.tex [22
 
 ]) (Section_I/law8.tex
-[24
+[23
 
-] [25
+] [24
 
-]) (Section_I/law9.tex [26]) (Section_I/law10.tex [27
+]) (Section_I/law9.tex [25]) (Section_I/law10.tex [26
 
 ])
-(Section_I/law11.tex [28
+(Section_I/law11.tex [27
 
-]) (Section_I/law12.tex [29
+]) (Section_I/law12.tex [28
 
-] [30
+] [29
 
-] [31])
-(Section_I/law13.tex [32] [33
+] [30])
+(Section_I/law13.tex [31] [32
 
-]) (Section_I/law14.tex [34]
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+]) (Section_I/law14.tex [33]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
-[35
+[34
 
-] [36]) (Section_I/law15.tex [37] [38
+] [35]) (Section_I/law15.tex [36] [37
 
-]) (Section_I/law16.tex [39] [40
-
-])
-(Section_I/law17.tex [41] [42
-
-]) (Section_I/procedure.tex [43] [44
+]) (Section_I/law16.tex [38] [39
 
 ])
-(Section_I/technical_area.tex [45]) (Section_I/fourth_official.tex [46
+(Section_I/law17.tex [40] [41
+
+]) (Section_I/procedure.tex [42] [43
 
 ])
-(Section_I/additional_assistant_referee.tex [47
+(Section_I/technical_area.tex [44]) (Section_I/fourth_official.tex [45
 
-]) [48
+])
+(Section_I/additional_assistant_referee.tex [46
+
+]) [47
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 227.
@@ -662,44 +662,46 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 227.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [49
+) [48
 
 ]
-(Section_II/competition_and_trophies.tex [50
+(Section_II/competition_and_trophies.tex [49
 
-] [51
+] [50
 
-] [52] [53] [54] [55] [56])
-(Section_II/trend.tex [57]) [58
+] [51] [52
 
-] (Section_III/general-rules.tex [59
+] [53] [54] [55])
+(Section_II/trend.tex [56]) [57
+
+] (Section_III/general-rules.tex [58
 
 ])
-(Section_III/push-recovery.tex [60
+(Section_III/push-recovery.tex [59
 
 ]
-<img/push_recovery.png, id=440, 458.71375pt x 398.48875pt>
+<img/push_recovery.png, id=436, 458.71375pt x 398.48875pt>
 File: img/push_recovery.png Graphic file (type png)
 
 <use img/push_recovery.png>
-Package pdftex.def Info: img/push_recovery.png used on input line 16.
+Package pdftex.def Info: img/push_recovery.png used on input line 20.
 (pdftex.def)             Requested size: 458.71263pt x 398.48778pt.
-) (Section_III/moving-ball.tex [61
+) (Section_III/moving-ball.tex [60
 
- <./img/push_recovery.png>] <img/moving-ball.png, id=448, 691.08188pt x 170.135
+ <./img/push_recovery.png>] <img/moving-ball.png, id=444, 691.08188pt x 170.135
 62pt>
 File: img/moving-ball.png Graphic file (type png)
 
 <use img/moving-ball.png>
 Package pdftex.def Info: img/moving-ball.png used on input line 14.
 (pdftex.def)             Requested size: 483.72467pt x 119.08891pt.
-) (Section_III/high-jump.tex [62
+) (Section_III/high-jump.tex [61
 
- <./img/moving-ball.png>]) (Section_III/high-kick.tex [63
+ <./img/moving-ball.png>]) (Section_III/high-kick.tex [62
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
- [64
+ [63
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
@@ -712,13 +714,13 @@ d.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
  ) 
 Here is how much of TeX's memory you used:
- 8932 strings out of 493334
- 131992 string characters out of 3136672
+ 8931 strings out of 493334
+ 131985 string characters out of 3136672
  225391 words of memory out of 3000000
  12092 multiletter control sequences out of 15000+200000
  20720 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,8n,39p,1404b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,12n,39p,1404b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ecrm0800.pk> <C:\Users\maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi600\ecrm0600.pk> <C:\Users\maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
@@ -733,17 +735,18 @@ pk> <C:\Users\maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ec\dpi600\ecsx1000.pk> <C:\Users\maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
 r\jknappen\ec\dpi600\ecss0500.pk> <C:\Users\maike\AppData\Local\MiKTeX\2.9\font
 s\pk\ljfour\jknappen\ec\dpi600\ecsx2488.pk><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb>
-Output written on RCHL-2017-Rules-Proposal.pdf (64 pages, 2266278 bytes).
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb>
+Output written on RCHL-2017-Rules-Proposal.pdf (63 pages, 2275594 bytes).
 PDF statistics:
- 906 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
+ 905 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

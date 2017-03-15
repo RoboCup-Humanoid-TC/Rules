@@ -6,20 +6,20 @@
 \contentsline {section}{Law 2 -- The Ball}{11\hfill }{section*.6}
 \contentsline {section}{Law 3 -- The Number of Players}{13\hfill }{section*.7}
 \contentsline {section}{Law 4 -- The Players ('Equipment')}{15\hfill }{section*.8}
-\contentsline {section}{Law 5 -- The Referee}{21\hfill }{section*.10}
-\contentsline {section}{Law 6 -- The Assistant Referees}{23\hfill }{section*.11}
-\contentsline {section}{Law 7 -- The Duration of the Match}{24\hfill }{section*.12}
-\contentsline {section}{Law 8 -- The Start and Restart of Play}{25\hfill }{section*.13}
-\contentsline {section}{Law 9 -- The Ball In and Out of Play}{27\hfill }{section*.14}
-\contentsline {section}{Law 10 -- The Method of Scoring}{28\hfill }{section*.15}
-\contentsline {section}{Law 11 -- Offside (suspended)}{29\hfill }{section*.16}
-\contentsline {section}{Law 12 -- Fouls and Misconduct}{30\hfill }{section*.17}
-\contentsline {section}{Law 13 -- Free Kicks}{33\hfill }{section*.18}
-\contentsline {section}{Law 14 -- The Penalty Kick (suspended)}{35\hfill }{section*.19}
-\contentsline {section}{Law 15 -- The Throw-In}{38\hfill }{section*.20}
-\contentsline {section}{Law 16 -- The Goal Kick}{40\hfill }{section*.21}
-\contentsline {section}{Law 17 -- The Corner Kick}{42\hfill }{section*.22}
-\contentsline {section}{Procedures to Determine The Winner of a Match or Home-And-Away}{44\hfill }{section*.23}
-\contentsline {section}{The Technical Area}{46\hfill }{section*.24}
-\contentsline {section}{The Fourth Official and the Reserve Assistant Referee}{47\hfill }{section*.25}
-\contentsline {section}{The Additional Assistant Referee}{48\hfill }{section*.26}
+\contentsline {section}{Law 5 -- The Referee}{20\hfill }{section*.10}
+\contentsline {section}{Law 6 -- The Assistant Referees}{22\hfill }{section*.11}
+\contentsline {section}{Law 7 -- The Duration of the Match}{23\hfill }{section*.12}
+\contentsline {section}{Law 8 -- The Start and Restart of Play}{24\hfill }{section*.13}
+\contentsline {section}{Law 9 -- The Ball In and Out of Play}{26\hfill }{section*.14}
+\contentsline {section}{Law 10 -- The Method of Scoring}{27\hfill }{section*.15}
+\contentsline {section}{Law 11 -- Offside (suspended)}{28\hfill }{section*.16}
+\contentsline {section}{Law 12 -- Fouls and Misconduct}{29\hfill }{section*.17}
+\contentsline {section}{Law 13 -- Free Kicks}{32\hfill }{section*.18}
+\contentsline {section}{Law 14 -- The Penalty Kick (suspended)}{34\hfill }{section*.19}
+\contentsline {section}{Law 15 -- The Throw-In}{37\hfill }{section*.20}
+\contentsline {section}{Law 16 -- The Goal Kick}{39\hfill }{section*.21}
+\contentsline {section}{Law 17 -- The Corner Kick}{41\hfill }{section*.22}
+\contentsline {section}{Procedures to Determine The Winner of a Match or Home-And-Away}{43\hfill }{section*.23}
+\contentsline {section}{The Technical Area}{45\hfill }{section*.24}
+\contentsline {section}{The Fourth Official and the Reserve Assistant Referee}{46\hfill }{section*.25}
+\contentsline {section}{The Additional Assistant Referee}{47\hfill }{section*.26}
