@@ -1,15 +1,13 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.28)  26 MAR 2017 21:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.12)  26 JUN 2017 15:34
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**RCHL-2017-Rules-Proposal.tex
-(./RCHL-2017-Rules-Proposal.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+**./RCHL-2017-Rules-Proposal.tex
+(RCHL-2017-Rules-Proposal.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -22,30 +20,37 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+) ("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
+y"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ascii.def
-File: ascii.def 2008/03/30 v1.1d Input encoding file
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+ ("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ascii.def"
+File: ascii.def 2015/03/17 v1.2c Input encoding file
+)) ("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
+y"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+ ("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) ("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.s
+ty"
+Package: babel 2015/08/03 3.9m The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\bblopts.c
+fg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
+ish.ldf"
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2015/08/03 3.9m Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
@@ -53,24 +58,30 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen104
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -111,17 +122,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -134,102 +147,107 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             only a restricted character set as indicated.
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
 
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) ("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.s
+ty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.cfg
+"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 142.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.
+def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen113
 \extrarowheight=\dimen114
 \NC@list=\toks21
 \extratabsurround=\skip46
 \backup@length=\skip47
 )
-(/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\super
+tabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count101
 \ST@wd=\dimen115
@@ -248,19 +266,22 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@dimen=\dimen125
 \ST@pbox=\box28
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
-Package: hhline 1994/05/23 v2.03 Table rule package (DPC)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\hhline.sty"
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.
+sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
+hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
+generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -291,7 +312,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -299,29 +320,35 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.s
+ty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen126
 \Hy@linkcounter=\count102
 \Hy@pagecounter=\count103
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.de
+f"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count104
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.
+cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -332,8 +359,7 @@ Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count105
-
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+ ("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -358,31 +384,38 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.d
+ef"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count110
 \c@bookmark@seq@number=\count111
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfile
+check.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip51
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tocbibind\tocbibin
+d.sty"
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 
 Package tocbibind Note: Using section or other style headings.
 
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
+y"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
+ty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen130
 \captionmargin@=\dimen131
 \captionwidth=\dimen132
@@ -394,8 +427,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@ContinuedFloat=\count112
 Package caption Info: hyperref package is loaded.
 Package caption Info: supertabular package is loaded.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+) ("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
 \UL@box=\box29
 \UL@hyphenbox=\box30
 \UL@skip=\skip52
@@ -407,26 +439,29 @@ Package caption Info: supertabular package is loaded.
 Package: ulem 2012/05/18
 \ULdepth=\dimen139
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+Package hyperref Info: Option `colorlinks' set `true' on input line 18.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.
+cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 \Gin@req@height=\dimen140
 \Gin@req@width=\dimen141
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lineno\lineno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count114
 \output=\toks24
@@ -443,33 +478,33 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframesep=\dimen146
 \bframebox=\box32
 LaTeX Info: Redefining \\ on input line 3056.
-)
-(./RCHL-2017-Rules-Proposal.aux)
+) (RCHL-2017-Rules-Proposal.aux)
 \openout1 = `RCHL-2017-Rules-Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 76.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count121
 \scratchdimen=\dimen147
@@ -484,110 +519,95 @@ LaTeX Font Info:    ... okay on input line 75.
 \everyMPtoPDFconversion=\toks26
 )
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 75.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring ON on input line 76.
+
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
+ty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitl
+estring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
-
-(./RCHL-2017-Rules-Proposal.out) (./RCHL-2017-Rules-Proposal.out)
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
+ (RCHL-2017-Rules-Proposal.out) (RCHL-2017-Rules-Proposal.out)
 \@outlinefile=\write3
 \openout3 = `RCHL-2017-Rules-Proposal.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 77.
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 76.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-<img/robocup_logo.png, id=92, 578.16pt x 340.27126pt>
+<img/robocup_logo.png, id=91, 578.16pt x 340.27126pt>
 File: img/robocup_logo.png Graphic file (type png)
 
 <use img/robocup_logo.png>
-Package pdftex.def Info: img/robocup_logo.png used on input line 79.
+Package pdftex.def Info: img/robocup_logo.png used on input line 80.
 (pdftex.def)             Requested size: 117.53549pt x 65.4414pt.
- <img/award.png, id=94, 697.10437pt x 676.77844pt>
+ <img/award.png, id=93, 697.10437pt x 676.77844pt>
 File: img/award.png Graphic file (type png)
 
 <use img/award.png>
-Package pdftex.def Info: img/award.png used on input line 98.
+Package pdftex.def Info: img/award.png used on input line 99.
 (pdftex.def)             Requested size: 328.76662pt x 288.68553pt.
-LaTeX Font Info:    Try loading font information for TS1+cmss on input line 117
+LaTeX Font Info:    Try loading font information for TS1+cmss on input line 118
 .
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmss.fd"
+File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/robocup_logo.png> <.
-/img/award.png>] [2
+{C:/Users/Maike/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/roboc
+up_logo.png> <./img/award.png>] [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 168.
+LaTeX Font Info:    Try loading font information for U+msa on input line 169.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 168.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Try loading font information for U+msb on input line 169.
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(./Section_I/notes.tex [3
+) (Section_I/notes.tex [3
 
 ]) [4
 
-] (./RCHL-2017-Rules-Proposal.toc)
+] (RCHL-2017-Rules-Proposal.toc)
 \tf@toc=\write4
 \openout4 = `RCHL-2017-Rules-Proposal.toc'.
 
  [5
 
 ]
-(./Section_I/law1.tex [6
+(Section_I/law1.tex [6
 
 
-] [7] <img/field.png, id=159, 560.0925pt x 391.4625pt>
+] [7] <img/field.png, id=158, 560.0925pt x 391.4625pt>
 File: img/field.png Graphic file (type png)
 
 <use img/field.png>
 Package pdftex.def Info: img/field.png used on input line 239.
 (pdftex.def)             Requested size: 483.72467pt x 338.10268pt.
- [8 <./img/field.png>] [9]) (./Section_I/law2.tex [10
+ [8 <./img/field.png>] [9]) (Section_I/law2.tex [10
 
 ]
 [11
 
-]) (./Section_I/law3.tex [12
+]) (Section_I/law3.tex [12
 
 ] [13
 
-]) (./Section_I/law4.tex [14]
-<img/bodyplan.png, id=193, 384.43625pt x 219.31938pt>
+]) (Section_I/law4.tex [14]
+<img/bodyplan.png, id=191, 384.43625pt x 219.31938pt>
 File: img/bodyplan.png Graphic file (type png)
  <use img/bodyplan.png>
 Package pdftex.def Info: img/bodyplan.png used on input line 30.
@@ -595,33 +615,33 @@ Package pdftex.def Info: img/bodyplan.png used on input line 30.
 
 [15
 
- <./img/bodyplan.png>] [16] [17] [18]) (./Section_I/law5.tex [19
+ <./img/bodyplan.png>] [16] [17] [18]) (Section_I/law5.tex [19
 
 ] [20
 
 ])
-(./Section_I/law6.tex [21
+(Section_I/law6.tex [21
 
-]) (./Section_I/law7.tex [22
+]) (Section_I/law7.tex [22
 
-]) (./Section_I/law8.tex
+]) (Section_I/law8.tex
 [23
 
 ] [24
 
-]) (./Section_I/law9.tex [25]) (./Section_I/law10.tex [26
+]) (Section_I/law9.tex [25]) (Section_I/law10.tex [26
 
 ])
-(./Section_I/law11.tex [27
+(Section_I/law11.tex [27
 
-]) (./Section_I/law12.tex [28
+]) (Section_I/law12.tex [28
 
 ] [29
 
 ] [30])
-(./Section_I/law13.tex [31] [32
+(Section_I/law13.tex [31] [32
 
-]) (./Section_I/law14.tex [33]
+] [33]) (Section_I/law14.tex [34]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
@@ -636,112 +656,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
-[34
+[35
 
-] [35]) (./Section_I/law15.tex [36] [37
+] [36]) (Section_I/law15.tex [37] [38
 
-]) (./Section_I/law16.tex [38]
-[39
+]) (Section_I/law16.tex [39] [40
 
-]) (./Section_I/law17.tex [40] [41
+])
+(Section_I/law17.tex [41] [42
 
-]) (./Section_I/procedure.tex [42]
-[43
+]) (Section_I/procedure.tex [43] [44
 
-]) (./Section_I/technical_area.tex [44]) (./Section_I/fourth_official.tex
-[45
+])
+(Section_I/technical_area.tex [45]) (Section_I/fourth_official.tex [46
 
-]) (./Section_I/additional_assistant_referee.tex [46
+])
+(Section_I/additional_assistant_referee.tex [47
 
-]) [47
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 227.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [48
+]) [48
 
 ]
-(./Section_II/competition_and_trophies.tex [49
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 228.
 
-] [50
 
-] [51] [52
+("C:\Users\Maike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+[49
 
-] [53] [54]
-[55]) (./Section_II/trend.tex [56]) [57
+] (Section_II/competition_and_trophies.tex [50
 
-] (./Section_III/general-rules.tex
-[58
+] [51
 
-]) (./Section_III/push-recovery.tex [59
+] [52] [53
+
+] [54] [55]
+[56]) (Section_II/trend.tex [57] [58]) [59
+
+] (Section_III/general-rules.tex
+[60
+
+]) (Section_III/push-recovery.tex [61
 
 ]
-<img/push_recovery.png, id=440, 458.71375pt x 398.48875pt>
+<img/push_recovery.png, id=447, 458.71375pt x 398.48875pt>
 File: img/push_recovery.png Graphic file (type png)
 
 <use img/push_recovery.png>
 Package pdftex.def Info: img/push_recovery.png used on input line 20.
 (pdftex.def)             Requested size: 458.71263pt x 398.48778pt.
-) (./Section_III/moving-ball.tex [60
+) (Section_III/moving-ball.tex [62
 
- <./img/push_recovery.png>] <img/moving-ball.png, id=448, 691.08188pt x 170.135
+ <./img/push_recovery.png>] <img/moving-ball.png, id=455, 691.08188pt x 170.135
 62pt>
 File: img/moving-ball.png Graphic file (type png)
 
 <use img/moving-ball.png>
 Package pdftex.def Info: img/moving-ball.png used on input line 14.
 (pdftex.def)             Requested size: 483.72467pt x 119.08891pt.
-) (./Section_III/high-jump.tex [61
+) (Section_III/high-jump.tex [63
 
- <./img/moving-ball.png>]) (./Section_III/high-kick.tex [62
+ <./img/moving-ball.png>]) (Section_III/high-kick.tex [64
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
- [63
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+ [65
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
- (./RCHL-2017-Rules-Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+ (RCHL-2017-Rules-Proposal.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
 Package rerunfilecheck Info: File `RCHL-2017-Rules-Proposal.out' has not change
 d.
-(rerunfilecheck)             Checksum: 846B33DF2E3E2A326E9FE45FB5CA7205;1511.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
+(rerunfilecheck)             Checksum: B54F3A6DF795BAD72D6A171908FEAEB6;1533.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
  ) 
 Here is how much of TeX's memory you used:
- 8862 strings out of 493304
- 130507 string characters out of 6139871
- 219175 words of memory out of 5000000
- 11953 multiletter control sequences out of 15000+600000
- 20720 words of font info for 52 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 36i,12n,38p,1402b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfss0500.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfss0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfsx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on RCHL-2017-Rules-Proposal.pdf (63 pages, 2303848 bytes).
+ 8799 strings out of 493634
+ 131597 string characters out of 3135239
+ 222520 words of memory out of 3000000
+ 11820 multiletter control sequences out of 15000+200000
+ 20720 words of font info for 52 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 36i,12n,39p,1404b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecrm0800.pk> <C:\Users\Maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm0600.pk> <C:\Users\Maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Maike\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi525\ectt0800.pk> <C:\Users\Maike\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0700.pk> <C:\Users\Maike\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1000.pk> <C:\Users\Maike\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1000.pk> <C:\Us
+ers\Maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1440.
+pk> <C:\Users\Maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecrm1000.pk> <C:\Users\Maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecsx1000.pk> <C:\Users\Maike\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecss0500.pk> <C:\Users\Maike\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecsx2488.pk><C:/Users/Maike/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Maike/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+Maike/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b><C:/Users/Maike/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb><C:/Users/Maike/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/Maike/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Maike/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Maike/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Maike/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on RCHL-2017-Rules-Proposal.pdf (65 pages, 2288476 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 131 named destinations out of 1000 (max. 500000)
+ 917 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
