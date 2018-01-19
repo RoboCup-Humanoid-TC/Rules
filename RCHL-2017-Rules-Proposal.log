@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.27)  9 JAN 2018 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.27)  12 JAN 2018 19:59
 entering extended mode
 **./RCHL-2017-Rules-Proposal.tex
 (RCHL-2017-Rules-Proposal.tex
@@ -532,12 +532,13 @@ File: img/robocup_logo.png Graphic file (type png)
 <use img/robocup_logo.png>
 Package pdftex.def Info: img/robocup_logo.png used on input line 89.
 (pdftex.def)             Requested size: 117.53549pt x 65.4414pt.
- <img/award.png, id=93, 697.10437pt x 676.77844pt>
-File: img/award.png Graphic file (type png)
 
-<use img/award.png>
-Package pdftex.def Info: img/award.png used on input line 108.
-(pdftex.def)             Requested size: 328.76662pt x 288.68553pt.
+<img/rhoban_robot.jpg, id=93, 2601.72pt x 1734.48pt>
+File: img/rhoban_robot.jpg Graphic file (type jpg)
+
+<use img/rhoban_robot.jpg>
+Package pdftex.def Info: img/rhoban_robot.jpg used on input line 107.
+(pdftex.def)             Requested size: 432.997pt x 288.683pt.
 LaTeX Font Info:    Try loading font information for TS1+cmss on input line 127
 .
 
@@ -546,7 +547,7 @@ File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/robocup_logo.png> <
-./img/award.png>] [2
+./img/rhoban_robot.jpg>] [2
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 178.
@@ -554,8 +555,7 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 178.
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 178.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (Section_I/notes.tex [3
@@ -572,7 +572,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (Section_I/law1.tex [6
 
 
-] [7] <img/field.png, id=158, 560.0925pt x 391.4625pt>
+] [7] <img/field.png, id=157, 560.0925pt x 391.4625pt>
 File: img/field.png Graphic file (type png)
 
 <use img/field.png>
@@ -588,7 +588,7 @@ Package pdftex.def Info: img/field.png used on input line 239.
 ] [13
 
 ]) (Section_I/law4.tex [14]
-<img/bodyplan.png, id=191, 384.43625pt x 219.31938pt>
+<img/bodyplan.png, id=190, 384.43625pt x 219.31938pt>
 File: img/bodyplan.png Graphic file (type png)
  <use img/bodyplan.png>
 Package pdftex.def Info: img/bodyplan.png used on input line 30.
@@ -671,8 +671,8 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 ] [52] [53
 
-] [54] [55] [56])
-(Section_II/trend.tex [57] [58]) [59
+] [54] [55] [56]
+[57]) (Section_II/trend.tex [58]) [59
 
 ] (Section_III/general-rules.tex [60
 
@@ -680,7 +680,7 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 (Section_III/push-recovery.tex [61
 
 ]
-<img/push_recovery.png, id=447, 458.71375pt x 398.48875pt>
+<img/push_recovery.png, id=446, 458.71375pt x 398.48875pt>
 File: img/push_recovery.png Graphic file (type png)
 
 <use img/push_recovery.png>
@@ -688,7 +688,7 @@ Package pdftex.def Info: img/push_recovery.png used on input line 20.
 (pdftex.def)             Requested size: 458.71263pt x 398.48778pt.
 ) (Section_III/moving-ball.tex [62
 
- <./img/push_recovery.png>] <img/moving-ball.png, id=455, 691.08188pt x 170.135
+ <./img/push_recovery.png>] <img/moving-ball.png, id=454, 691.08188pt x 170.135
 62pt>
 File: img/moving-ball.png Graphic file (type png)
 
@@ -714,9 +714,9 @@ d.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 8937 strings out of 493334
- 132025 string characters out of 3136672
- 223423 words of memory out of 3000000
+ 8938 strings out of 493334
+ 132064 string characters out of 3136672
+ 239423 words of memory out of 3000000
  12094 multiletter control sequences out of 15000+200000
  20720 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -744,9 +744,9 @@ blic/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmsy7.pfb>
-Output written on RCHL-2017-Rules-Proposal.pdf (65 pages, 2275670 bytes).
+Output written on RCHL-2017-Rules-Proposal.pdf (65 pages, 3105189 bytes).
 PDF statistics:
- 917 PDF objects out of 1000 (max. 8388607)
+ 925 PDF objects out of 1000 (max. 8388607)
  135 named destinations out of 1000 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
