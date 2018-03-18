@@ -49,7 +49,7 @@ For the AdultSize soccer games a specific rule for robot handler will apply. For
 \item should position himself behind the robot \removed{or at a distance that allows the robot to operate freely} \added{at a distance of at least an arm length away from the robot's convex hull}.
 \item must not block the vision of any the robots on ball or goals.
 \item must not block the path of any robot.
-\item must not touch any robot. Touching a robot is considered as an offense that is penalised by a removal penalty according to the laws of the game.
+\item must not touch any robot. Touching a robot is considered as an offense that is penalised by a removal penalty according to the laws of the game. \added{The robot removal penalty is given to the robot of the handler who touched the robot}.
 \item \added{must not enter the radius of one arm length around the robot unless the robot is to be picked up or to avoid interference with the game. Violation of this rule result in a warning to the respective robot handler. After two warnings, the robot handler needs to be replaced similarly to the rule specified under ``Request for Pick-up''.}
 \item has to be dressed in black clothes.
 \item may not communicate with the robot in any way, including verbally, while the robot is in play.
@@ -128,7 +128,7 @@ Robots being able to autonomously reposition themselves can take any position on
  
 For initial kick-off (to initially start or restart after a half-time interval), robots can be placed anywhere on the touch lines or goal lines on the respective team's own side outside of the goal, facing the opposite touch line or goal line, to autonomously enter the field from there. For other kick-off situations robots need to position themselves from the the position they were when the game was stopped.
 
-Similar to a kick-off situations one striker robot for each team may be placed manually for a dropped ball, if both teams can not position themselves automatically. The striker for dropped ball may be positioned at any legal position within the team's own half outside of the center circle.
+For dropped ball, if both teams can not position themselves automatically, one striker robot for each team may be placed manually. The striker for dropped ball may be positioned at any legal position within the team's own half outside of the center circle.
 
 \bigskip
 
@@ -180,7 +180,7 @@ Players not capable of play (e.g. players not able to walk on two legs, players 
 {\bfseries Substitutions}
 
 Up to two players per game can be substituted by other players of the same team. The referee must be informed prior to the substitution. A substitute only enters the field after the player being replaced left the field and after receiving a signal from the referee. Any of the
-other players may change places with the goalkeeper, provided that the referee is informed before the change is made and that the change is made during a stoppage of the match. Exchanging a field player with a goalie does not count as substitution. Changing places/roles between a
+other players may change places with the goalkeeper, provided that the referee is informed before the change is made and that the change is made during a stoppage of the match. \removed{Exchanging a field player with a goalie does not count as substitution.} Changing places/roles between a
 field player and a goalie does not count as substitution.
 
 \bigskip
