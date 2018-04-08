@@ -49,7 +49,7 @@ For the AdultSize soccer games, a specific rule for robot handlers applies. For 
 \item should position himself behind the robot \removed{or at a distance that allows the robot to operate freely} \added{at a distance of at least an arm length away from the robot's convex hull}.
 \item must not block the vision of any of the robots on the ball or goals.
 \item must not block the path of any robot.
-\item must not touch any robot. Touching a robot is considered an offence that is penalised by a removal penalty according to the laws of the game.
+\item must not touch any robot. Touching a robot is considered an offence that is penalised by a removal penalty \added{of the robot handler's own robot} according to the laws of the game.
 \item \added{must not enter the radius of one arm length around the robot unless the robot is to be picked up or to avoid interference with the game. Violation of this rule results in a warning to the respective robot handler. After two warnings, the robot handler needs to be replaced similarly to the rule specified under ``Request for Pick-up''.}
 \item has to be dressed in black clothes.
 \item may not communicate with the robot in any way, including verbally, while the robot is in play.
@@ -71,7 +71,7 @@ After games of a round robin have been played, the teams of a group are ranked b
 
 \bigskip
 
-For each game that a team has won with a difference of 10 goals only 10 goals are counted.
+\removed{For each game that a team has won with a difference of 10 goals only 10 goals are counted.}
 
 \bigskip
 
@@ -79,7 +79,7 @@ At least two teams of every group will enter the next round robin or the playoff
 
 \bigskip
 
-In the knock-out games of a tournament two further equal periods of 5 minutes each are played if the game is not decided after the regular playing time.  If during regular playing time none of the two teams in a knock-out match was able to kick the ball to reach their respective opponent's goal the extra time is skipped and the game immediately continues by the five alternating penalty kick trials. If both teams agree, the regular penalty kick trials may be skipped and the extended penalty kick procedure applies instead.
+In the knock-out games of a tournament two further equal periods of 5 minutes each are played if the game is not decided after the regular playing time.  \added{After consulting the team captains, the referee can decide to skip the extra time and continue the game immediately with the five alternating penalty kick trials.} \removed{If during regular playing time none of the two teams in a knock-out match was able to kick the ball to reach their respective opponent's goal the extra time is skipped and the game immediately continues by the five alternating penalty kick trials.} If both teams agree, the regular penalty kick trials may be skipped and the extended penalty kick procedure applies instead.
 
 \bigskip
 
@@ -128,7 +128,7 @@ Robots being able to autonomously reposition themselves can take any position on
  
 For initial kick-off (to initially start or restart after a half-time interval), robots can be placed anywhere on the touch lines or goal lines on the respective team's own side outside of the goal, facing the opposite touch line or goal line, to autonomously enter the field from there. For other kick-off situations robots need to position themselves from the the position they were when the game was stopped.
 
-Similar to a kick-off situations one striker robot for each team may be placed manually for a dropped ball, if both teams can not position themselves automatically. The striker for dropped ball may be positioned at any legal position within the team's own half outside of the center circle.
+Similar to a kick-off situation, one striker robot for each team may be placed manually for a dropped ball, if both teams can not position themselves automatically. The striker for dropped ball may be positioned at any legal position within the team's own half outside of the center circle.
 
 \bigskip
 
@@ -148,12 +148,12 @@ the center line and outside of the center circle and the ball is in play. This r
 
 \begin{enumerate}
 \item The referee blows the whistle, announces 'Free-Kick' \removed{cyan or Magenta} Blue or Red.
-\item The assistant referee who operates the game controller clicks on "Free Kick \removed{Cyan/Magenta} \added{Blue/Red}".
+\item The assistant referee who operates the game controller clicks on \added{"Prepare Direct / Indirect Free Kick" Blue/Red} \removed{"Free Kick Cyan/Magenta"}.
 \item The referee places the ball depending on the call and announces "Free Kick Ready"
-\item The assistant referee who operates the game controller clicks on "Free Kick \removed{Cyan/Magenta} \added{Blue/Red} Ready". Now opponent robots must move to a position at least 50cm away from the ball. They have a maximum of 15 secs. to do this.  During the 15 seconds, robots of the team that got awarded the free kick may re-position themselves as well.
+\item The assistant referee who operates the game controller clicks on \added{"Freeze Direct / Indirect Free Kick" Blue/Red} \removed{"Free Kick Cyan/Magenta Ready"}. Now opponent robots must move to a position at least 50cm away from the ball. They have a maximum of 15 secs. to do this.  During the 15 seconds, robots of the team that got awarded the free kick may re-position themselves as well.
 \item The assistant referee announces that the 15 seconds are over.
 \item Any opponent robot still closer than 50cm is considered as an incapable player and must be removed from the field for 30 seconds removal penalty.
-\item After 15 seconds or sooner if the referee considers the kicking team to be ready and all opponent robots are at least 50cm away or have been removed from the field, the referee blows the whistle. Then the assistant referee who operates the game controller clicks on "Free Kick \removed{Cyan/Magenta} \added{Blue/Red} Set/Play". The team that was awarded the free-kick can kick now.
+\item After 15 seconds or sooner if the referee considers the kicking team to be ready and all opponent robots are at least 50cm away or have been removed from the field, the referee blows the whistle. Then the assistant referee who operates the game controller clicks on \added{"Execute Direct / Indirect Free Kick" Blue/Red} \removed{"Free Kick Cyan/Magenta Set/Play"}. The team that was awarded the free-kick can kick now.
 \item The ball is in play after it has been touched by a player or after 10 secs.
 \end{enumerate}
 
@@ -180,14 +180,14 @@ Players not capable of play (e.g. players not able to walk on two legs, players 
 {\bfseries Substitutions}
 
 Up to two players per game can be substituted by other players of the same team. The referee must be informed prior to the substitution. A substitute only enters the field after the player being replaced left the field and after receiving a signal from the referee. Any of the
-other players may change places with the goalkeeper, provided that the referee is informed before the change is made and that the change is made during a stoppage of the match. Exchanging a field player with a goalie does not count as substitution. Changing places/roles between a
+other players may change places with the goalkeeper, provided that the referee is informed before the change is made and that the change is made during a stoppage of the match. Changing places/roles between a
 field player and a goalie does not count as substitution.
 
 \bigskip
 
 {\bfseries Temporal Absence}
 
-Servicing robots on the playing field is not permitted. A robot may be taken out of the field for service, after receiving permission from the referee. Taking out a robot for service does not count as a substitution. A serviced robot may not come into play again before 30 seconds elapsed after it was taken out. It has to enter the field from the team's own half of the field close to the penalty mark facing the opposite touch line, as indicated by the referee.
+Servicing robots on the playing field is not permitted. A robot may be taken out of the field for service, after receiving permission from the referee. Taking out a robot for service does not count as a substitution. A serviced robot may not come into play again before \added{60} \removed{30} seconds elapsed after it was taken out \added{(if the robot is suffering a 30 second removal penalty already, 30 additional seconds will be added so that the total time of absence is at least 60 seconds)}. It has to enter the field from the team's own half of the field close to the penalty mark facing the opposite touch line, as indicated by the referee.
 
 \bigskip
 
@@ -219,6 +219,7 @@ which an illegal defense or illegal attack has been committed will benefit from 
 \bigskip
 
 {\bfseries Timeouts}
+
 A team may extend a stoppage of the game by taking a timeout. During a timeout
 robots may be serviced. Each team may take at most one timeout per period. If a team is not ready to resume the game when the referee wants to start the game, it has to take a timeout. If there is no timeout left, the referee will start
 the game anyway. A timeout ends automatically after 120 s. A timeout also ends when the team signals its end to the referee
@@ -226,6 +227,7 @@ the game anyway. A timeout ends automatically after 120 s. A timeout also ends w
 \bigskip
 
 {\bfseries Referee Timeouts}
+
 The head referee may call a timeout at any stoppage of play if they deem it necessary. A referee timeout should only be called in dire circumstances - one example might be when the power to the wireless router is down. However, when and whether to call a referee timeout is left up to the head referee.
 
 Referees may call multiple timeouts during a game if needed. Teams may do anything during these timeouts, but they must be ready to play 2 minutes after the referee begins a timeout. The referee should end the timeout once they believe the circumstance for which the timeout was called has been resolved. In cases where the circumstance for which the timeout was called is not resolved within 10 minutes, the Technical Committee should be consulted regarding when/if play should continue.
@@ -291,7 +293,7 @@ Referees will be drawn from the remaining participating teams, or if needed, due
 
 When a goal is scored, all players of the scoring team on the field receive 1 point and the player who scored the goal receives an additional 1 point if it was not an own goal. \added{A robot is considered to be on the field if both feet of the robot are fully inside the field area. The player who scored the goal receives the points regardless of its position on the field.} Incapable players, penalized players\added{, players outside the field} or players having been removed for any other reason, e.g. service, will receive no point. When a goal is suffered, all players of the team suffering the goal receive -1 points, including incapable players, penalized players or players having been removed for any other reason, e.g. in service. Points from all games are summed up. For players who played one or more games more than the others, only the points of those games with the higher scores are considered.
 
-Drop-in players are initially ranked according to the accumulated points. If there are ties, the tied players are ranked according to the arithmetic mean, the number of games played, the maximum points awarded in a single game and the number of goals scored. The three most highly ranked players of a sub-league receive a 'Best Player' certificate.
+Drop-in players are initially ranked according to the accumulated points. If there are ties, the tied players are ranked according to the arithmetic mean, the number of games played, the maximum points awarded in a single game and the number of goals scored \added{(in this order)}. The three most highly ranked players of a sub-league receive a 'Best Player' certificate.
 
 If the three best drop-in players can not be identified with the scheme provided above, an additional game with players drawn group wise (from the groups of equally high ranked players with a total number of points greater than zero) from the highest-ranked players is to be played.
 
@@ -324,6 +326,7 @@ For details on the technical challenges, please refer to Section III of this doc
 
 \bigskip
 
+\newpage
 {\bfseries Best Humanoid Award}
 
 \headlinebox
@@ -338,7 +341,8 @@ The points earned in the technical challenge are used directly.
 
 \bigskip
 
-The points earned in the Drop-In challenge are used directly.
+\added{For the Drop-In challenge the winner receives 30 points. The second best team receives 21 points. The third best team receives 15 points.} \removed{The points earned in the Drop-In challenge are used directly.}
+
 
 \bigskip
 
@@ -346,20 +350,22 @@ For the soccer games the winner receives 60 points. The second best team receive
 
 \bigskip
 
-As KidSize, TeenSize and AdultSize robots do not compete directly, a jury decides the overall best humanoid robot, 2nd best humanoid robot, 3rd best humanoid robot. The jury consists of the team leaders of all teams, except for the teams ranked first in the KidSize, TeenSize and AdultSize lists. The jury decides by majority vote. In case of a draw, the president of the RoboCup federation decides the vote.
+\added{The teams ranked first in the KidSize, TeenSize and AdultSize lists are candidates for the best humanoid. The final ranking between the three candidates is determined by the points earned in the individual competitions as stated above. The best KidSize, TeenSize or AdultSize team with the most overall points wins the best humanoid award. If there are ties, the average goals scored per game is used to determine the ranking of the three eligible candidates. If there are still ties, the president of the RoboCup Federation breaks the tie.}
 
-\begin{itemize}
+\removed{As KidSize, TeenSize and AdultSize robots do not compete directly, a jury decides the overall best humanoid robot, 2nd best humanoid robot, 3rd best humanoid robot. The jury consists of the team leaders of all teams, except for the teams ranked first in the KidSize, TeenSize and AdultSize lists. The jury decides by majority vote. In case of a draw, the president of the RoboCup federation decides the vote.}
+
+\removed{\begin{itemize}
 \item The teams ranked first in the KidSize, TeenSize and AdultSize lists are candidates for the best humanoid. The jury decides from the general picture of the performance according to the criteria:
 \begin{enumerate}
-\item Robustness
-\item Walking ability
-\item Ball handling
-\item Soccer skills
+\item \removed{Robustness}
+\item \removed{Walking ability}
+\item \removed{Ball handling}
+\item \removed{Soccer skills}
 \end{enumerate}
-for the robot that is the best humanoid.
-\item \added{In the first jury vote, the robot receiving the least number of total votes is the 3rd best humanoid robot.} \removed{Of each, KidSize, TeenSize and AdultSize, the best robot that was not chosen to be the best humanoid robot is candidate for the 2nd best humanoid robot. Criteria are the same as for the best humanoid.}
-\item \added{The jury votes for the best humanoid robot among the two remaining robots. The robot that receives the majority of votes is elected best humanoid robot, the other robot becomes 2nd best humanoid robot.} \removed{The robot ranked first in the KidSize, TeenSize or AdultSize lists that was not chosen for 1st or 2nd best humanoid is the 3rd best humanoid robot.}
-\end{itemize}
+\removed{for the robot that is the best humanoid.}
+\item \removed{Of each, KidSize, TeenSize and AdultSize, the best robot that was not chosen to be the best humanoid robot is candidate for the 2nd best humanoid robot. Criteria are the same as for the best humanoid.}
+\item \removed{The robot ranked first in the KidSize, TeenSize or AdultSize lists that was not chosen for 1st or 2nd best humanoid is the 3rd best humanoid robot.}
+\end{itemize}}
 
 \bigskip
 

@@ -11,8 +11,9 @@ The length of the rope (between 1 and 2 meters) will remain fixed for all trials
 
 A trial consists of three random pushes. For a fully successful trial, the robot needs to accomplish the push recovery for three out of three pushes. For a partially successful trial, the robot needs to accomplish the push recovery for two out of three pushes. The robots are first ranked by the square root of the linear momentum $H = L - \sqrt{L^{2} - D^{2}}$ divided by the robot weight for fully successful trials and then for partially successful trials. The formula for calculating the rank is thereby:
 
+
 \begin{align*}
-\dfrac{\sqrt{H}}{m_{Robot}} =  \dfrac{\sqrt{L - \sqrt{L^{2} - D^{2}}}}{m_{Robot}}
+\dfrac{\sqrt{H}}{m_{Robot} \added{\cdot H_{com}}} =  \dfrac{\sqrt{L - \sqrt{L^{2} - D^{2}}}}{m_{Robot} \added{\cdot H_{com}}}
 \end{align*}
 
 \begin{figure}[h]
