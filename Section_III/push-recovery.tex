@@ -2,23 +2,51 @@
 \sffamily
 {\bfseries\color[rgb]{0.4,0.4,0.4}
 Part A: Push Recovery }
+\phantomsection
+\addcontentsline{toc}{subsection}{Part A: Push Recovery}
+
 
 \bigskip
 
-The goal of the push recovery challenge is to withstand a strong push. PET bottles, partially filled with sand or water to determine the weight, cushioned with a layer of foam material (max. 1 cm thick), and suspended by a rope, will be used as a pendulum to apply the push. A 1 kg weight will be used for KidSize, 2 kg for TeenSize, and 3 kg for AdultSize. 
+The goal of the push recovery challenge is to withstand a strong push \added{while walking}. 
 
-The length of the rope (between 1 and 2 meters) will remain fixed for all trials in a size class. The rope is attached to a frame with variable height, which is used to adjust the bottom of the bottle to be at the height of the center of mass of the robot. To swing the bottle against the robot's body, the pendulum is released from an angle which is measured by the ground projected distance between the robot and the bottle. At each attempt, the team announces the ground projection distance for the pendulum. The robot must be walking in place during the attempt. A push is successfully absorbed when after receiving the push, the robot returns to a stable standing or walking posture. 
+\added{Cushioned plastic bottles partially filled with sand (or similar) will be suspended on a rope of fixed length, and swung into the robot as a pendulum to apply the push. Bottles of mass 1$\,$kg, 2$\,$kg, 3$\,$kg and 5$\,$kg will be available, where the default mass to use in each size class will be 1$\,$kg in KidSize, 2$\,$kg in TeenSize and 3$\,$kg in AdultSize. If a robot completes a fully successful trial with the default mass for its size class, then a larger bottle may be used in further trials.}
+\removed{PET bottles, partially filled with sand or water to determine the weight, cushioned with a layer of foam material (max. 1 cm thick), and suspended by a rope, will be used as a pendulum to apply the push. A 1 kg weight will be used for KidSize, 2 kg for TeenSize, and 3 kg for AdultSize.}
 
-A trial consists of three random pushes. For a fully successful trial, the robot needs to accomplish the push recovery for three out of three pushes. For a partially successful trial, the robot needs to accomplish the push recovery for two out of three pushes. The robots are first ranked by the square root of the linear momentum $H = L - \sqrt{L^{2} - D^{2}}$ divided by the robot weight for fully successful trials and then for partially successful trials. The formula for calculating the rank is thereby:
+\medskip
+The length of the rope \added{$L$} (between \added{1.5} \removed{1} and 2 meters\added{, measured from the point of 
+attachment to the centre of mass of the bottle}) will remain fixed for all trials 
+of a particular size class. The rope is attached to a frame of adjustable height, which is used to adjust the \added{centre of mass of the bottle at the moment of impact to be as close as possible to the height of the centre of mass of the robot} \removed{bottom of the bottle to be at the height of the centre of mass of the robot}.
+\added{Where this is not possible, the centre of mass of the bottle should strike a solid part of the centre of the hips of the robot. For this and other purposes, the centre of mass of the bottle should be clearly marked.}
 
+\medskip
+\added{Each trial consists of three pushes---a push from the front, a push from the back, and a push from either the front or the back, in any order. To apply a push, the bottle is released from a particular position, and allowed to swing into the robot in such a way that the impact occurs when the rope is vertical. The amount of retraction of the bottle is measured by the ground projected distance $D$ from the centre of mass of the bottle, to the attachment point of the rope. Before each trial (set of three pushes), the team must declare what value of $D$ should be used (limited to $0.75L$ for practical implementation concerns). A push is successfully absorbed if after receiving the push the robot 
+returns to a stable walking cycle, as perceived by the referee. The robot must be walking in place (with a normal step frequency) both before the push, and after it has stabilised itself again.}
 
+\medskip
+\added{For a complete trial to be fully successful, the robot needs to successfully absorb all three pushes. For a trial to be partially successful, the robot needs to successfully absorb two of the three pushes. The robots are ranked by the following metric (higher is better):
 \begin{align*}
-\dfrac{\sqrt{H}}{m_{Robot} \added{\cdot H_{com}}} =  \dfrac{\sqrt{L - \sqrt{L^{2} - D^{2}}}}{m_{Robot} \added{\cdot H_{com}}}
+M = \frac{\sqrt{H}}{h_c} \cdot \frac{m_B}{m_R} \cdot \frac{h_i}{h_c}
 \end{align*}
+where we have the following:
+\begin{center}
+\begin{tabular}{l@{\hspace{1.2em}}l@{\hspace{4em}}l@{\hspace{1.2em}}l}
+$M$ & Ranking metric & $H$ & Vertical height fallen by the bottle $=L - \sqrt{L^{2} - D^{2}}$  \\
+$m_B$ & Mass of the bottle & $h_i$ & Height of the centre of mass of the bottle at impact \\
+$m_R$ & Mass of the robot & $h_c$ & Height of the centre of mass of the robot \\
+\end{tabular}
+\end{center}}
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=1.0]{img/push_recovery.png}
+\includegraphics[height=6.5cm]{img/push_recovery.png}
 \caption{Setup for the push recovery challenge. }
 \end{center}
 \end{figure}
+
+\removed{To swing the bottle against the robot's body, the pendulum is released from an angle which is measured by the ground projected distance between the robot and the bottle. At each attempt, the team announces the ground projection distance for the pendulum. The robot must be walking in place during the attempt. A push is successfully absorbed when after receiving the push, the robot returns to a stable standing or walking posture.} 
+
+\removed{A trial consists of three random pushes. For a fully successful trial, the robot needs to accomplish the push recovery for three out of three pushes. For a partially successful trial, the robot needs to accomplish the push recovery for two out of three pushes. The robots are first ranked by the square root of the linear momentum $H = L - \sqrt{L^{2} - D^{2}}$ divided by the robot weight for fully successful trials and then for partially successful trials. The formula for calculating the rank is thereby:}
+\begin{align*}
+\textcolor{blue}{\dfrac{\sqrt{H}}{m_{Robot} \cdot H_{com}} =  \dfrac{\sqrt{L - \sqrt{L^{2} - D^{2}}}}{m_{Robot} \cdot H_{com}}}
+\end{align*}

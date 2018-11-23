@@ -3,7 +3,7 @@
 {\bfseries\color[rgb]{0.4,0.4,0.4}
 Law 4 -- The Players ('Equipment')}
 \phantomsection
-\addcontentsline{toc}{section}{Law 4 -- The Players ('Equipment')}
+\addcontentsline{toc}{subsection}{Law 4 -- The Players ('Equipment')}
 
 \bigskip
 
@@ -25,20 +25,26 @@ Robots participating in the Humanoid League competitions must have a human-like 
 
 (new:) Robots in kid and teen size sub-leagues must be equipped with a handle, to be picked up safely and with no harm to the robot and the handler.
 
-\begin{center}
+
 \begin{figure}[h]
-\includegraphics[width=\textwidth]{img/bodyplan.png}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{img/bodyplan.png}
 \caption{Example of a humanoid robot body plan (left) and standing upright pose (right)}
 \label{fig:bodyplan}
 \vspace{-3ex}
-\end{figure}
 \end{center}
+\end{figure}
+
 
 The robots must be able to stand upright on their feet and to walk on their legs. KidSize and TeenSize robots need to be able to recover from a fall (get back to a standing position). The only allowed modes of locomotion are bipedal walking, running and jumping.
 
 \bigskip
 
 All actions of the robots must be kinematically equivalent to humanoid motions.
+
+\bigskip
+
+\added{Robots must be equipped with an emergency stop button that makes the robot immediately desist with all motions, or ideally go limp and/or cut power to the actuators. In addition to the emergency stop button, robots may only have up to two additional physical or virtual buttons: One to start the robot behaviour and one to stop the behaviour. The buttons must be clearly labelled. If the robot has more buttons that cannot be detached, they must be visibly masked during the games.}
 
 \bigskip
 
@@ -49,12 +55,12 @@ All actions of the robots must be kinematically equivalent to humanoid motions.
 Based on $H_{top}$, the following size restrictions apply:
 
 \begin{itemize}
-\item 40cm ${\leq}$ $H_{top}$ ${\leq}$ 90cm to play in the KidSize class, 
-\item 80cm ${\leq}$ $H_{top}$ ${\leq}$ 140cm to play in the TeenSize class,
-\item 130cm ${\leq}$ $H_{top}$ ${\leq}$ 180cm to play in the AdultSize class.
+\item 40 cm ${\leq}$ $H_{top}$ ${\leq}$ 90 cm to play in the KidSize class, 
+\item 80 cm ${\leq}$ $H_{top}$ ${\leq}$ 140 cm to play in the TeenSize class,
+\item 130 cm ${\leq}$ $H_{top}$ ${\leq}$ 180 cm to play in the AdultSize class.
 \end{itemize}
 
-$H_{top}$ is defined as the height of the robot when standing upright (with fully extended knees, cf. Fig. \ref{fig:bodyplan} right) and $H_{COM}$ denotes the height of the robot's center of mass, measured in upright posture. \added{$H_{top}$ is measured with the head of the robot oriented in such a way that it is tilted to either its maximum upwards tilt angle or the horizon line, whichever is lower.}
+$H_{top}$ is defined as the height of the robot when standing upright (with fully extended knees, cf. Fig. \ref{fig:bodyplan} right) and $H_{COM}$ denotes the height of the robot's centre of mass, measured in upright posture. $H_{top}$ is measured with the head of the robot oriented in such a way that it is tilted to either its maximum upwards tilt angle or the horizon line, whichever is lower.
 
 \bigskip
 
@@ -75,8 +81,8 @@ $H_{top}$ is defined as the height of the robot when standing upright (with full
 All robots participating in the Humanoid League must comply with the following restrictions:
 
 \begin{itemize}
-\item Each foot must fit into a rectangle of area $\tfrac{1}{32} (2.2 \cdot H_{COM})^2$. 
-\item Considering the rectangle enclosing the convex hull of the foot, the ratio between the longest side of the rectangle and the shortest one, shall not exceed $2.5$.
+\item Each foot must fit into a rectangle of area $\tfrac{1}{32} (2.2 \cdot H_{COM})^2$. \added{A foot is defined as the minimum encapsulating rectangle covering all mechanical parts below the ankle joint. The encapsulating rectangle should be in a plane parallel to the bottom contact surface of the foot.}
+\item \added{The ratio between the longest and the shortest side of the encapsulating rectangle should be between $1.2$ and $3.5$}
 \item The robot must fit into a cylinder of diameter $0.55 \cdot H_{top}$.
 \item The robot does not possess a configuration where it is extended longer than 1.5{\textperiodcentered}$H_{top}$ .
 \item The length of the legs $H_{leg}$, including the feet, satisfies 0.35{\textperiodcentered}$H_{top}$ ${\leq}$ $H_{leg}$ ${\leq}$ 0.7{\textperiodcentered}$H_{top}$ .
@@ -100,7 +106,7 @@ other active sensor (emitting light, sound, or electromagnetic waves into the en
 torso of the robots. They must be placed in the robot's
 head and above any neck joint. 
 \item The number of cameras is limited to a stereo vision setup (i.e., max. 2 cameras with a large overlap) only. Monocular vision is also allowed.
-\item The field of view of the robots is limited at any time to $180$ degrees. This means that the maximum angle between any two points in the union of the field of view of all cameras mounted on the robot must be less than $180$ degrees. Also the pan-tilt motion of the head and the cameras mounted on the robot's head is restricted to be more human like not only with respect to the field of view but also to the range of motion of the neck joints. Therefore, the mechanism to pan the camera is limited to $270$ degree pan, which means $\pm135$ degrees from the position looking straight ahead. The mechanism to tilt the camera is limited to $\pm90$ degrees (measured from the horizontal line). Furthermore, if positioned at the center mark the robot may not be able to see \added{more than two goal posts} \removed{both goals} in any tilt angle and in any standing or walking posture of the robot. 
+\item The field of view of the robots is limited at any time to $180$ degrees. This means that the maximum angle between any two points in the union of the field of view of all cameras mounted on the robot must be less than $180$ degrees. Also the pan-tilt motion of the head and the cameras mounted on the robot's head is restricted to be more human like not only with respect to the field of view but also to the range of motion of the neck joints. Therefore, the mechanism to pan the camera is limited to $270$ degree pan, which means $\pm135$ degrees from the position looking straight ahead. The mechanism to tilt the camera is limited to $\pm90$ degrees (measured from the horizontal line). Furthermore, if positioned at the centre mark the robot may not be able to see more than two goal posts in any tilt angle and in any standing or walking posture of the robot. 
 \item Touch sensors, force sensors, and temperature sensors may be placed at any position on the robot.
 \item Sensors inside the robot may measure all quantities representing the local state of the system, including (but not limited to) voltages, currents, forces, movements, accelerations, and rotational speeds. They can be at any position inside the robot. Measurements from earth magnetic field sensors may not be used in the software and - in case of doubt - the code must be made available to members of the Technical Committee for inspection.
 \end{itemize}
@@ -122,10 +128,11 @@ Robots in play may communicate with each other at any time during a game. Any ki
 
 \bigskip
 
-Sending any direct or indirect transmission from an external computer to the robots has to take place during a timeout or service of the robot. Connecting a LAN cable to the robot is automatically considered service. Any other type of communication with the robot, excluding verbal communication of the robot handler and pressing a button to start or stop the robot's general behaviour, has to be announced to the referee so a service penalty can be given to the respective robot. If the team does not announce the communication before starting it, an additional 30 second penalty is given to the team. In case of repeated violation, the referee may take disciplinary actions against the team as defined in Law 5.
+Sending any direct or indirect transmission from an external computer to the robots has to take place during a timeout or \added{any form of temporal absence and outside the field of play. Any time the robot handler or another team member is touching the robot, a cable is connected or another form of communication with the robot (including button clicks) take place, the robot is considered in service. The regular penalty time will start counting only after any type of communication with the robot has finished and will be reset whenever the robot handler attempts to service the robot again.} \removed{service of the robot. Connecting a LAN cable to the robot is automatically considered service. Any other type of communication with the robot, excluding verbal communication of the robot handler and pressing a button to start or stop the robot's general behaviour, has to be announced to the referee so a service penalty can be given to the respective robot. If the team does not announce the communication before starting it, an additional 30 second penalty is given to the team. In case of repeated violation, the referee may take disciplinary actions against the team as defined in Law 5.}
 \bigskip
 
-Teams may not use any type of communication, excluding verbal communication, with robots in play, in service or with robots suffering a removal penalty that contains information which reduces the need for autonomy in detecting the current game state of the robots, including the position of the ball, the location where the robot re-enters the field, the orientation of the robots own or opponents goal, and the position of team members or opponents. In case of doubt that a team violates this rule, the code must be made available to members of the Technical Committee for inspection.
+
+Teams may not use any type of communication, excluding verbal communication, with robots in play, in service or with robots \added{serving their 30 seconds penalty time} \removed{suffering a removal penalty} that contains information which reduces the need for autonomy in detecting the current game state of the robots, including the position of the ball, the location where the robot re-enters the field, the orientation of the robots own or opponents goal, and the position of team members or opponents. In case of doubt that a team violates this rule, the code must be made available to members of the Technical Committee for inspection.
 
 \bigskip
 
@@ -149,6 +156,7 @@ see also
 \simplify{
 \bigskip
 
+\newpage
 \greyed{
 {\bfseries (suspended: Basic equipment}
 
@@ -185,8 +193,11 @@ The basic compulsory equipment of a player comprises the following separate item
 \headlinebox
 
 \begin{itemize}
-\item (new) Robots must be mostly black or of dark grey color (i.e. RAL 7011 Iron Grey or darker) and non reflective. Robots may also be colored in aluminimum-like silver, grey or white but then their feet must be colored black. Any color used for the field (green, white) or colors similar to the opponent team's team markers must be avoided. Arms, legs and bodies of the robot must be of solid shape appearance.
-\item (new) The robots must be marked with team markers. These markers are colored \removed{magenta (referred to as red)} \added{red} for one team and \removed{cyan (referred to as blue)} \added{blue} for the other team. Robot legs and arms must be covered by team markers. From each side of the robot, at least one team marker must be visible on both an arm and a leg. The marker must cover an area of at least \added{$0.15\cdot H_{top}$ x $0.05\cdot H_{top}$} \removed{be at least 5 cm in height and as wide as the leg or arm of the robot as seen from that side}. If both teams cannot agree, which team color to use, a coin will be flipped \added{an hour} \removed{15 minutes} prior to the game to assign the team colors.
+\item (new) Robots must be mostly black or of dark grey colour (i.e. RAL 7011 Iron Grey or darker) and non reflective. Robots may also be coloured in aluminimum-like silver, grey or white but then their feet must be coloured black. Any colour used for the field (green, white) or colours similar to the opponent team's team markers must be avoided. Arms, legs and bodies of the robot must be of solid shape appearance.
+\item (new) The robots must be marked with team markers.
+ These markers are coloured red for one team and blue for the other team.  \removed{Robot legs and arms must be covered by team markers. From each side of the robot, at least one team marker must be visible on both an arm and
+ a leg. The marker must cover an area of at least $0.15\cdot H_{top}$ x $0.05\cdot H_{top}$} \added{The total visible area of all team markers (up to 20) on the robot's arms, legs and chest combined must be at least
+ $0.06\cdot {H_{top}}^2$. The visible area of the one to five largest team markers on each side must be at least $0.015\cdot {H_{top}}^2$}. If both teams cannot agree, which team colour to use, a coin will be flipped an hour prior to the game to assign the team colours.
 \item (new) The robots of each team must be uniquely identifiable. They must be marked with numbers or names. The goal keeper robot must be marked uniquely that it can be easily distinguished from the other robots of a team by the referees. 
 \item The two teams must wear colours that distinguish them from each other and also the referee and the assistant referees.
 \greyed{\item 
