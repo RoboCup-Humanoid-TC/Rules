@@ -35,10 +35,13 @@ technical challenge.}
 \item \added{The pass of the ball may either be performed by a human member from the
 team $H$ or another robot, $R_P$. If the pass is performed by a robot, the team
 may place $R_P$ after the referee has placed the ball. $R_p$ can be placed
-anywhere on the field, not directly touching the ball.}
-\item \added{The referee blows the whistle to start the trial.}
+anywhere on the field, at least 1m away from the ball.}
+\item \added{The referee blows the whistle to start the run.}
 \item \added{Teams may start the robot $R_P$ manually by pressing a button when the
-trial starts. But $R_K$ must not be touched after the referee blew the whistle.}
+run starts. But $R_K$ must not be touched after the referee blew the whistle. If
+the pass is performed by a human, then the human is not allowed to wait before
+kicking. Once the whistle is blown the human as 2 seconds to kick the ball,
+otherwise the run is retaken.}
 \item \added{A chronometer is started when $R_P$ or $H$ kicks the ball.}
 \end{enumerate}
 
@@ -46,19 +49,22 @@ trial starts. But $R_K$ must not be touched after the referee blew the whistle.}
 
 \smallskip
 
-\added{The chronometer is stopped when the trial ends. The causes for trial ends and
+\added{The chronometer is stopped when the run ends. The causes for the end of a run and
 the possible results are as following:}
 \begin{itemize}
 \item \added{\textit{Failure}}
   \begin{itemize}
     \item \added{The ball has been touched twice by $R_P$, $H$ or $R_K$.}
-    \item \added{$R_k$ attempted to kick but failed to touch the ball.}
+    \item \added{$R_k$ executed the kick motion but failed to kick the ball.}
     \item \added{The ball was kicked by $R_k$ but leaves the field without scoring a goal.}
   \end{itemize}
 \item \added{\textit{Retake}}
   \begin{itemize}
-    \item \added{The ball stops before $R_k$ attempted to kick.}
-    \item \added{The ball \emph{bounced} on $R_k$ rather than being kicked.}
+    \item \added{The ball stops rolling or leaves the field before $R_k$ attempted to kick.}
+    \item \added{The ball \emph{bounces} on $R_k$ rather than being kicked by $R_k$ and
+          $R_k$ did not try to execute the kick motion before.}
+    \item \added{The pass is performed by a human and the human did not kick 2 seconds after
+          the whistle was blown.}
   \end{itemize}
 \item \added{\textit{Partial success}}
   \begin{itemize}
