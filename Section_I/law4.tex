@@ -60,10 +60,10 @@ All actions of the robots must be kinematically equivalent to humanoid motions.
 Based on $H_{top}$, the following size restrictions apply:
 
 \begin{itemize}
-\item 40 cm ${\leq}$ $H_{top}$ ${\leq}$ \removed{90} \added{XXX} cm to play in the KidSize class,
+\item 40 cm ${\leq}$ $H_{top}$ ${\leq}$ \removed{90} \added{100} cm to play in the KidSize class,
 \item \removed{80 cm ${\leq}$ $H_{top}$ ${\leq}$ 140 cm to play in the TeenSize class,}
-\item \removed{130} \added{XXX} cm ${\leq}$ $H_{top}$ ${\leq}$
-      \removed{180} \added{XXX} cm to play in the AdultSize class.
+\item \removed{130} \added{100} cm ${\leq}$ $H_{top}$ ${\leq}$
+      \removed{180} \added{200} cm to play in the AdultSize class.
 \end{itemize}
 
 $H_{top}$ is defined as the height of the robot when standing upright (with fully extended knees, cf. Fig. \ref{fig:bodyplan} right) and $H_{COM}$ denotes the height of the robot's centre of mass, measured in upright posture. $H_{top}$ is measured with the head of the robot oriented in such a way that it is tilted to either its maximum upwards tilt angle or the horizon line, whichever is lower.
@@ -73,10 +73,20 @@ $H_{top}$ is defined as the height of the robot when standing upright (with full
 {\bfseries Weight Restrictions (new)}
 
 \headlinebox
+
 \begin{itemize}
-\item The maximum weight for robots allowed to play in the \removed{TeenSize}
-      \added{KidSize} class is \removed{20} \added{XXX} kg.
-\item The minimum weight for robots allowed to play in the AdultSize class is 10 kg.
+\item \removed{The maximum weight for robots allowed to play in the TeenSize class is 20 kg.}
+\item \removed{The minimum weight for robots allowed to play in the AdultSize class is 10 kg.}
+\end{itemize}
+
+\added{
+The robot BMI, Body-Mass Index, is defined as following:
+$\mathrm{BMI} = \frac{M}{{H_{top}}^2}$,
+where $M$ is the mass of the robot in kg and $H_{top}$ its height in meters.
+The following restriction applies:
+}
+\begin{itemize}
+\item \added{$5 \leq \mathrm{BMI} \leq 30$}
 \end{itemize}
 
 \bigskip
