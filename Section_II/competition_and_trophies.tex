@@ -165,9 +165,14 @@ A team that forfeits is disqualified from the competition. Forfeiting is defined
 {\bfseries Kick-off procedure}
 
 \begin{itemize}
-\item The referee gives the signal ``READY'' that all robots have to reach their own half of the field. 
+\item The referee gives the signal ``READY'' that all robots have to reach their
+      own half of the field.
+      \added{During this phase, handlers are not allowed to interfer with the
+      robots.}
 \item After a period between 15 and 45 seconds the referee gives the signal ``SET''.
-      The referee calls robots illegally positioned to be removed with exception
+      The referee calls robots illegally positioned to be removed\added{.
+      Handlers are not allowed to remove or touch the legally positioned robots.}
+      \removed{with exception
       of the goal keeper and a striker for the team having kick-off that may be
       placed manually by the respective robot handler.
       The robot playing the goal keeper has to be announced before the beginning
@@ -179,7 +184,7 @@ A team that forfeits is disqualified from the competition. Forfeiting is defined
       A manually positioned striker can take any legal position within the team's own half.
       Removed players and all other players outside the field of play are placed
       on the touch line close to the penalty mark of the respective team's side,
-      facing the opposite touch line, to enter the field from there upon the ``PLAY'' signal.
+      facing the opposite touch line, to enter the field from there upon the ``PLAY'' signal.}
       Illegally positioned players do not suffer a removal penalty and are
       allowed to enter the field as soon as the game starts.
 \item The opponents of the team taking the kick-off are outside the centre circle until the ball is in play.
@@ -189,26 +194,39 @@ A team that forfeits is disqualified from the competition. Forfeiting is defined
       the referee or 10 seconds elapsed after the signal.
 \end{itemize}
 
-Robots being able to autonomously reposition themselves can take any position on the field that is consistent with the above requirements. It is not allowed to manually (re-)position an autonomously positioned robot that took a legal position, except for the goal keeper and the striker for kick-off or dropped ball, if applicable.
- 
-For initial kick-off (to initially start or restart after a half-time interval), robots can be placed anywhere on the touch lines or goal lines on the respective team's own side outside of the goal, facing the opposite touch line or goal line, to autonomously enter the field from there. For other kick-off situations robots need to position themselves from the the position they were when the game was stopped.
+\removed{Robots being able to autonomously reposition themselves can take any
+position on the field that is consistent with the above requirements.
+It is not allowed to manually (re-)position an autonomously positioned robot
+that took a legal position, except for the goal keeper and the striker for
+kick-off or dropped ball, if applicable.}
 
-Similar to a kick-off situation, one striker robot for each team may be placed manually for a dropped ball, if both teams can not position themselves automatically. The striker for dropped ball may be positioned at any legal position within the team's own half outside of the centre circle.
+\bigskip
+ 
+For initial kick-off (to initially start or restart after a half-time interval),
+robots can be placed anywhere on the touch lines or goal lines on the respective
+team's own side outside of the goal, facing the opposite touch line or goal line,
+to autonomously enter the field from there.
+For other kick-off situations \added{and for dropped ball} robots need to
+position themselves from the the position they were when the game was stopped.
 
 \bigskip
 
-If one or both of the teams in a match have permission to use a manual startup procedure, the referee gives the two signals ``SET'' and ``PLAY'' with an interval of exactly
+\removed{Similar to a kick-off situation, one striker robot for each team may be placed manually for a dropped ball, if both teams can not position themselves automatically. The striker for dropped ball may be positioned at any legal position within the team's own half outside of the centre circle.}
+
+\bigskip
+
+\removed{If one or both of the teams in a match have permission to use a manual startup procedure, the referee gives the two signals ``SET'' and ``PLAY'' with an interval of exactly
 10 seconds. Robot players without remote start capability may be started on the field after the ``SET'' signal. They may not move before the ``PLAY'' signal was given
 by the referee.
 Robots with autonomous positioning ability are given between 15 and 45 seconds
 for re-positioning after a goal has been scored by one of the teams before the
 ``SET'' signal for kick-off is given by the referee.
 All human team members must leave the field of play immediately after the
-``SET'' signal and before the ``PLAY'' signal.
+``SET'' signal and before the ``PLAY'' signal.}
 
-A team which uses manual kick-off and not kick-off with the referee box is punished by a penalty of having to wait for 15 seconds after the signal ``PLAY'' before they are
+\removed{A team which uses manual kick-off and not kick-off with the referee box is punished by a penalty of having to wait for 15 seconds after the signal ``PLAY'' before they are
 allowed to locomote. If such a team has kick-off then at the signal ``PLAY'' the referee immediately moves the ball from the kick-off position to a position somewhere on
-the centre line and outside of the centre circle and the ball is in play. This rule does not apply if the referee box is out of commission.
+the centre line and outside of the centre circle and the ball is in play. This rule does not apply if the referee box is out of commission.}
 
 \bigskip
 
