@@ -8,12 +8,12 @@ Part B: Goal-Kick from Moving Ball}
 
 \bigskip
 
-\added{The goal of the goal-kick from a moving ball challenge is to kick a moving ball
-into the goal. Results of the technical challenge are based on a batch of three runs.}
+The goal of the goal-kick from a moving ball challenge is to kick a moving ball
+into the goal. Results of the technical challenge are based on a batch of three runs.
 
 \bigskip
 
-\added{{\bfseries Run Setup}}
+{\bfseries Run Setup}
 
 \smallskip
 
@@ -24,93 +24,71 @@ into the goal. Results of the technical challenge are based on a batch of three 
 \end{center}
 \end{figure}
 
-\added{The initial setup of a run is presented in Fig.~\ref{fig:tc_dynamic_kick},
-procedure is as follows:}
+The initial setup of a run is presented in Fig.~\ref{fig:tc_dynamic_kick},
+procedure is as follows:
 
 
 \begin{enumerate}
-\item \added{The ball is placed on one corner of the field as chosen by the team taking the
-technical challenge.}
-\item \added{The robot $R_K$ is placed on the penalty mark.}
-\item \added{The pass of the ball may either be performed by a human member from the
+\item The ball is placed on one corner of the field as chosen by the team taking the
+technical challenge.
+\item The robot $R_K$ is placed on the penalty mark.
+\item The pass of the ball may either be performed by a human member from the
 team $H$ or another robot, $R_P$. If the pass is performed by a robot, the team
 may place $R_P$ after the referee has placed the ball. $R_p$ can be placed
-anywhere on the field, at least 1m away from the ball.}
-\item \added{The referee blows the whistle to start the run.}
-\item \added{Teams may start the robot $R_P$ manually by pressing a button when the
+anywhere on the field, at least 1m away from the ball.
+\item The referee blows the whistle to start the run.
+\item Teams may start the robot $R_P$ manually by pressing a button when the
 run starts. But $R_K$ must not be touched after the referee blew the whistle. If
 the pass is performed by a human, then the human is not allowed to wait before
 kicking. Once the whistle is blown the human as 2 seconds to kick the ball,
-otherwise the run is retaken.}
-\item \added{A chronometer is started when $R_P$ or $H$ kicks the ball.}
+otherwise the run is retaken.
+\item A chronometer is started when $R_P$ or $H$ kicks the ball.
 \end{enumerate}
 
-\added{{\bfseries Run evaluation}}
+{\bfseries Run evaluation}
 
 \smallskip
 
-\added{The chronometer is stopped when the run ends. The causes for the end of a run and
-the possible results are as following:}
+The chronometer is stopped when the run ends. The causes for the end of a run and
+the possible results are as following:
 \begin{itemize}
-\item \added{\textit{Failure}}
+\item \textit{Failure}
   \begin{itemize}
-    \item \added{The ball has been touched twice by $R_P$, $H$ or $R_K$.}
-    \item \added{$R_k$ executed the kick motion but failed to kick the ball.}
-    \item \added{The ball was kicked by $R_k$ but leaves the field without scoring a goal.}
+    \item The ball has been touched twice by $R_P$, $H$ or $R_K$.
+    \item $R_k$ executed the kick motion but failed to kick the ball.
+    \item The ball was kicked by $R_k$ but leaves the field without scoring a goal.
   \end{itemize}
-\item \added{\textit{Retake}}
+\item \textit{Retake}
   \begin{itemize}
-    \item \added{The ball stops rolling or leaves the field before $R_k$ attempted to kick.}
-    \item \added{The ball \emph{bounces} on $R_k$ rather than being kicked by $R_k$ and
-          $R_k$ did not try to execute the kick motion before.}
-    \item \added{The pass is performed by a human and the human did not kick 2 seconds after
-          the whistle was blown.}
+    \item The ball stops rolling or leaves the field before $R_k$ attempted to kick.
+    \item The ball \emph{bounces} on $R_k$ rather than being kicked by $R_k$ and
+          $R_k$ did not try to execute the kick motion before.
+    \item The pass is performed by a human and the human did not kick 2 seconds after
+          the whistle was blown.
   \end{itemize}
-\item \added{\textit{Partial success}}
+\item \textit{Partial success}
   \begin{itemize}
-    \item \added{Ball was kicked by $R_k$ but stopped rolling inside of the field.}
+    \item Ball was kicked by $R_k$ but stopped rolling inside of the field.
   \end{itemize}
-\item \added{\textit{Success}}
+\item \textit{Success}
   \begin{itemize}
-    \item \added{Ball was kicked by $R_k$ and a goal was scored.}
+    \item Ball was kicked by $R_k$ and a goal was scored.
   \end{itemize}
 \end{itemize}
 
-\added{{\bfseries Trials and ranking}}
+{\bfseries Trials and ranking}
 
-\added{A trial consists of three different runs, each run ending with a \textit{Retake}
+A trial consists of three different runs, each run ending with a \textit{Retake}
 is restarted and do not count. A trial is considered as successful if at least 2
 runs from the batch resulted in \textit{Success}. A trial is considered as
-partially successful if at least 2 runs resulted in \textit{Success} or \textit{Partial success}.}
+partially successful if at least 2 runs resulted in \textit{Success} or \textit{Partial success}.
 
-\added{The teams are ranked according to the following criteria on their best batch:}
+The teams are ranked according to the following criteria on their best batch:
 \begin{enumerate}
-\item \added{Number of \textit{Success} where the pass of the ball was executed by a robot}
-\item \added{Number of \textit{Success} where the pass of the ball was executed by a human}
-\item \added{Number of \textit{Partial success} where the pass of the ball was executed by a robot}
-\item \added{Number of \textit{Partial success} where the pass of the ball was executed by a human}
-\item \added{Average time for \textit{Success} runs, from first touch by $R_p$ or $H$ until goal is scored}
-\item \added{Average shortest distance to the goal line for \textit{Partial success} runs}
+\item Number of \textit{Success} where the pass of the ball was executed by a robot
+\item Number of \textit{Success} where the pass of the ball was executed by a human
+\item Number of \textit{Partial success} where the pass of the ball was executed by a robot
+\item Number of \textit{Partial success} where the pass of the ball was executed by a human
+\item Average time for \textit{Success} runs, from first touch by $R_p$ or $H$ until goal is scored
+\item Average shortest distance to the goal line for \textit{Partial success} runs
 \end{enumerate}
-
-
-\removed{
-The referee places the ball randomly on one corner of the goal area located on
-the goal line. The robot $R_K$ is placed on the penalty mark. The pass of the
-ball may either be performed by a human member from the team $H$ or another
-robot, $R_P$. If the pass is performed by a robot, the team may place $R_P$
-after the referee has placed the ball anywhere on the field not directly
-touching the ball. The referee blows the whistle to start the trial. Teams may
-start the robot $R_P$ manually by pressing a button when the trial starts.  }
-
-\removed{
-After the ball has been kicked by $R_P$ or the human, $R_K$ must
-make contact with it before the ball comes to a stop, otherwise the trial is
-unsuccessful. The trial is also unsuccessful if the ball leaves the field, $R_K$
-touched the ball without the ball moving, or after one minute has elapsed since
-the start of the trial. If after the ball contact the ball enters the goal, the
-trial is successful and the time is stopped at the moment the ball passed the
-goal line. Otherwise the trial is partially successful. Teams are first ranked
-by the time for fully successful trials and then by the shortest distance
-between the ball and the goal for partially successful trials.
-}
