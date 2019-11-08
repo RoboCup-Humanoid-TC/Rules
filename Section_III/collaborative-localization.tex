@@ -2,9 +2,75 @@
 \sffamily
 {\bfseries\color[rgb]{0.4,0.4,0.4} Part E: Collaborative Localization}
 \phantomsection
-\addcontentsline{toc}{subsection}{Part E: Collaborative Lozalization}
+\addcontentsline{toc}{subsection}{Part E: Collaborative Localization}
 
 
 \bigskip
 
-The goal of the collaborative localization challenge is ...
+The goal of the collaborative localization challenge is to have a  robot without a working vision system ($R_K$) to kick a ball
+into the goal with the help of another robot ($R_H$), which is able to see the ball and guide $R_K$ in this task. Results of the technical challenge are based on a batch of three runs.
+
+\bigskip
+
+{\bfseries Run Setup}
+
+\smallskip
+
+
+The initial setup of a run is as follows:
+
+\begin{enumerate}
+
+\item The helper robot $R_H$ is placed on the centre mark, looking in the direction of half the field as chosen by the team taking the technical challenge.
+
+\item The vision-less robot $R_K$ can be placed anywhere on the field, outside the goal area.
+
+\item The ball is placed anywhere on the half field that $R_H$ is able to see, by the referee, after the two robots were positioned.
+
+\item The referee blows the whistle to start the run.
+
+\item Teams may start the robots manually by pressing a button when the run starts. But robots must not be touched after the referee blew the whistle. 
+
+\item A chronometer is started when the referee blows the whistle.
+\end{enumerate}
+
+{\bfseries Run evaluation}
+
+\smallskip
+
+The chronometer is stopped when the run ends. The causes for the end of a run and
+the possible results are as following:
+\begin{itemize}
+\item \textit{Failure}
+  \begin{itemize}
+    \item The ball has not been touched by $R_K$ after 1 minute. 
+     \item The ball is touched by the helper robot $R_H$, at any moment. 
+  \end{itemize}
+\item \textit{Partial success}
+  \begin{itemize}
+    \item The ball was kicked by $R_K$ but leaves the field without scoring a goal.
+    \item The ball was kicked by $R_K$, stopped rolling inside of the field, and has not been touched by $R_K$ after 1 minute.
+  \end{itemize}
+\item \textit{Success}
+  \begin{itemize}
+    \item Ball was kicked by $R_K$ and a goal was scored.
+  \end{itemize}
+\end{itemize}
+
+{\bfseries Trials and ranking}
+
+A trial consists of three different runs. 
+
+During a run both robots $R_K$ and $R_H$ can move, but if the ball is touched by $R_H$ the run ends in Failure.
+
+A trial is considered as successful if at least 2
+runs from the batch resulted in \textit{Success}. A trial is considered as
+partially successful if at least 2 runs resulted in \textit{Success} or \textit{Partial success}.
+
+The teams are ranked according to the following criteria on their best batch:
+\begin{enumerate}
+\item Number of \textit{Success}.
+\item Number of \textit{Partial success}.
+\item Average time for \textit{Success} runs.
+\item Average shortest distance of the ball to the goal line for \textit{Partial success} runs
+\end{enumerate}
