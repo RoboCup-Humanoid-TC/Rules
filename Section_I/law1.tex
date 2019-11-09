@@ -242,9 +242,19 @@ Goals must be anchored securely to the ground. Portable goals may only be used i
 \begin{center}
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{img/field.png}
-\caption{Humanoid robot soccer field (not to scale)}
+\caption{\removed{Humanoid robot soccer field (not to scale)}}
 \end{figure}
 \end{center}
+\begin{figure}[h]
+  \centering
+  \input{Section_I/kid_field.tex}
+  \caption{\added{Humanoid robot soccer field: Kid Size (scale: 1/80)}}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \input{Section_I/adult_field.tex}
+  \caption{\added{Humanoid robot soccer field: Adult Size (scale: 1/100)}}
+\end{figure}
 \newpage
 
 \begin{center}
@@ -268,13 +278,17 @@ D & Goal width & \multicolumn{2}{c|}{2.6 m}\\
 \hline
 E & Goal area length & \multicolumn{2}{c|}{1 m}\\
 \hline
-F & Goal area width & \multicolumn{2}{c|}{5 m}\\
+F & Goal area width & \added{3 m} \removed{5 m} & \added{4 m} \removed{5 m}\\
 \hline
 G & Penalty mark distance & 1.5 m & 2.1 m\\
 \hline
 H & Centre circle diameter & 1.5 m & 3 m\\
 \hline
 I & Border strip width (min.) & 0.7 m & 1 m\\
+\hline
+\added{J} & \added{Penalty area length} & \added{2 m} & \added{3 m}\\
+\hline
+\added{K} & \added{Penalty area width} & \added{5 m} & \added{6 m}\\
 \hline
 \end{tabular}
 \end{table}
