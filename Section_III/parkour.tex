@@ -50,6 +50,7 @@ the possible results are as following:
 \item \textit{Partial success}
   \begin{itemize}
     \item The robot is able to go up the platform, with both the feet touching thread (the top of the platform), but falls before being able to go down.
+     \item The robot is able to go up the platform, with both the feet touching thread (the top of the platform), and, to prevent the robot from falling, a human handler touches the robot at this moment.
   \end{itemize}
 \item \textit{Success}
   \begin{itemize}
@@ -61,6 +62,8 @@ the possible results are as following:
 
 \smallskip
 
+Teams are ranked based on their best 2 consecutive results.
+
 A trial is considered as successful if at least 2 runs in a row resulted in \textit{Success}. A trial is considered as
 partially successful if at least 2 runs in a row resulted in \textit{Success} or \textit{Partial success}.
 
@@ -69,4 +72,5 @@ The teams are ranked according to the following criteria on their best batch:
 \item The maximum height the robot successfully managed to achieve on a \textit{Successful} trial divided by the height of the robot.
 \item The maximum height the robot managed to achieve on a \textit{Partially Successful} trial divided by the height of the robot.
 \item Average time of a \textit{Successful} trial.
+\item Average time of a \textit{Partially Successful} trial.
 \end{enumerate}
