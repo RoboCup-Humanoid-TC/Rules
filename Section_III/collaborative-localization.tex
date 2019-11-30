@@ -1,0 +1,176 @@
+\clearpage
+\sffamily
+{\bfseries\color[rgb]{0.4,0.4,0.4} \added{Part A: Collaborative Localization
+  (KidSize only)}}
+\phantomsection
+\addcontentsline{toc}{subsection}{Part A: Collaborative Localization (KidSize only)}
+
+
+\bigskip
+\added{
+
+The goal of the collaborative localization challenge is to have a  robot without a working vision system ($R_K$) to kick a ball
+into the goal with the help of another robot ($R_H$), which is able to see the ball and guide $R_K$ in this task. Results of the technical challenge are based on a batch of three runs.
+
+\bigskip
+
+{\bfseries Run Setup}
+
+\smallskip
+
+
+The initial setup of a run is as follows:
+
+\begin{enumerate}
+
+\item The vision-less robot $R_K$ is placed inside the centre circle by the team taking the technical challenge.
+
+\item The helper robot $R_H$ is placed anywhere inside the field by the team taking the technical challenge.
+
+\item The ball is placed roughly on the segment parallel to the goal line passing through the penalty mark, between the two goal posts, by the referee, after the two robots were positioned (Fig. \ref{fig:tc_collaborative}).
+
+\item The referee blows the whistle to start the run.
+
+\item Teams may start the robots manually by pressing a button when the run starts. But robots must not be touched after the referee blew the whistle. 
+
+\item A chronometer is started when the referee blows the whistle.
+\end{enumerate}
+
+{\bfseries Run evaluation}
+
+\smallskip
+
+The chronometer is stopped when the run ends. The causes for the end of a run and
+the possible results are as following:
+\begin{itemize}
+\item \textit{Failure}
+  \begin{itemize}
+    \item The ball has not been touched by $R_K$ after 2 minute. 
+     \item The ball is touched by the helper robot $R_H$, at any moment. 
+  \end{itemize}
+\item \textit{Partial success}
+  \begin{itemize}
+    \item The ball was kicked by $R_K$ but leaves the field without scoring a goal.
+    \item The ball was kicked by $R_K$, stopped rolling inside of the field, and has not been touched again by $R_K$ after 2 minute.
+  \end{itemize}
+\item \textit{Success}
+  \begin{itemize}
+    \item The ball was kicked by $R_K$ and a goal was scored.
+  \end{itemize}
+\end{itemize}
+
+{\bfseries Trials and ranking}
+
+\smallskip
+
+A trial consists of three different runs. 
+
+During a run both robots $R_K$ and $R_H$ can move, but if the ball is touched by $R_H$ the run ends in Failure.
+
+A trial is considered as successful if at least 2
+runs from the batch resulted in \textit{Success}. A trial is considered as
+partially successful if at least 2 runs resulted in \textit{Success} or \textit{Partial success}.
+
+The teams are ranked according to the following criteria on their best batch:
+\begin{enumerate}
+\item Number of \textit{Success}.
+\item Number of \textit{Partial success}.
+\item Average time for \textit{Success} runs.
+\item Average shortest distance of the ball to the goal line for \textit{Partial success} runs.
+\end{enumerate}
+
+
+
+
+\newcommand{\drawingScale}{0.0125}
+
+% args: src(point) dst(point) sideLength orientation label
+\newcommand{\annotation}[5]{
+  \draw[thick] ($#1$) -- ($#1 + (#3:#4)$);
+  \draw[thick] ($#2$) -- ($#2 + (#3:#4)$);
+  \draw[<->, thick] ($#1 + (#3:#4/2)$) -- ($#2 + (#3:#4/2)$); 
+  \node at ($#1!0.5!#2 + (#3:#4)$) {#5};
+}
+
+% goalCenter goalWidth goalDepth goalDir
+\newcommand{\drawGoal}[4]{
+  \draw[goalLine]
+  ($#1 + (90+#4:#2/2)$) --
+  ($#1 + (90+#4:#2/2) + (180+#4:#3+\goalLineWidth/2)$) --
+  ($#1 + (-90+#4:#2/2) + (180+#4:#3+\goalLineWidth/2)$) --
+  ($#1 + (-90+#4:#2/2)$);
+}
+
+%pos, size
+\newcommand{\drawPenaltyMark}[2]{
+  \draw[fieldLine] ($#1 + (180:#2/2)$) -- ($#1 + (0:#2/2)$);
+  \draw[fieldLine] ($#1 + (90:#2/2)$) -- ($#1 + (270:#2/2)$);
+}
+
+
+\begin{figure}[h]
+\begin{center}
+\begin{tikzpicture}
+  [
+  x=\drawingScale*100cm,
+  y=\drawingScale*100cm,
+  fieldLine/.style = {line width=\drawingScale* 5cm, color=white},
+  goalLine/.style = {line width=\drawingScale * 10cm, color=white}
+  ]
+  \tikzmath{
+    \borderStrip=0.7;
+    \fieldLength=9.0;
+    \fieldWidth=6.0;
+    \goalDepth=0.6;
+    \goalWidth=2.6;
+    \goalAreaLength=1.0;
+    \goalAreaWidth=5.0;
+    \penaltyMarkDist=1.5;
+    \penaltyMarkLength=0.25;
+    \centerCircleDiameter=1.5;
+    \fieldLineWidth=.05;
+    \goalLineWidth=.1;
+    \arenaWidth=\fieldWidth+2*\borderStrip;
+    \arenaLength=\fieldLength+2*\borderStrip;
+    \hflw=\fieldLineWidth/2;%HalfFieldLineWidth
+  }
+  \coordinate (center) at (0,0);
+  % Corners of the field
+  \coordinate (fieldBL) at ($(-\fieldLength/2,-\fieldWidth/2)$);
+  \coordinate (fieldBR) at ($( \fieldLength/2,-\fieldWidth/2)$);
+  \coordinate (fieldTL) at ($(-\fieldLength/2, \fieldWidth/2)$);
+  \coordinate (fieldTR) at ($( \fieldLength/2, \fieldWidth/2)$);
+  % GoalCenters
+  \coordinate (goalL) at ($(-\fieldLength/2, 0)$);
+  \coordinate (goalR) at ($( \fieldLength/2, 0)$);
+  % Penalty Marks
+  \coordinate (penaltyMarkL) at ($(-\fieldLength/2 + \penaltyMarkDist, 0)$);
+  \coordinate (penaltyMarkR) at ($( \fieldLength/2 - \penaltyMarkDist, 0)$);
+  % Fill Arena
+  \fill[black!40!green] ($(-\arenaLength/2, -\arenaWidth/2)$) rectangle ($(\arenaLength/2, \arenaWidth/2)$);
+  % Borders of the field
+  \draw[fieldLine] ($(fieldBL) + (\hflw,\hflw)$) rectangle
+  ($(fieldTR) - (\hflw,\hflw)$);
+  % Center line
+  \draw[fieldLine] ($(0, -\fieldWidth/2 + \hflw)$) rectangle ($(0, \fieldWidth/2 - \hflw)$);
+  % Goals
+  \drawGoal{(goalL)}{\goalWidth}{\goalDepth}{0};
+  \drawGoal{(goalR)}{\goalWidth}{\goalDepth}{180};
+  % Goal areas
+  \draw[fieldLine] ($(-\fieldLength/2+\hflw,-\goalAreaWidth/2+\hflw)$)
+  rectangle ($(-\fieldLength/2-\hflw+\goalAreaLength,\goalAreaWidth/2-\hflw)$);
+  \draw[fieldLine] ($(\fieldLength/2-\hflw,-\goalAreaWidth/2+\hflw)$)
+  rectangle ($(\fieldLength/2+\hflw-\goalAreaLength,\goalAreaWidth/2-\hflw)$);
+  % Penalty marks
+  \drawPenaltyMark{(penaltyMarkL)}{\penaltyMarkLength}
+  \drawPenaltyMark{(penaltyMarkR)}{\penaltyMarkLength}
+  % Center circle
+  \draw[fieldLine] (center) circle (\centerCircleDiameter/2 - \fieldLineWidth/2);
+  \drawPenaltyMark{(center)}{\penaltyMarkLength}
+
+  \draw[color=red, line width=3pt] ($(penaltyMarkR) + (90:1.3) + (180:0.25)$) rectangle ($(penaltyMarkR) + (-90:1.3) + (0:0.25)$);
+\end{tikzpicture}
+\end{center}
+\caption{\label{fig:tc_collaborative}Ball initial location for the collaborative localization  challenge.}
+\end{figure}
+}

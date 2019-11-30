@@ -26,6 +26,8 @@
 \makeatletter
 \newcommand\arraybslash{\let\\\@arraycr}
 \makeatother
+\usepackage{tikz}
+\usetikzlibrary{backgrounds,arrows,calc,math,positioning,shapes, decorations.markings,decorations.pathreplacing}
 
 % Page layout (geometry)
 \usepackage[modulo]{lineno}
@@ -51,7 +53,7 @@
 
 %Uncomment for changes marked
 \newcommand{\removed}[1]{\textcolor{blue}{\sout{#1}}}
-\newcommand{\added}[1]{{\color{magenta}#1}}
+\newcommand{\added}[1]{{\color{magenta}{#1}}}
 
 % Uncomment for changes not marked
 %\newcommand{\removed}[1]{}
@@ -285,6 +287,7 @@ Rules for RoboCup Humanoid League Technical Challenges}
 
 \input{Section_III/general-rules}
 \input{Section_III/push-recovery}
+\input{Section_III/collaborative-localization}
 \input{Section_III/moving-ball}
 \input{Section_III/parkour.tex}
 \input{Section_III/high-kick}
