@@ -118,13 +118,15 @@ The teams are ranked according to the following criteria on their best batch:
   goalLine/.style = {line width=\drawingScale * 10cm, color=white}
   ]
   \tikzmath{
-    \borderStrip=0.7;
+    \borderStrip=1;
     \fieldLength=9.0;
     \fieldWidth=6.0;
     \goalDepth=0.6;
     \goalWidth=2.6;
     \goalAreaLength=1.0;
-    \goalAreaWidth=5.0;
+    \goalAreaWidth=3.0;
+    \penaltyAreaLength=2.0;
+    \penaltyAreaWidth=5.0;
     \penaltyMarkDist=1.5;
     \penaltyMarkLength=0.25;
     \centerCircleDiameter=1.5;
@@ -161,6 +163,11 @@ The teams are ranked according to the following criteria on their best batch:
   rectangle ($(-\fieldLength/2-\hflw+\goalAreaLength,\goalAreaWidth/2-\hflw)$);
   \draw[fieldLine] ($(\fieldLength/2-\hflw,-\goalAreaWidth/2+\hflw)$)
   rectangle ($(\fieldLength/2+\hflw-\goalAreaLength,\goalAreaWidth/2-\hflw)$);
+  % Penalty areas
+  \draw[fieldLine] ($(-\fieldLength/2+\hflw,-\penaltyAreaWidth/2+\hflw)$)
+  rectangle ($(-\fieldLength/2-\hflw+\penaltyAreaLength,\penaltyAreaWidth/2-\hflw)$);
+  \draw[fieldLine] ($(\fieldLength/2-\hflw,-\penaltyAreaWidth/2+\hflw)$)
+  rectangle ($(\fieldLength/2+\hflw-\penaltyAreaLength,\penaltyAreaWidth/2-\hflw)$);
   % Penalty marks
   \drawPenaltyMark{(penaltyMarkL)}{\penaltyMarkLength}
   \drawPenaltyMark{(penaltyMarkR)}{\penaltyMarkLength}
