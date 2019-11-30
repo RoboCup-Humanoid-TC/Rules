@@ -151,14 +151,22 @@ must be able to play if the network is of low quality. Only robots are allowed t
 \bigskip
 
 Robots in play may communicate with each other at any time during a game.
-Robots not currently in play may only send status updates about their own
-internal hardware or software functionality over the network.
-They may not communicate any game relevant information.
-Any kind of transmission from an external computer or an out of play robot to
-the playing robots is prohibited.
+\removed{
+  Robots not currently in play may only send status updates about their own
+  internal hardware or software functionality over the network.
+  They may not communicate any game relevant information.
+}
+Any kind of transmission from an external computer
+\removed{or an out of play robot} to the playing robots is prohibited.
 This implies that any monitoring is only done by receiving UDP communication
 from the robots using an external computer connected by tethered LAN to the
 official wireless router. 
+
+\added{
+  Substitutes robots should always be turned away from the field in order to
+  ensure they are not accidentally or purposfully sending game-relevant
+  information to the robots in play. 
+}
 
 \bigskip
 
