@@ -189,10 +189,10 @@ A team that forfeits is disqualified from the competition. Forfeiting is defined
       Handlers are not allowed to remove or touch the legally positioned robots.}
       \removed{with exception
       of the goal keeper and a striker for the team having kick-off that may be
-      placed manually by the respective robot handler.
+      placed manually by the respective robot handler.}
       The robot playing the goal keeper has to be announced before the beginning
       of the game.
-      The striker can be chosen after the end of the ``READY'' phase among all
+      \removed{The striker can be chosen after the end of the ``READY'' phase among all
       robots of the team (even those being called for illegal positioning).
       A manually placed goal keeper has to be within the team's own goal area
       touching the goal line.
@@ -209,9 +209,9 @@ A team that forfeits is disqualified from the competition. Forfeiting is defined
       the referee or 10 seconds elapsed after the signal.
 \end{itemize}
 
-\removed{Robots being able to autonomously reposition themselves can take any
+Robots \removed{being able to autonomously reposition themselves} can take any
 position on the field that is consistent with the above requirements.
-It is not allowed to manually (re-)position an autonomously positioned robot
+\removed{It is not allowed to manually (re-)position an autonomously positioned robot
 that took a legal position, except for the goal keeper and the striker for
 kick-off or dropped ball, if applicable.}
 
@@ -232,12 +232,12 @@ position themselves from the the position they were when the game was stopped.
 
 \removed{If one or both of the teams in a match have permission to use a manual startup procedure, the referee gives the two signals ``SET'' and ``PLAY'' with an interval of exactly
 10 seconds. Robot players without remote start capability may be started on the field after the ``SET'' signal. They may not move before the ``PLAY'' signal was given
-by the referee.
+by the referee.}
 Robots with autonomous positioning ability are given between 15 and 45 seconds
 for re-positioning after a goal has been scored by one of the teams before the
 ``SET'' signal for kick-off is given by the referee.
 All human team members must leave the field of play immediately after the
-``SET'' signal and before the ``PLAY'' signal.}
+``SET'' signal and before the ``PLAY'' signal.
 
 \removed{A team which uses manual kick-off and not kick-off with the referee box is punished by a penalty of having to wait for 15 seconds after the signal ``PLAY'' before they are
 allowed to locomote. If such a team has kick-off then at the signal ``PLAY'' the referee immediately moves the ball from the kick-off position to a position somewhere on
@@ -516,7 +516,8 @@ Removal of incapable players has to be enforced strictly.
 {\bfseries Communication}
 
 Teams are strongly encouraged to implement the mitecom team communication protocol which is available at \\
-\textcolor[rgb]{0.0,0.0,0.49803922}{https://github.com/RoboCup-Humanoid-TC/mitecom}
+\textcolor[rgb]{0.0,0.0,0.49803922}{https://github.com/RoboCup-Humanoid-TC/mitecom} 
+\added{or the Protobuf-based communication protocol which can be found at TODO\\}
 
 \bigskip
  
@@ -561,9 +562,10 @@ Assuming teams with player 1 to score a single goal in every game (with player 1
 The technical challenges consist of:
 
 \begin{enumerate}
-\item Push Recovery (KidSize\removed{, TeenSize} and AdultSize)
+\item Push Recovery (\removed{KidSize, TeenSize and} AdultSize)
+\item \added{Collaborative Localization (KidSize)}
 \item Goal Kick from Moving Ball (KidSize\removed{, TeenSize} and AdultSize)
-\item High Jump (KidSize \removed{and TeenSize} and AdultSize)
+\item \added{Parkour (KidSize and AdultSize)} \removed{High Jump (KidSize and TeenSize and AdultSize)}
 \item High-Kick (KidSize\removed{, TeenSize} and AdultSize)
 \end{enumerate}
 
@@ -659,4 +661,4 @@ Doubts concerning a serious violation of any rule during a specific game must be
 
 These rules evolved from previous versions of the RoboCup Humanoid League rules. We would like to thank Henry Yen for the conversion of the rules into a basic LaTeX version in 2010. The 2008 version of the rules was compiled by Pasan Kulvanit and Oskar von Stryk, the 2007 version of the rules by Emanuele Menegatti and the 2006 version by Sven Behnke, who did a remarkable job improving the rule document and gearing it towards the FIFA Laws of the Game. The improvements of the 2005 version were compiled by Norbert Michael Mayer. Philipp Allgeuer significantly contributed to the conversion of the 2017 rule book to LaTeX.  Other input came earlier from the rules of the RoboCup MiddleSize and Four-Legged Leagues.
 
-The rules were continuously discussed within the technical committee of the humanoid league and also on the humanoid league mailing list. The following members of the technical committee for 2019 were responsible for the rule evolution: Jacky Baltes, Hafez Farazi, Reinhard Gerndt, Ludovic Hofer, Maike Paetzel, Soroush Sadeghnejad and Michael Sattler. Special thanks go to Martin Friedmann, Sebastian Mielke and Timon Giese for the contribution of several figures and to Philipp Allgeuer for his contributions to the 2019 version of the rules.
+The rules were continuously discussed within the technical committee of the humanoid league and also on the humanoid league mailing list. The following members of the technical committee for 2020 were responsible for the rule evolution: Jacky Baltes, Reinaldo Bianchi, Reinhard Gerndt, Wang Hao, Ludovic Hofer, Maike Paetzel and Soroush Sadeghnejad. Special thanks go to Martin Friedmann, Sebastian Mielke and Timon Giese for the contribution of several figures and to Philipp Allgeuer for his contributions to the 2019 version of the rules.
