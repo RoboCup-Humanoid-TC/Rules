@@ -428,7 +428,19 @@ significant changes to robot positions or heading directions. Untangled robots m
 \begin{itemize}
 \item Time penalties of 30 seconds for players are called by the referee. When a penalty is called, the designated robot handler has to remove the robot as soon as possible and by that interacting as little as possible with the game. 
 \item The referee and assistant referees are in charge of timing the penalties and notifying the teams to put back their robots to play.
-\item A field player or goal keeper suffering a time penalty will be removed from the field and is only allowed to re-enter the field from the team's own half of the field close to the penalty mark facing the opposite touch line, as indicated by the referee.
+\item A field player or goal keeper suffering a time penalty will be removed from the field and is only allowed to re-enter the field from the team's own half of the field close to the penalty mark facing the opposite touch line, as indicated by the referee.  \added{The referee chooses the touch line further away from the ball if there
+is still an empty spot available. The first spot for a penalized robot on
+the touch line is on the same height of the penalty mark. Every consecutive
+spot is 60 cm (KidSize) or 100 cm (AdultSize) away from the previous
+position, either towards the team's own goal line or towards the center
+line. A valid position must be at least 30 cm (KidSize) or 50 cm (AdultSize)
+away from the goal line and center line. A position is considered as being
+taken if a robot from any team is within a radius of 30 cm (KidSize) or 50
+cm (AdultSize) of the penalty position. The referee always positions the
+robot on the penalty spot closest to the penalty mark. If two positions are
+available that are equally close, the referee chooses the position that is
+further away from the ball.
+}
 \item After the robot has been placed at the position indicated by the referee
       and with both feet entirely outside the field of play the robot handler
       announces to the assistant referee that the robot is ready to get back in.
