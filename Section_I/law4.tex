@@ -15,7 +15,7 @@ A player must not use equipment or wear anything that is dangerous to himself or
 
 \bigskip
 
-{\bfseries The Design of the Robots (new)}
+{\bfseries The Design of the Robots\simplify{ (new)}}
 
 \headlinebox
 
@@ -23,7 +23,7 @@ Robots participating in the Humanoid League competitions must have a human-like 
 
 \bigskip
 
-(new:) Robots in \added{KidSize} \removed{kid and teen size sub-leagues} must be
+(new:) Robots competing in the physical KidSize competition must be
 equipped with a handle, to be picked up safely and with no harm to the robot and
 the handler.
 
@@ -39,7 +39,7 @@ the handler.
 
 
 The robots must be able to stand upright on their feet and to walk on their legs.
-KidSize \removed{and TeenSize} robots need to be able to recover from a fall
+KidSize robots need to be able to recover from a fall
 (get back to a standing position).
 The only allowed modes of locomotion are bipedal walking, running and jumping.
 
@@ -49,49 +49,42 @@ All actions of the robots must be kinematically equivalent to humanoid motions.
 
 \bigskip
 
-Robots must be equipped with an emergency stop button that makes the robot immediately desist with all motions, or ideally go limp and/or cut power to the actuators. In addition to the emergency stop button, robots may only have up to two additional physical or virtual buttons: One to start the robot behaviour and one to stop the behaviour. The buttons must be clearly labeled. If the robot has more buttons that cannot be detached, they must be visibly masked during the games.
+Robots competing in the physical competition must be equipped with an emergency stop button that makes the robot immediately desist with all motions, or ideally go limp and/or cut power to the actuators. In addition to the emergency stop button, robots may only have up to two additional physical or virtual buttons: One to start the robot behaviour and one to stop the behaviour. The buttons must be clearly labeled. If the robot has more buttons that cannot be detached, they must be visibly masked during the games.
+Body parts of robots competing in the virtual competition that are considered feet and arms must be marked in the virtual robot models.
 
 \bigskip
 
-{\bfseries Robot Height (new)}
+{\bfseries Robot Height\simplify{ (new)}}
 
 \headlinebox
 
 Based on $H_{top}$, the following size restrictions apply:
 
 \begin{itemize}
-\item 40 cm ${\leq}$ $H_{top}$ ${\leq}$ \removed{90} \added{100} cm to play in the KidSize class,
-\item \removed{80 cm ${\leq}$ $H_{top}$ ${\leq}$ 140 cm to play in the TeenSize class,}
-\item \removed{130} \added{100} cm ${\leq}$ $H_{top}$ ${\leq}$
-      \removed{180} \added{200} cm to play in the AdultSize class.
+\item 40 cm ${\leq}$ $H_{top}$ ${\leq}$ 100 cm to play in the KidSize class,
+\item 100 cm ${\leq}$ $H_{top}$ ${\leq}$ 200 cm to play in the AdultSize class.
 \end{itemize}
 
 $H_{top}$ is defined as the height of the robot when standing upright (with fully extended knees, cf. Fig. \ref{fig:bodyplan} right) and $H_{COM}$ denotes the height of the robot's centre of mass, measured in upright posture. $H_{top}$ is measured with the head of the robot oriented in such a way that it is tilted to either its maximum upwards tilt angle or the horizon line, whichever is lower.
 
 \bigskip
 
-{\bfseries Weight Restrictions (new)}
+{\bfseries Weight Restrictions\simplify{ (new)}}
 
 \headlinebox
 
-\begin{itemize}
-\item \removed{The maximum weight for robots allowed to play in the TeenSize class is 20 kg.}
-\item \removed{The minimum weight for robots allowed to play in the AdultSize class is 10 kg.}
-\end{itemize}
-
-\added{
 The robot's Body-Mass Index (BMI) is defined as follows:
 $\mathrm{BMI} = \frac{M}{{H_{top}}^2}$,
 where $M$ is the mass of the robot in kg and $H_{top}$ its height in meters.
 The following restriction applies:
-}
+
 \begin{itemize}
-\item \added{$5 \leq \mathrm{BMI} \leq 30$}
+\item $5 \leq \mathrm{BMI} \leq 30$
 \end{itemize}
 
 \bigskip
 
-{\bfseries Size Restrictions (new)}
+{\bfseries Size Restrictions\simplify{ (new)}}
 
 \headlinebox
 
@@ -109,8 +102,7 @@ All robots participating in the Humanoid League must comply with the following r
 \item The robot does not possess a configuration where it is extended longer than 1.5{\textperiodcentered}$H_{top}$ .
 \item The length of the legs $H_{leg}$, including the feet, satisfies 0.35{\textperiodcentered}$H_{top}$ ${\leq}$ $H_{leg}$ ${\leq}$ 0.7{\textperiodcentered}$H_{top}$ .
 \item The height of the head $H_{head}$, including the neck,
-  satisfies \added{$0.1 \cdot H_{top} \leq H_{head} \leq 0.3 \cdot H_{top}$}\\
-  \removed{$0.05 \cdot H_{top} \leq H_{head} \leq 0.25 \cdot H_{top}$}.
+  satisfies $0.1 \cdot H_{top} \leq H_{head} \leq 0.3 \cdot H_{top}$.
   $H_{head}$ is defined as the vertical distance from the axis of the first arm
   joint at the shoulder to the top of the head.
 \item The leg length is measured while the robot is standing up straight. The length is measured from the first rotating joint where its axis lies in the plane parallel to the standing ground to the tip of the foot.
@@ -118,16 +110,16 @@ All robots participating in the Humanoid League must comply with the following r
 \end{itemize}
 
 
-{\bfseries Sensors (new)}
+{\bfseries Sensors\simplify{ (new)}}
 
 \headlinebox
 
 Teams participating in the Humanoid League competitions are encouraged to equip their robots with sensors that have an equivalent in human senses. These sensors must be placed at a position roughly equivalent to the location of the human{\textquoteright}s biological sensors. In particular, 
 
 \begin{itemize}
-\item The only active external sensor allowed is sound
+\item In the virtual competition, no active external sensors may be used during the game. In the physical competition, the only active external sensor allowed is sound
 (``human-like'' with respect to volume and frequency) with one loudspeaker on the robot. The loudspeaker may be placed in the head, neck or trunk of the robot. Any
-other active sensor (emitting light, sound, or electromagnetic waves into the environment in order to measure reflections) is not allowed. 
+other active sensor (emitting light, sound, or electromagnetic waves into the environment in order to measure reflections) is not allowed.
 \item External sensors, such as cameras and up to two microphones, may not be placed in the legs or arms or the
 torso of the robots. They must be placed in the robot's
 head and above any neck joint. 
@@ -137,7 +129,7 @@ head and above any neck joint.
 \item Sensors inside the robot may measure all quantities representing the local state of the system, including (but not limited to) voltages, currents, forces, movements, accelerations, and rotational speeds. They can be at any position inside the robot. Measurements from earth magnetic field sensors may not be used in the software and - in case of doubt - the code must be made available to members of the Technical Committee for inspection.
 \end{itemize}
 
-{\bfseries Communication and Control (new)}
+{\bfseries Communication and Control\simplify{ (new)}}
 
 \headlinebox
 
@@ -145,33 +137,26 @@ Robots participating in the Humanoid League competitions must act autonomously w
 
 \bigskip
 
-Robots may communicate only via the wireless network provided by the organizers, which must support the referee box. The total bandwidth of the robots belonging to one team may not exceed 1 Mbit/s. The robots must not rely on the quality of the wireless network. They
-must be able to play if the network is of low quality. Only robots are allowed to communicate by WLAN. Any other computers of team members are only allowed to communicate by tethered LAN. No other wireless communication is allowed onsite. All other wireless hardware must be deactivated. A team may be disqualified if one of the team members violates this rule.
+Robots may communicate only via the (wireless) network provided by the organizers, which must support the referee box. The total bandwidth of each robot belonging to one team may not exceed 1 Mbit/s. In the virtual competition, teams will not be able to monitor the robot communication and receive debug messages during an ongoing simulation. In the physical competition, the robots must not rely on the quality of the wireless network. They
+must be able to play if the network is of low quality. During a physical competition, only robots are allowed to communicate by WLAN. Any other computers of team members are only allowed to communicate by tethered LAN. No other wireless communication is allowed onsite. All other wireless hardware must be deactivated. A team may be disqualified if one of the team members violates this rule.
 
 \bigskip
 
 Robots in play may communicate with each other at any time during a game.
-\removed{
-  Robots not currently in play may only send status updates about their own
-  internal hardware or software functionality over the network.
-  They may not communicate any game relevant information.
-}
-Any kind of transmission from an external computer
-\removed{or an out of play robot} to the playing robots is prohibited.
-This implies that any monitoring is only done by receiving UDP communication
+Any kind of transmission from an external computer to the playing robots is prohibited. 
+During a physical event, this implies that any monitoring is only done by receiving UDP communication
 from the robots using an external computer connected by tethered LAN to the
-official wireless router. 
+official wireless router.
 
-\added{
-  Substitute robots need to be turned away from the field in order to
-  ensure they are not accidentally or purposefully sending game-relevant
-  information to the robots in play. 
-}
+Substitute robots in a physical competition need to be turned away from the field in order to
+ensure they are not accidentally or purposefully sending game-relevant
+information to the robots in play.
+
 
 \bigskip
 
 Sending any direct or indirect transmission from an external computer to the
-robots has to take place during a timeout or any form of temporal absence and
+robots is not possible during a virtual game. During a physical game, it has to take place during a timeout or any form of temporal absence and
 outside the field of play.
 Any time the robot handler or another team member is touching the robot,
 a cable is connected or another form of communication with the robot
@@ -183,13 +168,14 @@ handler attempts to service the robot again.
 \bigskip
 
 
-Teams may not use any type of communication, excluding verbal communication,
+Teams may not use any type of communication
 with robots in play, in service or with robots serving their 30 seconds penalty
 time that contains information which reduces the need for autonomy in detecting
 the current game state of the robots, including the position of the ball,
 the location where the robot re-enters the field,
 the orientation of the robots own or opponents goal,
 and the position of team members or opponents.
+In a physical game, verbal communication is excluded from this rule.
 In case of doubt that a team violates this rule,
 the code must be made available to members of the Technical Committee for inspection.
 
@@ -199,23 +185,22 @@ During the game an official game controller/referee box will be used.
 It uses UDP to broadcast information to the robots like elapsed time,
 current score, game state (ready, set, playing, finished) and the robot-specific
 penalized state. The source code is open.
-\added{Teams have to be able to use the referee box in order to respect the rules.}
-\removed{To encourage teams to use the referee box, 15 seconds advantage is
-given to teams using the referee box in any stoppage of the game.}
+Teams have to be able to use the referee box in order to respect the rules.
 
 
 
 \bigskip
 
-In KidSize \removed{and TeenSize}, no humans are allowed on the field while the
+In KidSize, no humans are allowed on the field while the
 ball is in play.
-Robot handlers stay in a designated area and must receive permission from the
+During a phyiscal game, robot handlers stay in a designated area and must receive permission from the
 referee prior to entering the field.
 Each team may designate only one person as robot handler.
 The robot handler of a team may not touch a robot of another team in order to
-avoid any (unintentional or intentional) damage to that robot. 
+avoid any (unintentional or intentional) damage to that robot.
 
 \bigskip
+
 
 The source code of the game controller/referee box is available from
 
@@ -264,8 +249,13 @@ The basic compulsory equipment of a player comprises the following separate item
 \headlinebox
 
 \begin{itemize}
-\item (new) Robots must be mostly black or of dark grey colour (i.e. RAL 7011 Iron Grey or darker) and non reflective. Robots may also be coloured in aluminimum-like silver, grey or white but then their feet must be coloured black. Any colour used for the field (green, white) or colours similar to the opponent team's team markers must be avoided. Arms, legs and bodies of the robot must be of solid shape appearance.
-\item (new) The robots must be marked with team markers.
+\item \simplify{ (new) }Robots must be mostly black or of dark grey colour (i.e.
+  RAL 7011 Iron Grey or darker) and non reflective. Robots may also be coloured
+  in aluminimum-like silver, grey or white but then their feet must be coloured
+  black. Any colour used for the field (green, white) or colours similar to the
+  opponent team's team markers must be avoided. Arms, legs and bodies of the
+  robot must be of solid shape appearance.
+\item \simplify{(new) }The robots must be marked with team markers.
       These markers are coloured red for one team and blue for the other team.
       The total visible area of all team markers (up to 20) on the robot's arms,
       legs and chest combined must be at least $0.06\cdot {H_{top}}^2$.
@@ -273,7 +263,7 @@ The basic compulsory equipment of a player comprises the following separate item
       (left, right, front and back) must be at least $0.015\cdot {H_{top}}^2$.
       If both teams cannot agree, which team colour to use, a coin will be
       flipped an hour prior to the game to assign the team colours.
-\item (new) The robots of each team must be uniquely identifiable. They must be marked with numbers or names. The goal keeper robot must be marked uniquely that it can be easily distinguished from the other robots of a team by the referees. 
+\item (new) The robots of each team must be uniquely identifiable. They must be marked with numbers or names. The goal keeper robot must be marked uniquely that it can be easily distinguished from the other robots of a team by the referees.
 \item The two teams must wear colours that distinguish them from each other and also the referee and the assistant referees.
 \greyed{\item 
 (suspended: Each goalkeeper must wear colours that distinguish him from the other players, the referee and the assistant referees) }
@@ -285,25 +275,37 @@ The basic compulsory equipment of a player comprises the following separate item
 
 \headlinebox
 
-In the event of any infringement of this Law:
+In a virtual competition, the equipment of the players is checked by the Technical Committee prior to the tournament.
+
+\bigskip
+
+In the event of any infringement of this Law for a virtual tournament:
+
+\begin{itemize}
+\item The Technical Committee notifies the team in advance of the tournament about the violations and allows them to correct the equipment of the players.
+\item In case no valid robot model has been provided prior to the tournament, the team is excluded from participation.
+\end{itemize}
+
+In the event of any infringement of this Law occurring during a physical tournament:
 
 \begin{itemize}
 \item play need not be stopped
 \item the player at fault is instructed by the referee to leave the field of play to correct his equipment
 \item the player leaves the field of play when the ball next ceases to be in play, unless he has already corrected his equipment
 \item any player required to leave the field of play to correct his equipment must not re-enter without the referee's permission
-\item the referee checks that the player's equipment is correct before allowing him to re-enter the field of play 
+\item the referee checks that the player's equipment is correct before allowing him to re-enter the field of play
 \item the player is only allowed to re-enter the field of play before the respective penalty time is over \greyed{ (replaces: when the ball is out of play)}
 \end{itemize}
 
 \bigskip
 
-A player who has been required to leave the field of play because of an infringement of this Law and who re-enters the field of play without the referee's permission must be cautioned.
+A player who has been required to leave the field of play during a physical game because of an infringement of this Law and who re-enters the field of play without the referee's permission must be cautioned.
 
 \bigskip
 
+
 \clearpage
-{\bfseries Restart of play}
+{\bfseries Restart of play (physical competition only)}
 
 \headlinebox
 
@@ -322,4 +324,11 @@ If play is stopped by the referee to administer a caution:
 
 Decision 1
 
-Players must not reveal undergarments showing slogans or advertising. The basic compulsory equipment must not have any political, religious or personal statements. A player removing his jersey or shirt to reveal slogans or advertising will be sanctioned by the competition organiser. The team of a player whose basic compulsory equipment has political, religious or personal slogans or statements will be sanctioned by the competition organiser (new) or by RoboCup Federation Humanoid League.
+Players must not reveal undergarments showing slogans or advertising. The basic
+compulsory equipment must not have any political, religious or personal
+statements. A player removing his jersey or shirt to reveal slogans or
+advertising will be sanctioned by the competition organiser. The team of a
+player whose basic compulsory equipment has political, religious or personal
+slogans or statements will be sanctioned by the competition organiser
+\simplify{(new) }or by RoboCup Federation Humanoid League
+.
