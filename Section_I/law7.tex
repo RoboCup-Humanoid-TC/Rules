@@ -11,12 +11,26 @@ Law 7 -- The Duration of the Match}
 
 \headlinebox
 
-The match lasts two equal periods of 10 minutes,
-unless otherwise mutually agreed between the referee and the two teams.
-Any agreement to alter the duration of the periods of play must be made before
+The match lasts two equal periods of 10 minutes.
+Any agreement to alter the duration of the periods of play must be approved by the Technical Committee in the virtual competition or mutually agreed upon between the referee and the two teams in the physical competition, must be made before
 the start of play and must comply with competition rules.
 \greyed{(replaces: The match lasts two equal periods of 45 minutes, unless otherwise mutually agreed between the referee and the two teams. Any agreement to alter the duration of the periods of play (e.g. to reduce each half to 40 minutes because of
 insufficient light) must be made before the start of play and must comply with competition rules.)}
+
+
+  In the virtual competition, teams are given a 2 minute time period between the robot models being spawned
+  and the start of the match to allow for the software of the robots to start properly.
+  The start of the match is defined as the game state changing to READY for the
+  first half time.
+  At the beginning of the second half time, each half time in the extended
+  period and the beginning of the penalty shootout,
+  the autonomous referee will wait at least 15 seconds between spawning the robot models
+  and transitioning to an active game state.
+  Once the end of the match was declared by the referee and communicated by the
+  GameController,
+  teams receive a 2 minute time period to finish writing logs and properly shut
+  down their program before the process will be terminated.
+
 
 \bigskip
 
@@ -24,27 +38,28 @@ insufficient light) must be made before the start of play and must comply with c
 
 \headlinebox
 
-Players are entitled to an interval at half-time.
+In the virtual competition, there is no half-time interval between the two periods of play.
+In the physical competition, players are entitled to an interval at half-time.
 
 The half-time interval must not exceed 5 minutes.
 \greyed{(replaces: The half-time interval must not exceed 15 minutes.) }
 
 Competition rules must state the duration of the half-time interval.
 
-The duration of the half-time interval may be altered only with the consent of the referee. 
+The duration of the half-time interval may be altered only with the consent of the referee.
 
 \bigskip
 
-{\bfseries Allowance for time lost}
+{\bfseries Allowance for time lost (physical competition only)}
 
 \headlinebox
 
-Allowance is made in either period for all time lost through: 
+Allowance is made in either period for all time lost through:
 
 \begin{itemize}
 \item substitutions
 \item assessment of injury to players
-\item removal of injured players from the field of play for treatment 
+\item removal of injured players from the field of play for treatment
 \item wasting time
 \item any other cause
 \end{itemize}
@@ -53,7 +68,7 @@ The allowance for time lost is at the discretion of the referee.
 
 \bigskip
 
-{\bfseries Penalty kick}
+{\bfseries Penalty kick (physical competition only)}
 
 \headlinebox
 
@@ -67,3 +82,13 @@ If a penalty kick has to be taken or retaken, the duration of either half is ext
 \headlinebox
 
 An abandoned match is replayed unless the competition rules provide otherwise.
+
+\bigskip
+
+\added{
+{\bfseries Set and Ready states}
+
+\headlinebox
+
+During the Set and Ready states, the game clock should not be stopped in both knock-out and round-robin games.
+}
