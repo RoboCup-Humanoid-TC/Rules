@@ -11,23 +11,29 @@ offences and infringements committed when the ball is in play.
 
 \bigskip
 
-{\bfseries Direct free kick }
+{\bfseries Direct free kick (physical competition)}
 
 \headlinebox
 
-A direct free kick is awarded to the opposing team if a player commits any of the following offences to a player of the opposing team:
+A direct free kick is awarded to the opposing team if a player commits
+any of the following offences to a player of the opposing team:
 \begin{itemize}
-\item uses forceful contact that significantly destabilizes a player, such that walking and/or kicking is impeded. Examples for forceful contacts include falling into another player or walking carelessly into another player at significant speed.
-\item walks into another player for 4 to 5 seconds (even a fallen or getting up player), even if the 'force to push' is minimal.
+\item uses forceful contact that significantly destabilizes a player, such
+    that walking and/or kicking is impeded. Examples for forceful contacts
+    include falling into another player or walking carelessly into another
+    player at significant speed.
+\item walks into another player for 4 to 5 seconds (even a fallen or
+    getting up player), even if the 'force to push' is minimal.
 \end{itemize}
+
 
 A free kick is not awarded if one of the following exceptions occurs: 
 \begin{itemize}
 \item The player committing the offence is stationary, including a player that is kicking, provided that the ball was close enough where a kick could have succeeded at the start of the kick motion.
 \item The player committing the offence is currently getting up.
-\item The player committing the offence is the current goal keeper and is currently looking at or chasing the ball in it's own penalty area.
+\item The player committing the offence is the current goal keeper and is currently \removed{looking at or} chasing the ball, in it's own penalty area.
 \item Front to front contact between players with the ball between them does not lead to a free kick, unless one player walks at a significantly higher speed or with significantly more force that is impossible to stand for the other player.
-\item Any player proceeding to the ball whose side (i. e. arm, shoulder etc.)  makes contact with another player is not committing an offence, even if the second player is not proceeding to the ball.
+\item Any player proceeding to the ball whose side (i. e. arm, shoulder etc.) who only  makes contact with another player is not committing an offence, even if the second player is not proceeding to the ball.
 \item A player that had an offence committed against himself can not simultaneously be called for a free kick offence himself.
 \end{itemize}
 
@@ -48,24 +54,136 @@ A free kick is not awarded if one of the following exceptions occurs:
 \bigskip
 
 
-A direct free kick is also awarded to the opposing team if a player commits any of the following four \greyed{(replaces: three}) offences: 
+A direct free kick is also awarded to the opposing team if a player commits
+any of the following \greyed{(replaces: three) }%
+offences:
 
 \begin{itemize}
 \item holds an opponent
 \item spits at an opponent
-\item handles the ball deliberately (except for the goalkeeper within his own penalty area)
-\item (new:) holds the ball for more than \removed{1} \added{5} second in a way that the ball cannot be removed from the player (a goal keeper may hold the ball up to 6 seconds on the ground or 10 seconds lifted up with one or both hands). More than half of the ball's volume must be outside the convex hull of the player, projected to the ground, for the ball to be considered removable. If the ball enters the convex hull repeatedly, it must be removable in between for the majority of the time. If more than one player of a team is in the vicinity of the ball, the convex hull is taken around all the player of a team, which prevent removal of the ball.
+\item handles the ball deliberately
+    (except for the goalkeeper within his own penalty area)
+\item \simplify{(new:) }holds the ball for more than \removed{1 second} \added{5 seconds} in a way that the
+  ball cannot be removed from the player (a goal keeper may hold the ball up to
+  6 seconds on the ground or 10 seconds lifted up with one or both hands,
+    a player performing a throw-in may lift the ball up with both hands
+    for up to 10 seconds). More than half of the ball's volume must be outside
+  the convex hull of the player, projected to the ground, for the ball to be
+  considered removable. If the ball enters the convex hull repeatedly, it must
+  be removable in between for the majority of the time. If more than one player
+  of a team is in the vicinity of the ball
+    defined as less than 0.75m in KidSize and 1.5m in AdultSize.
+  , the convex hull is taken around all
+  the player of a team, which prevent removal of the ball.
+  Ball holding offences always occurs at the location of the ball.
 \end{itemize}
 
 \bigskip
 
-(new:) If an offense did not happen within a radius of approx. 1 m around the current ball position, the direct free kick is replaced by a removal penalty.
+\simplify{(new:) }If an offense did not happen within a radius of approx. 1 m
+around the current ball position, or if the ball is not in play,
+the direct free kick is replaced by a removal penalty.
+Ball holding leads to a free kick independently of the distance between
+  the robots and the ball.
+
+\bigskip
+
+A removal penalty is also applied to any player touching the ball with
+  part of its arm, except for the goalkeeper in its own penalty area or a player
+  performing a throw-in.
+
 
 \bigskip
 
 
-A direct free kick is taken from the place where the offence occurred (see Law 13 -- Position of free kick). (new:) If moving the ball to the place where the offence occurred would be to the disadvantage of the team to which the free kick is awarded, the referee allows play to continue.
+A direct free kick is taken from the place where the offence occurred (see Law 13 -- Position of free kick).
+(new:) In the physical competition, if moving the ball to the place where the offence occurred would be to the disadvantage of the team to which the free kick is awarded, the referee allows play to continue.
 
+\bigskip
+
+{\bfseries Direct free kick (virtual competition)}
+
+\headlinebox
+
+A direct free kick is awarded to the opposing team if a player commits
+a foul according to the decision diagram presented in
+Fig.~\ref{fig:forceful_contact}, with the values listed in
+Table~\ref{tab:forceful_contact}.
+
+\begin{table}[h]
+  \caption{\label{tab:forceful_contact}Decision values for the foul detection}
+  \centering
+  \begin{tabular}{|l l r l|}
+    \hline
+    Name & Notation & value & unit\\
+    \hline
+    Pushing time & $T_p$ & 1 & s\\
+    Pushing period & $T_{pt}$ & 2 & s\\
+    Vicinity distance & $D_v$ & 2 & m\\
+    Distance threshold & $D_t$ & 0.1 & m\\
+    Speed threshold & $s_t$ & 0.2 & m/s\\
+    Direction threshold & $\theta_t$ & 30 & deg\\
+    \hline
+  \end{tabular}
+\end{table}
+
+\begin{figure}[h]
+  \centering
+  \input{Section_I/forceful_contact_diagram.tex}
+  \caption{\label{fig:forceful_contact}
+  Is robot $R_1$ committing a forceful contact foul on $R_2$?
+  This decision diagram is applied on every couple of robots from opposing
+  teams.}
+\end{figure}
+
+
+A free kick is not awarded if one of the following exceptions occurs:
+\begin{itemize}
+    \item The player committing the offence is the current goal keeper and is currently chasing the ball, in it's own penalty area.
+  \item A player that had an offence committed against himself can not simultaneously be called for a free kick offence himself.
+\end{itemize}
+
+\bigskip
+
+
+A direct free kick is also awarded to the opposing team if a player commits
+the following offence:
+
+\begin{itemize}
+  \item \simplify{(new:) }holds the ball for more than 1 second in a way that the
+  ball cannot be removed from the player (a goal keeper may hold the ball up to
+  6 seconds on the ground or 10 seconds lifted up with one or both hands,
+    a player performing a throw-in may lift the ball up with one or both hands
+    for up to 10 seconds). More than half of the ball's volume must be outside
+  the convex hull of the player, projected to the ground, for the ball to be
+  considered removable. If the ball enters the convex hull repeatedly, it must
+  be removable in between for the majority of the time. If more than one player
+  of a team is in the vicinity of the ball\footnote{
+    defined as less than 0.75m in KidSize and 1.5m in AdultSize.}
+  , the convex hull is taken around all
+  the player of a team, which prevent removal of the ball.
+  Ball holding offences always occurs at the location of the ball.
+\end{itemize}
+
+\bigskip
+
+\simplify{(new:) }If an offense did not happen within a radius of approx. 1 m
+around the current ball position, or if the ball is not in play,
+the direct free kick is replaced by a removal penalty.
+Ball holding leads to a free kick independently of the distance between
+the robots and the ball.
+
+\bigskip
+
+A removal penalty is also applied to any player touching the ball with
+part of its arm, except for the goalkeeper in its own penalty area or a player
+performing a throw-in.
+
+
+\bigskip
+
+
+A direct free kick is taken from the place where the offence occurred (see Law 13 -- Position of free kick).
 
 
 \bigskip
@@ -74,8 +192,8 @@ A direct free kick is taken from the place where the offence occurred (see Law 1
 
 \headlinebox
 
-A penalty kick (new) as defined by Law 14 is awarded if any of the above six
-\greyed{(replaces: ten}) offences is committed by a player inside his own penalty area,
+A penalty kick \simplify{(new) }as defined by Law 14 is awarded if any of the above
+\greyed{(replaces: ten) }offences is committed by a player inside his own penalty area,
 irrespective of the position of the ball, provided it is in play.
 
 
@@ -96,7 +214,7 @@ An indirect free kick is awarded to the opposing team if a goalkeeper, inside hi
 
 \bigskip
 
-An indirect free kick is also awarded to the opposing team if, in the opinion of the referee, a player:
+In the physical competition, an indirect free kick is also awarded to the opposing team if, in the opinion of the referee, a player:
 
 \begin{itemize}
 \item plays in a dangerous manner
@@ -107,11 +225,17 @@ An indirect free kick is also awarded to the opposing team if, in the opinion of
 
 \bigskip
 
-(new:) If an offense did not happen within a radius of approx. 1 m around the current ball position, the indirect free kick is replaced by a removal penalty.
 
-\bigskip
+\simplify{(new:) }In the physical competition, if an offense did not happen within a radius of approx. 1 m
+around the current ball position, the indirect free kick is replaced by a
+removal penalty.
 
-The indirect free kick is taken from the place where the offence occurred (see Law 13 -- Position of free kick). (new:) If moving the ball to the place where the offence occurred would be to the disadvantage of the team to which the free kick is awarded, the referee allows play to continue.
+
+  \bigskip
+
+
+The indirect free kick is taken from the place where the offence occurred (see Law 13 -- Position of free kick).
+(new:) In the physical competition, if moving the ball to the place where the offence occurred would be to the disadvantage of the team to which the free kick is awarded, the referee allows play to continue.
 
 \bigskip
 
@@ -121,21 +245,28 @@ The indirect free kick is taken from the place where the offence occurred (see L
 
 The yellow card is used to communicate that a player, substitute or substituted player has been cautioned.
 
+In the physical competition, the Technical Committee may use yellow cards to communicate that a team has been cautioned.
+
 \bigskip
 
 The red card is used to communicate that a player, substitute or substituted player has been sent off.
 
-\bigskip
-
-Only a player, substitute or substituted player may be shown the red or yellow card.
+In the physical competition, the Technical Committee may use red cards to communicate that a team has been excluded from the tournament.
 
 \bigskip
 
-The referee has the authority to take disciplinary sanctions from the moment he enters the field of play until he leaves the field of play after the final whistle. 
+Only a player, substitute or substituted player and a team may be shown the red or yellow card.
 
 \bigskip
 
-A player who commits a cautionable or sending-off offence, either on or off the field of play, whether directed towards an opponent, a team-mate, the referee, an assistant referee or any other person, is disciplined according to the nature of the offence committed.
+The referee has the authority to take disciplinary sanctions from the moment he enters the field of play until he leaves the field of play after the final whistle (in the physical competition)
+or the game is started until the game was declared finished by the autonomous referee (in the virtual competition).
+
+In the virtual competition, the Technical Committee has the authority to take disciplinary sanctions against a team at any point during the tournament and in particular after a simulated game has been played and before the result was certified by the Technical Committee.
+
+\bigskip
+
+A player who or a team that commits a cautionable or sending-off offence, either on or off the field of play, whether directed towards an opponent, a team-mate, the referee, an assistant referee or any other person, is disciplined according to the nature of the offence committed.
 
 \bigskip
 
@@ -143,44 +274,56 @@ A player who commits a cautionable or sending-off offence, either on or off the 
 
 \headlinebox
 
-A player is cautioned and shown the yellow card if he commits any of the following seven offences: 
+A player is cautioned and shown the yellow card if he commits any of the following seven offences:
 
 \begin{itemize}
-\item unsporting behaviour
-\item dissent by word or action
-\item persistent infringement of the Laws of the Game
-\item delaying the restart of play
-\item \greyed{(suspended: failure to respect the required distance when play is restarted with a corner kick, free kick or throw-in)}
+\item unsporting behaviour (physical competition only)
+\item dissent by word or action (physical competition only)
+\item persistent infringement of the Laws of the Game (physical competition only)
+\item delaying the restart of play (physical competition only)
+\greyed{\item (suspended: failure to respect the required distance when play is restarted with a corner kick, free kick or throw-in)}
 \item entering or re-entering the field of play without the referee's permission
-\item \greyed{(suspended: deliberately leaving the field of play without the referee's permission)}
+\greyed{\item (suspended: deliberately leaving the field of play without the referee's permission)}
+\item receiving a second official warning from the referee
 \end{itemize}
 
 \bigskip
 
-A substitute or substituted player is cautioned if he commits any of the following three offences: 
+In a physical competition, a substitute or substituted player is cautioned if he commits any of the following three offences:
 
 \begin{itemize}
 \item unsporting behaviour
-\item dissent by word or action 
+\item dissent by word or action
 \item delaying the restart of play
 \end{itemize}
+
+
 
 {\bfseries Sending-off offences}
 
 \headlinebox
 
-A player, substitute or substituted player is sent off if he commits any of the following seven offences:
+A player, substitute or substituted player is sent off if he commits any of the following offences:
 
 \begin{itemize}
-\item serious foul play
-\item violent conduct
-\item spitting at an opponent or any other person
-\item denying the opposing team a goal or an obvious goalscoring opportunity by deliberately handling the ball (this does not apply to a goalkeeper within his own penalty area)
-\item \greyed{(suspended: denying an obvious goalscoring opportunity to an opponent moving towards the player's goal by an offence punishable by a free kick or a penalty kick)}
-\item using offensive, insulting or abusive language and/or gestures
+\item serious foul play (physical competition only)
+\item violent conduct (physical competition only)
+\item spitting at an opponent or any other person (physical competition only)
+\item denying the opposing team a goal or an obvious goalscoring opportunity by deliberately handling the ball (this does not apply to a goalkeeper within his own penalty area) (physical competition only)
+\greyed{\item (suspended: denying an obvious goalscoring opportunity to an opponent moving towards the player's goal by an offence punishable by a free kick or a penalty kick)}
+\item using offensive, insulting or abusive language and/or gestures (physical competition only)
 \item receiving a second caution in the same match
 \end{itemize}
 
 \bigskip
 
-A player, substitute or substituted player who has been sent off must leave the vicinity of the field of play and the technical area.
+In a virtual competition, a team is shown the red card and excluded from the tournament if it commits one of the following offences:
+
+\begin{itemize}
+\item using offensive, insulting or abusive language and/or gestures
+\item receiving a second caution in the same tournament
+\end{itemize}
+
+\bigskip
+
+In the physical competition, a player, substitute or substituted player who has been sent off must leave the vicinity of the field of play and the technical area.
