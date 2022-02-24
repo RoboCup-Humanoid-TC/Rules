@@ -1,0 +1,99 @@
+\newcommand{\ownGoalArea}[1]{\textsc{ownGoalArea}(#1)}
+\newcommand{\movesToBall}[1]{\textsc{movesToBall}(#1)}
+
+\begin{tikzpicture}
+  [
+  block/.style = {draw, text width = 35mm, minimum height=15mm, align=center,
+    node distance = 3mm and -2mm, scale=0.8},
+  decision/.style = {block, rectangle},
+  result/.style = {block,ellipse, text width=15mm},
+  line/.style = {->, draw, thick,to path={-| (\tikztotarget) \tikztonodes},
+    nodes={above}},
+  yes/.style = {line},
+  no/.style = {line, dashed}
+  ]
+
+  \node[decision] (R1R2Collision) {$R_1$ and $R_2$ collide};
+
+  \node[decision, below left=of R1R2Collision] (R1Goalie) {$R_1$ is Goalkeeper\\$\ownGoalArea{R_1}$};
+  \node[result, below right=of R1R2Collision] (no1) {No foul};
+
+  \node[result, below left=of R1Goalie] (no2) {No foul};
+  \node[decision, below right=of R1Goalie] (R2Goalie)
+  {$R_2$ is Goalkeeper\\$\ownGoalArea{R_2}$};
+
+  \node[result, below left=of R2Goalie,xshift=-5mm] (foul1) {Foul};
+  \node[decision, below right=of R2Goalie,xshift=-1cm] (pushing)
+  {$R_1$ and $R_2$ have been in collision for $T_p$ in the last $T_{pt}$};
+
+  \node[decision, below left=of pushing] (backpushing)
+  {$\overline{R_1B} < D_v$\\$\overline{R_1B}   - \overline{R_2B} > D_t$};
+  \node[decision, below right=of pushing,xshift=2cm] (lowSpeed)
+  {$|\vec{v}(R1)| > s_t$};
+
+  \node[result, below left=of backpushing] (foul2) {Foul};
+  \node[result, below right=of backpushing] (no3) {No foul};
+
+  \node[decision, below left=of lowSpeed,yshift=-15mm] (ballProximity) {$\overline{R_1B} < D_v$};
+  \node[result, below right=of lowSpeed] (no4) {No foul};
+
+  \node[decision, below left=of ballProximity,xshift=-4cm] (charging)
+  {$\movesToBall{R_2}$\\$\neg\movesToBall{R_1}$};
+  \node[decision, below right=of ballProximity] (speedDiff) {$|\vec{v}(R_1)| - |\vec{v}(R_2)| > s_t$};
+
+  \node[result, below left=of charging] (chargingFoul) {Foul};
+  \node[decision, below right=of charging] (behindCharge)
+  {$\movesToBall{R_1}$\\$\movesToBall{R_2}$\\$\overline{R_1B} - \overline{R_2B} > D_t$};
+  
+  \node[result, below left=of behindCharge] (behindChargeFoul) {Foul};
+  \node[result, below right=of behindCharge] (no6) {No foul};
+  
+  \node[result, below left=of speedDiff] (speedDiffFoul) {Foul};
+  \node[result, below right=of speedDiff] (no5) {No foul};
+  
+  \draw[yes]
+  (R1R2Collision) edge node {yes} (R1Goalie)
+  (R1Goalie) edge node {yes} (no2)
+  (R2Goalie) edge node {yes} (foul1)
+  (pushing) edge node {yes} (backpushing)
+  (backpushing) edge node {yes} (foul2)
+  (lowSpeed) edge node {yes} (ballProximity)
+  (ballProximity) edge node {yes} (charging)
+  (charging) edge node {yes} (chargingFoul)
+  (speedDiff) edge node {yes} (speedDiffFoul)
+  (behindCharge) edge node {yes} (behindChargeFoul)
+  ;
+
+  \draw[no]
+  (R1R2Collision) edge node {no} (no1)
+  (R1Goalie) edge node {no} (R2Goalie)
+  (R2Goalie) edge node {no} (pushing)
+  (pushing) edge node {no} (lowSpeed)
+  (backpushing) edge node {no} (no3)
+  (lowSpeed) edge node {no} (no4)
+  (ballProximity) edge node {no} (speedDiff)
+  (charging) edge node {no} (behindCharge)
+  (speedDiff) edge node {no} (no5)
+  (behindCharge) edge node {no} (no6)
+  ;
+
+  % Notation
+  \node[text width=8cm, scale=0.8] at (6.5,-1.0)
+  {
+    \begin{itemize}
+    \item $\ownGoalArea{R}$ denotes if $R$ is in its own goal area\\
+    \item $\vec{v}(R)$ denotes the speed of the CoM of $R$
+      (filtered over several simulation steps)\\
+    \item $\movesToBall{R}$ denotes the fact that
+      $\vec{v}(R) < s_t$ or the angle between $\vec{v}(R)$ and
+     $\vec{RB}$ is below $\theta_t$.
+    \item When a decision node contain multiple lines, all should be satisfied
+    \end{itemize}
+  };
+
+  % Title
+  \node[text width=12cm, align=center, scale=1.0] at (3,1.0)
+  {
+    \textbf{Is $R_1$ committing a forceful contact foul on $R_2$?}
+  };
+\end{tikzpicture}

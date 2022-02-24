@@ -14,38 +14,75 @@ Law 5 -- The Referee}
 Each match is controlled by a referee who has full authority to enforce the Laws
 of the Game in connection with the match to which they have been appointed.
 Decisions will be made to the best of the referees ability according to the Laws
-of the Game and the spirit of the game and will be based on the opinion of the
+of the Game and the spirit of the game and will be based on the opinion or programming of the
 referee who has the discretion to take appropriate action within the framework
 of the Laws of the Game.
 
+The games are overseen by the Technical Committee of the league, who ensures that the players and (simulated) environment is according to the laws of the game, and who may sanction unsportive behavior by teams.
+
 \bigskip
 
-{\bfseries Powers and duties}
+{\bfseries Virtual Competition: Powers and duties}
+
+\headlinebox
+
+The autonomous Referee:
+
+\begin{itemize}
+\item enforces the Laws of the Game
+\item controls the match
+\item acts as timekeeper and keeps a record of the match
+\item stops, suspends or abandons the match, at their discretion, for any infringements of the Laws
+\item punishes the more serious offence when a player commits more than one offence at the same time
+\item takes disciplinary action against players guilty of cautionable and sending-off offences. They are not obliged to take this action immediately but must do so when the ball next goes out of play
+\item indicates the restart of the match after it has been stopped 
+\item provides the appropriate authorities with a match report, which includes information on any disciplinary action taken against players and/or team officials and any other incidents that occurred before, during or after
+the match 
+\item indicates when the whole of the ball leaves the field of play
+\item indicates which team is entitled to a corner kick, goal kick or throw-in
+\item indicates whether, at penalty kicks, the goalkeeper moves off the goal line before the ball is kicked and if the ball crosses the line
+\item communicates its decisions directly to the GameController.
+\end{itemize}
+
+\bigskip
+
+The Technical Committee:
+
+\begin{itemize}
+\item ensures that any ball used meets the requirements of Law 2
+\item ensures that the players' equipment meets the requirements of Law 4
+\item stops, suspends or abandons the match because of outside interference of any kind
+\item takes action against team officials who fail to conduct themselves in a responsible manner and may, at their discretion, expel them from the field of play and its immediate surrounds
+\end{itemize}
+
+\bigskip
+
+{\bfseries Physical Competition: Powers and duties}
 
 \headlinebox
 
 The Referee:
 
 \begin{itemize}
-\item enforces the Laws of the Game
-\item controls the match in cooperation with the assistant referees and, where applicable, with the fourth official
-\item ensures that any ball used meets the requirements of Law 2 
-\item ensures that the players' equipment meets the requirements of Law 4
-\item acts as timekeeper and keeps a record of the match
-\item stops, suspends or abandons the match, at their discretion, for any infringements of the Laws
-\item stops, suspends or abandons the match because of outside interference of any kind
-\item stops the match if, in their opinion, a player is seriously injured and ensures that he is removed from the field of play. An injured player may only return to the field of play after the respective penalty time is over \greyed{ (replaces: after the match has restarted)}
-\item allows play to continue until the ball is out of play if a player is, in their opinion, only slightly injured 
-\item ensures that any player bleeding from a wound leaves the field of play. The player may only return on receiving a signal from the referee, who must be satisfied that the bleeding has stopped
-\item allows play to continue when the team against which an offence has been committed will benefit from such an advantage and penalises the original offence if the anticipated advantage does not ensue at that time
-\item punishes the more serious offence when a player commits more than one offence at the same time
-\item takes disciplinary action against players guilty of cautionable and sending-off offences. They are not obliged to take this action immediately but must do so when the ball next goes out of play 
-\item takes action against team officials who fail to conduct themselves in a responsible manner and may, at their discretion, expel them from the field of play and its immediate surrounds 
-\item acts on the advice of the assistant referees regarding incidents that they has not seen 
-\item ensures that no unauthorised persons enter the field of play 
-\item indicates the restart of the match after it has been stopped 
-\item provides the appropriate authorities with a match report, which includes information on any disciplinary action taken against players and/or team officials and any other incidents that occurred before, during or after
-the match 
+    \item enforces the Laws of the Game
+    \item controls the match in cooperation with the assistant referees and, where applicable, with the fourth official
+    \item ensures that any ball used meets the requirements of Law 2
+    \item ensures that the players' equipment meets the requirements of Law 4
+    \item acts as timekeeper and keeps a record of the match
+    \item stops, suspends or abandons the match, at their discretion, for any infringements of the Laws
+    \item stops, suspends or abandons the match because of outside interference of any kind
+    \item stops the match if, in their opinion, a player is seriously injured and ensures that he is removed from the field of play. An injured player may only return to the field of play after the respective penalty time is over \greyed{ (replaces: after the match has restarted)}
+    \item allows play to continue until the ball is out of play if a player is, in their opinion, only slightly injured
+    \item ensures that any player bleeding from a wound leaves the field of play. The player may only return on receiving a signal from the referee, who must be satisfied that the bleeding has stopped
+    \item allows play to continue when the team against which an offence has been committed will benefit from such an advantage and penalises the original offence if the anticipated advantage does not ensue at that time
+    \item punishes the more serious offence when a player commits more than one offence at the same time
+    \item takes disciplinary action against players guilty of cautionable and sending-off offences. They are not obliged to take this action immediately but must do so when the ball next goes out of play
+    \item takes action against team officials who fail to conduct themselves in a responsible manner and may, at their discretion, expel them from the field of play and its immediate surrounds
+    \item acts on the advice of the assistant referees regarding incidents that they has not seen
+    \item ensures that no unauthorised persons enter the field of play
+    \item indicates the restart of the match after it has been stopped
+    \item provides the appropriate authorities with a match report, which includes information on any disciplinary action taken against players and/or team officials and any other incidents that occurred before, during or after
+    the match
 \end{itemize}
 
 \bigskip
@@ -58,7 +95,7 @@ The decisions of the referee regarding facts connected with play, including whet
 
 \bigskip
 
-The referee may only change a decision on realising that it is incorrect or, at their discretion, on the advice of an assistant referee or the fourth official, provided that they have not restarted play or terminated the match.
+In the physical competition, the referee may only change a decision on realising that it is incorrect or, at their discretion, on the advice of an assistant referee or the fourth official, provided that they have not restarted play or terminated the match.
 
 
 \clearpage
@@ -68,7 +105,7 @@ The referee may only change a decision on realising that it is incorrect or, at 
 
 Decision 1
 
-A referee (or where applicable, an assistant referee or fourth official) is not held liable for:
+A virtual referee (or where applicable, an assistant referee, fourth official or the Technical Committee) is not held liable for:
 
 any kind of injury suffered by a player, official or spectator
 
@@ -84,22 +121,22 @@ Such decisions may include:
 \item a decision that the condition of the field of play or its surrounds or that the weather conditions are such as to allow or not to allow a match to take place
 \item a decision to abandon a match for whatever reason
 \item a decision as to the suitability of the field equipment and ball used during a match
-\item a decision to stop or not to stop a match due to spectator interference or any problem in spectator areas 
-\item a decision to stop or not to stop play to allow an injured player to be removed from the field of play for treatment 
-\item a decision to require an injured player to be removed from the field of play for treatment 
+\item a decision to stop or not to stop a match due to spectator interference or any problem in spectator areas (physical competition only)
+\item a decision to stop or not to stop play to allow an injured player to be removed from the field of play for treatment (physical competition only)
+\item a decision to require an injured player to be removed from the field of play for treatment (physical competition only)
 \item a decision to allow or not to allow a player to wear certain apparel or equipment 
-\item a decision (where they have the authority) to allow or not to allow any persons (including team or stadium officials, security officers, photographers or other media representatives) to be present in the vicinity of the field of play 
+\item a decision (where they have the authority) to allow or not to allow any persons (including team or stadium officials, security officers, photographers or other media representatives) to be present in the vicinity of the field of play (physical competition only)
 \item any other decision that they may take in accordance with the Laws of the Game or in conformity with their duties under the terms of FIFA, confederation, member association or league rules or regulations under which the match is played 
 \end{itemize}
 
 \bigskip
 
-Decision 2
+Decision 2 (physical competition only)
 
 In tournaments or competitions where a fourth official is appointed, their role and duties must be in accordance with the guidelines approved by the International F.A. Board, which are contained in this publication.
 
 \bigskip
 
-Decision 3
+Decision 3 (physical competition only)
 
-Where goal-line technology (GLT) is used (subject to the respective competition rules), the referee has the duty to test the technology's functionality before the match. The tests to be performed are set out in the FIFA Quality Programme for GLT Testing Manual. If the technology does not function in accordance with the Testing Manual, the referee must not use the GLT system and must report this incident to the respective authority. 
+Where goal-line technology (GLT) is used (subject to the respective competition rules), the referee has the duty to test the technology's functionality before the match. The tests to be performed are set out in the FIFA Quality Programme for GLT Testing Manual. If the technology does not function in accordance with the Testing Manual, the referee must not use the GLT system and must report this incident to the respective authority.
