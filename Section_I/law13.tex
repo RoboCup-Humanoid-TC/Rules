@@ -43,7 +43,7 @@ The referee indicates an indirect free kick by raising his arm above his head. H
 Ball enters the goal
 
 A goal can be scored only if the ball is either kicked and clearly moves as
-determined by the referee or has been touched by another player before being
+determined by the referee\footnote{In the virtual competition, a move of at least 5 cm is considered clearly moving.} or has been touched by another player before being
 kicked into the goal
 \greyed{(replaces: subsequently touches another player before it enters the goal)}:
 
@@ -63,42 +63,43 @@ opposing team
 
 All free kicks are taken from the place where the offence occurred, except:
 \begin{itemize}
-\item indirect free kicks to the attacking team for an offence inside the opponents' goal area are taken from the nearest point on the goal area line which runs parallel to the goal line
-\item free kicks to the defending team in their goal area may be taken from anywhere in that area
+\item indirect free kicks to the attacking team for an offence inside the
+  opponents' penalty area are taken from the nearest point
+  on the penalty area line which runs parallel to the goal
+  line.
+\item in the physical competition, free kicks to the defending team in their goal area may be taken from anywhere in that area
+
 \end{itemize}
 
 The ball:
 \begin{itemize}
 \item must be stationary \greyed{(suspended: and the kicker must not touch the ball again until it has touched another player)}
 \item is in play when it is kicked and clearly moves as determined by the
-      referee except for a free kick to the defending team in their penalty area
+      referee\footnote{In the virtual competition, a move of at least 5 cm is considered clearly moving.} except for a free kick to the defending team in their penalty area
       where the ball is in play when it is kicked directly out of the penalty area.
-      (new): In both cases the the ball is also considered in play 10 seconds
+      \simplify{(new): }In both cases the the ball is also considered in play 10 seconds
       after the referee gave the signal.
 \end{itemize}
 
 Until the ball is in play all opponents must remain:
 \begin{itemize}
-\item at least 0.75m for KidSize \removed{and TeenSize} and 1.5m for AdultSize
+\item at least 0.75m for KidSize and 1.5m for AdultSize
       \greyed{(replaces: 9.15 m (10 yds))} from the ball until it is in play,
       unless they are on their own goal line between the goalposts 
 \item outside the penalty area for free kicks inside the opponents' penalty area
 \end{itemize}
 
-The referee blows the whistle, announces 'Free-Kick' blue or red and then places
-the ball depending on the call.
-The assistant referee who operates the game controller clicks on
-``Direct / Indirect Free Kick'' Blue/Red.
-During this phase robots may move their head to track the ball but must
-otherwise remain stationary.
-Robots which are significantly moving during this phase are removed from the field.
+The referee blows the whistle (physical competition only), announces 'Free-Kick' blue or
+red and communicates ``Direct / Indirect Free Kick'' Blue/Red to the
+  GameController or the assistant referee operating the GameController.
 The referee places the ball depending on the call and announces
-``Free Kick Ready'' and the assistant referee clicks on
-``Prepare Direct / Indirect Free Kick'' Blue/Red.
+``Free Kick Ready'' and communicates
+``Prepare Direct / Indirect Free Kick'' Blue/Red to the GameController or the assistant referee operating the GameController.
 The player taking the free kick has up to 30 seconds to position themselves for
 the free kick.
-The team taking the free kick may announce that the player is ready to take the
-free kick at any point.
+In the virtual competition, any player from the team taking the free kick may announce that the
+player is ready to take the free kick at any point by sending a
+message to the GameController. In the physical competition, the robot handler of the team taking the free kick can announce to the referee that the player is ready to take the free kick.
 
 Players are guaranteed at least 15 seconds to move away from the ball.
 They may take up to 30 seconds if the team taking the free kick has not
@@ -108,8 +109,7 @@ player and must be removed from the field for 30 seconds removal penalty.
 The referee may decide to execute the free kick before 15 seconds have passed if
 the team taking the free kick have announced their robot is ready and if no
 opponent is illegally positioned.
-Once the free kick can be executed, the referee blows the whistle and the assistant
-referee clicks on ``Execute Direct / Indirect Free Kick'' Blue/Red.
+Once the free kick can be executed, the referee blows the whistle (physical competition only) and communicates ``Execute Direct / Indirect Free Kick'' Blue/Red to the GameController or the assistant referee operating the GameController.
 
 \bigskip
 
@@ -123,14 +123,17 @@ If, when a free kick is taken, an opponent is closer to the ball than the requir
 \item the opponent receives a 30 second removal penalty \greyed{(replaces: the kick is retaken)}
 \end{itemize}
 
-If, when a free kick is taken by the defending team from inside its own penalty area, the ball is not kicked directly out of the penalty area:
 
+    In a physical competition, if when a free kick is taken by the defending team from inside its own
+    penalty area, the ball is not kicked directly out of the penalty area:
 
-\begin{itemize}
-\item the kick is retaken (new:) if the goal keeper managed to reach the ball within the time frame. Otherwise, the ball is in play again.
-\end{itemize}
+  \begin{itemize}
+  \item the kick is retaken \simplify{(new:) }if the goal keeper
+      managed to reach the ball within the time frame. Otherwise, the ball is in
+      play again.
+  \end{itemize}
+  \bigskip
 
-\bigskip
 
 \greyed{(suspended:)
 \textbf{Free kick taken by a player other than the goalkeeper}
@@ -167,11 +170,13 @@ If, after the ball is in play, the goalkeeper touches the ball again (except wit
 \begin{itemize}
 \item a direct free kick is awarded to the opposing team if the infringement occurred outside the goalkeeper's penalty area, to be taken from the place where the infringement occurred (see Law 13 -- Position of free kick)
 \item an indirect free kick is awarded to the opposing team if the infringement occurred inside the goalkeeper's penalty area, to be taken from the place where the infringement occurred (see Law 13 -- Position of free kick)
-\end{itemize}}
+\end{itemize}
 
 \bigskip
+}
 
-(new) If a free kick was awarded to team A and any player of team A touches the ball before the referee announced the execution of the free kick:
+\simplify{(new) }If a free kick was awarded to team A and any player of team A
+touches the ball before the referee announced the execution of the free kick:
 
 \begin{itemize}
 \item The ball is in play.
@@ -180,7 +185,9 @@ If, after the ball is in play, the goalkeeper touches the ball again (except wit
 
 \bigskip
 
-(new) If a free kick was awarded to team A and any player of team B touches the ball before the referee announced the execution of the free kick:
+\simplify{(new) }If a free kick was awarded to team A and any player of team B
+touches the ball before the referee announced the execution of the free kick:
+
 
 \begin{itemize}
 \item The free kick is retaken.
