@@ -375,6 +375,35 @@ The following additional rules apply to penalty shoot-outs:
 \end{itemize}
 
 \bigskip
+\added{
+{\bfseries Penalty shoot-outs procedure}
+
+The referee decides randomly towards which goal the penalty shoot-outs will be
+performed.
+Then, each penalty trial is performed with the following procedure.
+ 
+\begin{enumerate}
+\item The striker is defined as the robot from the striker's team with the
+  lowest ID without a red card.
+\item The goalkeeper is chosen based on the GameController information.
+\item Both players are placed or spawned at appropriate locations.
+\item State is set to SET
+\item Ball is placed or spawned on the penalty mark.
+\item The referee waits 15 seconds before starting the trial
+\item The state is set to PLAYING.
+\end{enumerate}
+
+The following additional rules apply to penalty shoot-outs:
+
+\begin{itemize}
+\item The ball holding rule does not apply during penalty shoot-outs.
+\item If the striker commits an offense, the trial ends immediately.
+\item If the goalkeeper commits an offense, it is removed for the whole duration
+  of the trial.
+\end{itemize}
+}
+\bigskip
+
 
 {\bfseries Request for Pick-up (physical competition only)}
 
