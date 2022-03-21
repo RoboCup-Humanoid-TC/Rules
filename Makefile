@@ -1,10 +1,12 @@
 LATEX_FILES=$(wildcard */*.tex)
 PNG_FILES=$(wildcard img/*.png)
 
-RCHL-2020-Rules.pdf: RCHL-2020-Rules.tex
-	pdflatex $^ && pdflatex $^
+TARGETS=RC-HL-2022-Rules.pdf RC-HL-2022-Rules-Changes-Marked.pdf
 
-RCHL-2020-Rules.pdf: ${LATEX_FILES} ${PNG_FILES}
+all: ${TARGETS}
+
+%.pdf: %.tex ${LATEX_FILES} ${PNG_FILES}
+	pdflatex $^ && pdflatex $^
 
 clean:
 	rm -rf *.aux *.log *.out *.toc
