@@ -27,7 +27,7 @@
 \usepackage{hhline}
 \usepackage{hyperref}
 \usepackage{tocbibind}
-\usepackage{caption}
+\usepackage{subcaption}
 \usepackage[normalem]{ulem}
 \newcommand{\rulesauthor}{RoboCup Humanoid Technical Committee}
 \hypersetup{
@@ -154,6 +154,9 @@
 
     Section III -- Rules for RoboCup Humanoid League Technical Challenges (physical competition only)
 
+    \bigskip
+
+    Appendix -- Additional material
 
     \clearpage
 
@@ -293,5 +296,24 @@ Rules for RoboCup Humanoid League Technical Challenges (physical competition onl
 \input{Section_III/moving-ball}
 \input{Section_III/parkour.tex}
 \input{Section_III/high-kick}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%% APPENDIX %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\clearpage
+
+\begin{center}
+  \Huge\bfseries{
+    \vspace*{3cm}
+    Appendix
+
+    \vspace*{2cm}
+
+    Additional Material}
+\end{center}
+\addcontentsline{toc}{section}{Appendix: Additional Material}
+
+\input{Appendix/com-measurement}
 
 \end{document}
