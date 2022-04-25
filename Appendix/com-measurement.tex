@@ -22,30 +22,37 @@ procedure.
 
 The dimensions of the device are different for KidSize and AdultSize.
 In this section, $H_{max}$ denotes the maximum height allowed for the
-according league (100cm for KidSize, 200cm for AdultSize).
-$W$ denotes the width of the measuring device (45cm for KidSize, 80cm for
+according league (see Law 4).
+$W$ denotes the width of the measuring device (60cm for KidSize, 115cm for
 AdultSize).
-% TODO: Values of W needs to be adjusted/agreed on.
-% - The 45cm for KidSize had been chosen when H_{max} was 60cm.
-%   - One example of robot: Htop=70cm,W=30cm -> (9cm margin including acrylic plates)
-% - The 80cm is just a wild guess not supported by any data
+% NOTE: Values of W have been chosen based on the following criteria:
+% - A value of 45cm was used previously when H_max was 60cm.
+% - According to rules, the robot must fit into a 0.55 H_top cylinder
+%   - Max theoretical width for KidSize should then be 55cm (+6 for acrylic plates)
+%   - Max theoretical width for AdultSize should then be 110cm (+6 for acrylic plates)
+% - Max theoretical width seems slightly excessive:
+%   - Example of robot: Htop=70cm,W=30cm (max theoretical width=38.5cm)
+% - Accepting 1cm below the theoretical width lead to the chosen values
 
 \bigskip
 
 \textbf{The required materials are:}
 \begin{itemize}
 \item 1 measuring tape of length $H_{max}$
-\item An aluminium plate ($H_{max}+5cm$ by $39cm$)
-\item A wooden board - Plywood ($H_{max}+20cm$ by $W$ by $1.5cm$)
-  % TODO: 1.5cm of wood is probably insufficient for the heaviest robot of
-  % AdultSize (50kg)
-  % TODO: Should the +20cm scale up? Initial understanding is that the device
-  % can be used if: abs(H_com - H_top/2) < 20cm/2 + (H_max - H_top)
-  % This might be problematic for 2m height robot which would need to have Hcom
-  % in [90cm,110cm] (while the rule allows a much larger range since the only
-  % constraint is the size of the foot)
-\item Two acrylic plates ($H_{max}$ by 3cm by 2-3 mm)
-  % TODO: fig:gluing-acrylic-plates show that the dimension is rather $H_{max}+20cm$
+\item An aluminium plate ($H_{max}+5cm$ by $W - 6cm$)
+\item A wooden board - Plywood with:
+  \begin{itemize}
+  \item Length: $H_{max}+20cm$ for KidSize, $H_{max}+40cm$ for AdultSize
+  \item Width: $W$
+  \item Thickness: $1.5cm$ for KidSize, $3cm$ for AdultSize
+  % NOTE: Thickness is increased for AdultSize due to the heavier weight
+  % NOTE: The margin (20cm/40cm) ensures that robot with H_top close to H_max
+  % can be measured using the device while keeping the aluminium plate on the
+  % device.
+  % Device should work while: abs(H_com - H_top/2) < 20cm/2 + (H_max - H_top)
+  \end{itemize}
+\item Two acrylic plates with: the same length as the wooden board, $3cm$ width
+  and 2-3mm thickness.
 \item 4 Aluminium pipe straps of same size
 \end{itemize}
 
