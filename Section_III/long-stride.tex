@@ -1,8 +1,8 @@
 \clearpage
 \sffamily
-{\bfseries\color[rgb]{0.4,0.4,0.4} Part H: Long Stride Challenge}
+{\bfseries\color[rgb]{0.4,0.4,0.4} Part G: Long Stride Challenge}
 \phantomsection
-\addcontentsline{toc}{subsection}{Part H: Long Stride Challenge}
+\addcontentsline{toc}{subsection}{Part G: Long Stride Challenge}
 \added{
 
 \bigskip
@@ -17,7 +17,7 @@ A length of string is placed on the ground at a known distance from the center l
 \vspace{2em}
 {\bfseries Execution}
 \begin{enumerate}
-\item The robot is placed on the center line side of the region defined by the string and the center line.
+\item The robot is placed on the other side of the ceneter line, facing the string.
 \item The robot steps over the region from the center line to the far side of the string.
 
 \end{enumerate}
@@ -26,7 +26,7 @@ A length of string is placed on the ground at a known distance from the center l
 \begin{itemize}
 \item Failure
 \begin{itemize}
-\item The robot steps within the boundary of the string or the center line.
+\item The robot steps within the area between the string and the center line.
 \end{itemize}
 \item Partial success
 \begin{itemize}
@@ -34,15 +34,15 @@ A length of string is placed on the ground at a known distance from the center l
 \end{itemize}
 \item Success
 \begin{itemize}
-\item The robot steps within the boundary of the string or the center line.
+\item The robot steps with both feet over the string without touching either the string or the center line.
 \end{itemize}
 \end{itemize}
 
 
 
 \vspace{2em}
-{\bfseries Ranking}
-The distance of the step is measured and divided by the length of the robot's leg to give a normalized score.
+{\bfseries Ranking}\\
+The distance between the string and the center line is measured and divided by the length of the robot's leg to give a normalized score.
 Teams are ranked on their best run according to the following criteria:
 \begin{enumerate}
 \item The distance of a \textit{Successful} run
