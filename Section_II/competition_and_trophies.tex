@@ -116,44 +116,54 @@ Physical competitions start with the Drop-In tournament.
 
   \bigskip
 
-  If at least 16 full teams participate in a league,
-  the teams are separated in two different divisions for the regular tournament:
+  \removed{If at least 16 full teams participate in a league,
+  the teams are separated in two different divisions for the regular tournament}\added{Teams are separated into 4 round robin groups A, B, C, D according to their ranking in Drop-in games}:
   \begin{itemize}
-  \item The best $N$ full teams are qualified for the first round robin of division A
-    \footnote{$N$ is either 8 or 12 depending on the number of full teams and
-      has to be announced before the beginning of the tournament.}.
-  \item The other full teams are qualified for the first round robin of division B.
+  \item \removed{The best $N$ full teams are qualified for the first round robin of division A}
+    \footnote{\removed{$N$ is either 8 or 12 depending on the number of full teams and
+      has to be announced before the beginning of the tournament.}}.
+  \item \removed{The other full teams are qualified for the first round robin of division B}.
+  \item \added{ group A composed from teams ranked 1, 8, 9, 16, 17, 24, \dots}
+  \item \added{ group B composed from teams ranked 2, 7, 10, 15, 18, 23, \dots}
+  \item \added{ group C composed from teams ranked 3, 6, 11, 14, 19, 22, \dots}
+  \item \added{ group D composed from teams ranked 4, 5, 12, 13, 20, 21, \dots}
   \end{itemize}
   
-  In the virtual competition, the qualification for division A and division B as well as the seeding for the round robin groups is determined prior to the first game of the main tournament. It may be based on an initial round of games, penalty shoot-outs, results from the previous RoboCup competition, or another similarly appropriate method determined by the Organizing Committee. The method of seeding needs to be announced at least one month prior to the start of the tournament.
+\bigskip
 
-  Both divisions play separate round robins. 
+\added{If less than 12 teams participate in a league, the number of groups is reduced so that each group contains at least three teams, and two rounds of round robin will be played.}
+
+\added{Round robin games are followed by round of 16 elimination games, Quarter Final games, Semifinal games, $3^{rd}$ Place game and Final game.}
+
+
+\bigskip
+
+  In the virtual competition\removed{, the qualification for division A and division B as well as} the seeding for the round robin groups is determined prior to the first game of the main tournament. It may be based on an initial round of games, penalty shoot-outs, results from the previous RoboCup competition, or another similarly appropriate method determined by the Organizing Committee. The method of seeding needs to be announced at least one month prior to the start of the tournament.
+
+  \removed{Both divisions play separate round robins. 
   The lowest ranked teams per group in division A will have a playoff
   with the highest ranked teams per group in division B.
   The winners of the playoff games are qualified for the second round robin of
   division A, the losers will play the second round robin in
-  division B.
+  division B.}
   
-  Thereafter, division A and division B proceed independently of each other and 
-  each will normally consist of a round robin stage, followed by a number of knockout matches. 
+  \removed{Thereafter, division A and division B proceed independently of each other and 
+  each will normally consist of a round robin stage, followed by a number of knockout matches.} 
 
   
   \bigskip
 
-  In case there is less than 16 full teams, there is only one division with a
-  first round robin and a number of knock-out games.
+  \removed{In case there is less than 16 full teams, there is only one division with a
+  first round robin and a number of knock-out games.}
 
 \bigskip
 
-All teams of a group play once against each other.
-The round robin games may end in a draw.
-In this case, both teams receive one point.
-Otherwise, the winning team receives three points and the not winning team
-receives zero points.
+\added{Teams that are eliminated in the round of 16 instead participate in the consolation bracket. The winning team of the consoltaion bracket may be awarded a certificate.}
 
 \bigskip
 
 \removed{For the AdultSize soccer games of a physical competiton, a specific rule for robot handlers applies. For every robot, one robot handler is allowed to stay near the robot such that the robot handler does not interfere with the game. Specifically, the robot handler:}
+
 \begin{itemize}
 \item \removed{should position himself behind the robot at a distance of at least an arm length away from the robot's convex hull.}
 \item \removed{must not block the vision of any of the robots on the ball or goals.}
@@ -327,7 +337,7 @@ For KidSize, $D$ is 50 centimeters and for AdultSize, $D$ is 1 meter.
       if the team taking the game interruption has
       announced their robot is ready and if no opponent is illegally positioned.
 \item Any opponent robot still illegally positioned is considered as an
-      incapable player and must be removed from the field for 30 seconds
+      incapable player and must be removed from the field for \removed{30}\added{10} seconds
       removal penalty.
 \item When the referee decides to execute the game interruption
       and all opponent robots are
@@ -405,21 +415,21 @@ It is up to the referee to judge whether a player is capable of play.
 In the physical competition, the referee may ask the team leader of a player suspected to be incapable of
 play to demonstrate playing ability at any time.
 A field player that is not able to get back into a standing or walking
-posture from a fall within 20 seconds receives a 30
+posture from a fall within 20 seconds receives a \removed{30}\added{10}
 seconds removal penalty.
 If the ball is within a radius of 0.5 m around the goal keeper inside the goal area,
 the goal keeper has to show active attempts to move the ball out of this radius by walking towards the ball or moving the ball.
 If no attempt is shown for 20 seconds, the goal keeper is considered to be an
-inactive player and receives a 30 seconds removal penalty.
+inactive player and receives a \removed{30}\added{10} seconds removal penalty.
 
 A player that stays outside of the artificial turf for 20 seconds is
-  considered as an incapable player and receives a 30 seconds removal penalty.
+  considered as an incapable player and receives a \removed{30}\added{10} seconds removal penalty.
 
 \bigskip
  
 {\bfseries Damage to the Field}
 
-A robot that damages the field, or poses a threat to spectator safety, will be removed from the field for a 30 second removal penalty.
+A robot that damages the field, or poses a threat to spectator safety, will be removed from the field for a \removed{30}\added{10} second removal penalty.
 
 \bigskip
 
@@ -444,7 +454,7 @@ Servicing robots on the playing field is not permitted.
 A robot may be taken out of the field for service,
 after receiving permission from the referee.
 Taking out a robot for service does not count as a substitution.
-A serviced robot may not come into play again before 30 seconds elapsed after it
+A serviced robot may not come into play again before \removed{30}\added{10} seconds elapsed after it
 was taken out.
 It has to enter the field from the team's own half of the field close to the
 penalty mark facing the opposite touch line, as indicated by the referee.
@@ -463,7 +473,7 @@ significant changes to robot positions or heading directions. Untangled robots m
 {\bfseries Removal Penalty}
 
 \begin{itemize}
-\item Time penalties of 30 seconds for players are called by the referee. When a penalty is called in the physical competition, the designated robot handler has to remove the robot as soon as possible and by that interacting as little as possible with the game
+\item Time penalties of \removed{30}\added{10} seconds for players are called by the referee. When a penalty is called in the physical competition, the designated robot handler has to remove the robot as soon as possible and by that interacting as little as possible with the game
 \item In the physical competition, the referee and assistant referees are in charge of timing the penalties and notifying the teams to put back their robots to play. In the virtual competition, the robots receive the signal that their penalty time is over automatically from the GameController.
 \item A field player or goal keeper suffering a time penalty will be
   removed from the field and is only allowed to re-enter
@@ -487,11 +497,11 @@ significant changes to robot positions or heading directions. Untangled robots m
 \item In the physical competition, after the robot has been placed at the position indicated by the referee
       and with both feet entirely outside the field of play the robot handler
       announces to the assistant referee that the robot is ready to get back in.
-      The 30 seconds penalty start counting from the point of announcement.
+      The \removed{30}\added{10} seconds penalty start counting from the point of announcement.
       From this point onwards the robot handler may not touch or interfere with
       the robot in any other way (including button presses).
       If any part of the robot touches the field of play (including touch lines)
-      or the robot handler touching the robot before the 30 seconds expired,
+      or the robot handler touching the robot before the \removed{30}\added{10} seconds expired,
       the time is reset. In the virtual competition, the penalty time starts counting immediately after the robot was repositioned to the side line by the autonomous referee.
 \item The GameController or the assistant referee operating it will:
   \begin{itemize}
@@ -501,7 +511,7 @@ significant changes to robot positions or heading directions. Untangled robots m
   \item In the physical competition, the assistant referee resets the penalty time whenever the robot handler touches the robot or
       the robot touches the field of play
   \end{itemize}
-\item The penalty is automatically removed after 30 seconds of penalty have expired.
+\item The penalty is automatically removed after \removed{30}\added{10} seconds of penalty have expired.
 \end{itemize}
 
 \bigskip
@@ -548,7 +558,7 @@ Yellow and red cards given to robots only accumulate for the current game and ar
 
 \bigskip
 
-{\bfseries Disciplinary sanctions against teams (virtual competition only)}
+{\bfseries Disciplinary sanctions against teams \removed{(virtual competition only)}}
 
 A team is cautioned by the technical committee and may be shown a yellow
   card if it commits any of the following offences:
@@ -650,7 +660,9 @@ Referees for a match may be picked among the pool of available referees from any
  
 {\bfseries Scoring}
 
-When a goal is scored, all players of the scoring team on the field receive 1 point and the player who scored the goal receives an additional 1 point if it was not an own goal. A robot is considered to be on the field if both feet of the robot are fully inside the field area. The player who scored the goal receives the points regardless of its position on the field. Incapable players, penalized players, players outside the field or players having been removed for any other reason, e.g. service, will receive no point. When a goal is suffered, all players of the team suffering the goal receive -1 points, including incapable players, penalized players or players having been removed for any other reason, e.g. in service. Points from all games are summed up. For players who played one or more games more than the others, only the points of those games with the higher scores are considered.
+When a goal is scored, all players of the scoring team on the field receive 1 point and the player who scored the goal receives an additional 1 point if it was not an own goal. A robot is considered to be on the field if both feet of the robot are fully inside the field area. The player who scored the goal receives the points regardless of its position on the field. Incapable players, penalized players, players outside the field or players having been removed for any other reason, e.g. service, will receive no point. When a goal is suffered, all players of the team suffering the goal receive -1 points, including incapable players, penalized players or players having been removed for any other reason, e.g. in service. 
+\added{If during a throw-in procedure, the thrower uses his hands for entering the ball and as a result the thrower's team scores a goal, the thrower is awarded 1 additional point. This additional point is only awarded if the goal is scored before the next game interruption.}
+Points from all games are summed up. For players who played one or more games more than the others, only the points of those games with the higher scores are considered.
 
 Drop-in players are initially ranked according to the arithmetic mean.
 If there are ties, the tied players are ranked according to the number of games played,
@@ -736,21 +748,26 @@ If there are still ties, the president of the RoboCup Federation breaks the tie.
 
 \headlinebox
 
-A trophy is awarded to the winner of the soccer tournament in each of the
+A trophy is awarded to the winner, \added{second and third place} of the soccer tournament in each of the
 individual size classes
 (physical competition only).
-In case there are two divisions, trophies are only awarded to the teams
-of division A. Teams of Division B might be awarded certificates.
+\added{The winner of the consolation bracket might be awarded a certificate.}
+\removed{In case there are two divisions, trophies are only awarded to the teams of division A. Teams of Division B might be awarded certificates.}
 
 
 \bigskip
 
-A trophy is awarded to the teams second and third in the KidSize 4-4 soccer game
-and the AdultSize 2-2 soccer game.
+\removed{A trophy is awarded to the teams second and third in the KidSize 4-4 soccer game
+and the AdultSize 2-2 soccer game.}
 In case of less than 9 teams participating in a size class the team ranked third
 will be awarded a certificate instead of a trophy.
 In case of less than 6 teams participating in a size class the team ranked
 second will also be awarded a certificate instead of a trophy.
+
+\bigskip
+
+In a physical competition, the Best Humanoid Award is awarded to the team ranked first in the Best Humanoid list,
+it can either be a trophy or a certificate.
 
 \bigskip
 
@@ -767,11 +784,6 @@ In case 20 teams or more participate to a class size, the team ranked first on
 Drop-in is awarded a trophy instead of a certificate.
 A team can only receive a 'Best Player' certificate if their total amount of
 points is greater than 0.
-
-\bigskip
-
-In a physical competition, the Best Humanoid Award is awarded to the team ranked first in the Best Humanoid list,
-it can either be a trophy or a certificate.
 
 \bigskip
 

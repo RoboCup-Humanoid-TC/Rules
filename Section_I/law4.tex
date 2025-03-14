@@ -50,6 +50,7 @@ All actions of the robots must be kinematically equivalent to humanoid motions.
 \bigskip
 
 Robots competing in the physical competition must be equipped with an emergency stop button that makes the robot immediately desist with all motions, or ideally go limp and/or cut power to the actuators. In addition to the emergency stop button, robots may only have up to two additional physical or virtual buttons: One to start the robot behaviour and one to stop the behaviour. The buttons must be clearly labeled. If the robot has more buttons that cannot be detached, they must be visibly masked during the games.
+\added{In adult size, robot handlers are allowed to carry an additional remote emergency stop button. This button must be  worn either around the neck or on the belt of the robot handler and must be clearly marked. Each emergency stop button can only be connected to the robot of the robot handler that holds the button. The remote emergency button cannot perform any additional functions and does not replace the regular emergency button. Robot handlers must keep their hands clearly away from the button unless the button is being pressed. Robot handlers must not use the remote emergency button to intentionally incapacitate their robots.}
 Body parts of robots competing in the virtual competition that are considered feet and arms must be marked in the virtual robot models.
 
 \bigskip
@@ -110,11 +111,12 @@ All robots participating in the Humanoid League must comply with the following r
 \item The robot does not possess a configuration where it is extended longer than 1.5{\textperiodcentered}$H_{top}$ .
 \item The length of the legs $H_{leg}$, including the feet, satisfies 0.35{\textperiodcentered}$H_{top}$ ${\leq}$ $H_{leg}$ ${\leq}$ 0.7{\textperiodcentered}$H_{top}$ .
 \item The height of the head $H_{head}$, including the neck,
-  satisfies $0.1 \cdot H_{top} \leq H_{head} \leq 0.3 \cdot H_{top}$.
+  satisfies $0.1 \cdot H_{top} \sleq H_{head} \leq 0.3 \cdot H_{top}$.
   $H_{head}$ is defined as the vertical distance from the axis of the first arm
   joint at the shoulder to the top of the head.
 \item The leg length is measured while the robot is standing up straight. The length is measured from the first rotating joint where its axis lies in the plane parallel to the standing ground to the tip of the foot.
 \item The minimum length of the arm, measured from the first joint, is $H_{top} - H_{leg} - H_{head}$.
+\added{\item The tip of the arm must not be able to reach lower than the knee joint while the robot is standing.}
 \end{itemize}
 
 
@@ -132,7 +134,7 @@ other active sensor (emitting light, sound, or electromagnetic waves into the en
 torso of the robots. They must be placed in the robot's
 head and above any neck joint. 
 \item The number of cameras is limited to a stereo vision setup (i.e., max. 2 cameras with a large overlap) only. Monocular vision is also allowed.
-\item The field of view of the robots is limited at any time to $180$ degrees. This means that the maximum angle between any two points in the union of the field of view of all cameras mounted on the robot must be less than $180$ degrees. Also the pan-tilt motion of the head and the cameras mounted on the robot's head is restricted to be more human like not only with respect to the field of view but also to the range of motion of the neck joints. Therefore, the mechanism to pan the camera is limited to \removed{$270$}\added{$180$} degree pan, which means \removed{$\pm135$}\added{$\pm90$} degrees from the position looking straight ahead. The mechanism to tilt the camera is limited to $\pm90$ degrees (measured from the horizontal line). Furthermore, if positioned at the centre mark the robot may not be able to see more than two goal posts in any tilt angle and in any standing or walking posture of the robot. 
+\item The field of view of the robots is limited at any time to $180$ degrees. This means that the maximum angle between any two points in the union of the field of view of all cameras mounted on the robot must be less than $180$ degrees. Also the pan-tilt motion of the head and the cameras mounted on the robot's head is restricted to be more human like not only with respect to the field of view but also to the range of motion of the neck joints. Therefore, the mechanism to pan the camera is limited to $180$ degree pan, which means $\pm90$ degrees from the position looking straight ahead. The mechanism to tilt the camera is limited to $\pm90$ degrees (measured from the horizontal line). Furthermore, if positioned at the centre mark the robot may not be able to see more than two goal posts in any tilt angle and in any standing or walking posture of the robot. 
 \item Touch sensors, force sensors, and temperature sensors may be placed at any position on the robot.
 \item Sensors inside the robot may measure all quantities representing the local state of the system, including (but not limited to) voltages, currents, forces, movements, accelerations, and rotational speeds. They can be at any position inside the robot. Measurements from earth magnetic field sensors may not be used in the software and - in case of doubt - the code must be made available to members of the Technical Committee for inspection.
 \end{itemize}
@@ -177,7 +179,7 @@ handler attempts to service the robot again.
 
 
 Teams may not use any type of communication
-with robots in play, in service or with robots serving their 30 seconds penalty
+with robots in play, in service or with robots serving their \removed{30}\added{10} seconds penalty
 time that contains information which reduces the need for autonomy in detecting
 the current game state of the robots, including the position of the ball,
 the location where the robot re-enters the field,
