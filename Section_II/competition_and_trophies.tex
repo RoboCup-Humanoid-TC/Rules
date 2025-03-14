@@ -116,43 +116,51 @@ Physical competitions start with the Drop-In tournament.
 
   \bigskip
 
-  If at least 16 full teams participate in a league,
-  the teams are separated in two different divisions for the regular tournament:
+  \removed{If at least 16 full teams participate in a league,
+  the teams are separated in two different divisions for the regular tournament}\added{Teams are separated into 4 round robin groups A, B, C, D according to their ranking in Drop-in games}:
   \begin{itemize}
-  \item The best $N$ full teams are qualified for the first round robin of division A
-    \footnote{$N$ is either 8 or 12 depending on the number of full teams and
-      has to be announced before the beginning of the tournament.}.
-  \item The other full teams are qualified for the first round robin of division B.
+  \item \removed{The best $N$ full teams are qualified for the first round robin of division A}
+    \footnote{\removed{$N$ is either 8 or 12 depending on the number of full teams and
+      has to be announced before the beginning of the tournament.}}.
+  \item \removed{The other full teams are qualified for the first round robin of division B}.
+  \item \added{ group A composed from teams ranked 1, 8, 9, 16, 17, 24, \dots}
+  \item \added{ group B composed from teams ranked 2, 7, 10, 15, 18, 23, \dots}
+  \item \added{ group C composed from teams ranked 3, 6, 11, 14, 19, 22, \dots}
+  \item \added{ group D composed from teams ranked 4, 5, 12, 13, 20, 21, \dots}
   \end{itemize}
   
-  In the virtual competition, the qualification for division A and division B as well as the seeding for the round robin groups is determined prior to the first game of the main tournament. It may be based on an initial round of games, penalty shoot-outs, results from the previous RoboCup competition, or another similarly appropriate method determined by the Organizing Committee. The method of seeding needs to be announced at least one month prior to the start of the tournament.
+\bigskip
 
-  Both divisions play separate round robins. 
+\added{If less than 12 teams participate in a league, the number of groups is reduced so that each group contains at least three teams, and two rounds of round robin will be played.}
+
+\added{Round robin games are followed by round of 16 elimination games, Quarter Final games, Semifinal games, $3^{rd}$ Place game and Final game.}
+
+
+\bigskip
+
+  In the virtual competition\removed{, the qualification for division A and division B as well as} the seeding for the round robin groups is determined prior to the first game of the main tournament. It may be based on an initial round of games, penalty shoot-outs, results from the previous RoboCup competition, or another similarly appropriate method determined by the Organizing Committee. The method of seeding needs to be announced at least one month prior to the start of the tournament.
+
+  \removed{Both divisions play separate round robins. 
   The lowest ranked teams per group in division A will have a playoff
   with the highest ranked teams per group in division B.
   The winners of the playoff games are qualified for the second round robin of
   division A, the losers will play the second round robin in
-  division B.
+  division B.}
   
-  Thereafter, division A and division B proceed independently of each other and 
-  each will normally consist of a round robin stage, followed by a number of knockout matches. 
+  \removed{Thereafter, division A and division B proceed independently of each other and 
+  each will normally consist of a round robin stage, followed by a number of knockout matches.} 
 
   
   \bigskip
 
-  In case there is less than 16 full teams, there is only one division with a
-  first round robin and a number of knock-out games.
+  \removed{In case there is less than 16 full teams, there is only one division with a
+  first round robin and a number of knock-out games.}
 
 \bigskip
 
-All teams of a group play once against each other.
-The round robin games may end in a draw.
-In this case, both teams receive one point.
-Otherwise, the winning team receives three points and the not winning team
-receives zero points.
+\added{Teams that are eliminated in the round of 16 instead participate in the consolation bracket. The winning team of the consoltaion bracket may be awarded a certificate.}
 
 \bigskip
-
 For the AdultSize soccer games of a physical competiton, a specific rule for robot handlers applies. For every robot, one robot handler is allowed to stay near the robot such that the robot handler does not interfere with the game. Specifically, the robot handler:
 \begin{itemize}
 \item should position himself behind the robot at a distance of at least an arm length away from the robot's convex hull.
@@ -548,7 +556,7 @@ Yellow and red cards given to robots only accumulate for the current game and ar
 
 \bigskip
 
-{\bfseries Disciplinary sanctions against teams (virtual competition only)}
+{\bfseries Disciplinary sanctions against teams \removed{(virtual competition only)}}
 
 A team is cautioned by the technical committee and may be shown a yellow
   card if it commits any of the following offences:
@@ -738,21 +746,26 @@ If there are still ties, the president of the RoboCup Federation breaks the tie.
 
 \headlinebox
 
-A trophy is awarded to the winner of the soccer tournament in each of the
+A trophy is awarded to the winner, \added{second and third place} of the soccer tournament in each of the
 individual size classes
 (physical competition only).
-In case there are two divisions, trophies are only awarded to the teams
-of division A. Teams of Division B might be awarded certificates.
+\added{The winner of the consolation bracket might be awarded a certificate.}
+\removed{In case there are two divisions, trophies are only awarded to the teams of division A. Teams of Division B might be awarded certificates.}
 
 
 \bigskip
 
-A trophy is awarded to the teams second and third in the KidSize 4-4 soccer game
-and the AdultSize 2-2 soccer game.
+\removed{A trophy is awarded to the teams second and third in the KidSize 4-4 soccer game
+and the AdultSize 2-2 soccer game.}
 In case of less than 9 teams participating in a size class the team ranked third
 will be awarded a certificate instead of a trophy.
 In case of less than 6 teams participating in a size class the team ranked
 second will also be awarded a certificate instead of a trophy.
+
+\bigskip
+
+In a physical competition, the Best Humanoid Award is awarded to the team ranked first in the Best Humanoid list,
+it can either be a trophy or a certificate.
 
 \bigskip
 
@@ -769,11 +782,6 @@ In case 20 teams or more participate to a class size, the team ranked first on
 Drop-in is awarded a trophy instead of a certificate.
 A team can only receive a 'Best Player' certificate if their total amount of
 points is greater than 0.
-
-\bigskip
-
-In a physical competition, the Best Humanoid Award is awarded to the team ranked first in the Best Humanoid list,
-it can either be a trophy or a certificate.
 
 \bigskip
 
