@@ -10,7 +10,7 @@ The goal of the Parkour TC is to have a robot going up one platform, staying on 
 
 The minimum height must be at least $1/5^{th}$ of the robot height and must be a multiple of 5 cm.
 
-The robot can touch the platform with its limbs (arms and legs), but no other part of the robot is allowed to touch it.
+The robot can touch the platform with its \removed{limbs (arms and legs)}\added{legs}, but no other part of the robot is allowed to touch it.
 
 The platform will have an area of approximately 60 {\texttimes} 60 cm.
 
@@ -43,17 +43,17 @@ the possible results are as following:
 \item \textit{Failure}
   \begin{itemize}
     \item The robot is not able to go up the platform.
-    \item The robot falls without going up the platform.
-        \item The robot touches the platform with a part of the body that is not a limb.
+    \item The robot falls \removed{without going up the platform}.    \item The robot touches the platform with a part of the body that is not a \removed{limb}\added{leg}.
+    \item \added{The robot is touched by a human after the whistle is blown.}
      \end{itemize}
 \item \textit{Partial success}
   \begin{itemize}
-    \item The robot is able to go up the platform, with both the feet touching thread (the top of the platform), but falls before being able to go down.
-     \item The robot is able to go up the platform, with both the feet touching thread (the top of the platform), and, to prevent the robot from falling, a human handler touches the robot at this moment.
+    \item \removed{The robot is able to go up the platform, with both the feet touching thread (the top of the platform), but falls before being able to go down.}
+     \item \removed{The robot is able to go up the platform, with both the feet touching thread (the top of the platform), and, to prevent the robot from falling, a human handler touches the robot at this moment.}\added{The robot steps up and steps down the platform, without falling, and stays up, without moving, for 5 seconds.}
   \end{itemize}
 \item \textit{Success}
   \begin{itemize}
-    \item The robot goes up and down the platform, without falling, and stays up, without moving, for 5 seconds.
+    \item The robot steps up and \added{jumps }down the platform, without falling, and stays up, without moving, for 5 seconds. \added{The motion is considered a jump, if both feet are in the air at the same time.}
   \end{itemize}
 \end{itemize}
 
